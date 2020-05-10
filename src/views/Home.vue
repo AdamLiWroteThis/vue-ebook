@@ -1,18 +1,34 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div>
+      <span class="text ">ABCD</span>
+    </div>
+    <div id="read"></div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+  // @ is an alias to /src
+  import Epub from 'epubjs'
 
-export default {
-  name: 'Home',
-  components: {
-    HelloWorld
+  global.ePub = Epub
+
+  export default {
+    name: 'Home',
+    components: {},
+    mounted () {
+      this.book = new Epub('/2018_Book_AgileProcessesInSoftwareEngine.epub')
+      this.book.renderTo('read', {
+        width: window.innerWidth,
+        height: window.innerHeight,
+        options: 'default'
+      }).display()
+    }
   }
-}
 </script>
+
+<style scoped>
+  .text{
+    font-family: "Days One";
+  }
+</style>

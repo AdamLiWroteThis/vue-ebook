@@ -1,0 +1,62 @@
+@import 'reset';
+
+$fontSize: 37.5;
+@function px2rem($px) {
+  @return $px / $fontSize +rem;
+}
+
+@mixin center() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  color: #333;
+  font-size: px2rem(40);
+}
+
+.slide-down-enter, .slide-down-leave-to {
+  opacity: 0;
+  transform: translate3d(0, -100%, 0);
+}
+
+.slide-down-center-to, .slide-down-leave, .slide-up-center-to, .slide-up-leave {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.slide-down-leave-active, .slide-down-enter-active, .slide-up-leave-active, .slide-up-enter-active {
+  transition: all 0.3s linear;
+}
+
+.slide-up-enter, .slide-up-leave-to {
+  opacity: 0;
+  transform: translate3d(0, 100%, 0);
+}
+
+.slide-right-enter, .slide-right-leave-to {
+  opacity: 0;
+  transform: translate3d(0, 0, 0);
+}
+
+.slide-right-center-to, .slide-right-leave {
+  opacity: 1;
+  transform: translate3d(100%, 0, 0);
+}
+
+.slide-right-leave-active, .slide-right-enter-active {
+  transition: all 0.3s linear;
+}
+
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+
+.fade-center-to, .fade-leave {
+  opacity: 0.8;
+}
+
+.fade-leave-active, .fade-enter-active {
+  transition: all 0.3s linear;
+}
