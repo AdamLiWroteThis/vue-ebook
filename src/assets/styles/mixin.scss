@@ -25,3 +25,9 @@ $fontSize: 37.5;
   color: #333;
   font-size: px2rem(20);
 }
+
+@mixin ellipsis() {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}

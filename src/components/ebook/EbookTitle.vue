@@ -42,7 +42,7 @@
     height: px2rem(48);
     background: white;
     display: flex;
-    box-shadow: 0 px2rem(4) px2rem(4) #ccc;
+    box-shadow: 0 px2rem(4) px2rem(4) rgba(0, 0, 0, .15);
 
     .left {
       flex: 0 0 px2rem(40);
