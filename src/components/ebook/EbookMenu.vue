@@ -21,6 +21,7 @@
     <ebook-setting-font-popup></ebook-setting-font-popup>
     <ebook-setting-themes></ebook-setting-themes>
     <ebook-setting-progress></ebook-setting-progress>
+    <ebook-slide></ebook-slide>
   </div>
 </template>
 
@@ -30,6 +31,7 @@
   import EbookSettingFontPopup from './EbookSettingFontPopup'
   import EbookSettingThemes from './EbookSettingThemes'
   import EbookSettingProgress from './EbookSettingProgress'
+  import EbookSlide from './EbookSlide'
 
   export default {
     name: 'MenuBar',
@@ -38,7 +40,8 @@
       EbookSettingFont,
       EbookSettingFontPopup,
       EbookSettingThemes,
-      EbookSettingProgress
+      EbookSettingProgress,
+      EbookSlide
     },
     methods: {
       showSetting (key) {
