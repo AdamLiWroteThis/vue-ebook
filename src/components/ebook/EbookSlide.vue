@@ -94,7 +94,7 @@
 
           .content-page-tab-item {
             flex: 1;
-            @include center();
+            @include center;
             font-size: px2rem(14);
           }
         }
@@ -103,7 +103,7 @@
       .content-empty {
         width: 100%;
         height: 100%;
-        @include center();
+        @include center;
       }
     }
 
