@@ -42,7 +42,7 @@
     background: white;
     width: 100%;
     height: px2rem(90);
-    z-index: 101;
+    z-index: 201;
     box-shadow: 0 px2rem(-8) px2rem(8) rgba(0, 0, 0, .15);
 
     .setting-theme {
@@ -68,7 +68,7 @@
           flex: 0 0 px2rem(20);
           font-size: px2rem(14);
           color: #333;
-          @include center();
+          @include center;
 
           &.selectd {
             color: black;

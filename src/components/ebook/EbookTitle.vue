@@ -37,7 +37,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 102;
+    z-index: 200;
     width: 100%;
     height: px2rem(48);
     background: white;

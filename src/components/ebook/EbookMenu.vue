@@ -68,7 +68,7 @@
       position: absolute;
       bottom: 0;
       left: 0;
-      z-index: 101;
+      z-index: 200;
       width: 100%;
       height: px2rem(48);
       background: white;
@@ -77,7 +77,7 @@
 
       .icon-wrapper {
         flex: 1;
-        @include center();
+        @include center;
       }
     }
 
@@ -87,7 +87,7 @@
       left: 0;
       width: 80%;
       height: 100%;
-      z-index: 102;
+      z-index: 201;
       background: white;
       overflow: auto;
 
@@ -123,7 +123,7 @@
       position: absolute;
       top: 0;
       left: 0;
-      z-index: 101;
+      z-index: 200;
       display: flex;
       width: 100%;
       height: 100%;

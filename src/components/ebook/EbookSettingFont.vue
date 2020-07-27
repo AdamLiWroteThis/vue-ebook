@@ -67,7 +67,7 @@
     background: white;
     width: 100%;
     height: px2rem(60);
-    z-index: 101;
+    z-index: 201;
     box-shadow: 0 px2rem(-8) px2rem(8) rgba(0, 0, 0, .15);
 
     .setting-font-size {
@@ -76,7 +76,7 @@
       height: 100%;
 
       .preview {
-        @include center();
+        @include center;
         height: 100%;
         width: 100%;
         flex: 0 0 px2rem(40);
@@ -139,7 +139,7 @@
               height: px2rem(20);
               border-radius: 50%;
               box-shadow: 0 px2rem(1) px2rem(1) #cccccc;
-              @include center();
+              @include center;
 
               .small-point {
                 width: px2rem(4);

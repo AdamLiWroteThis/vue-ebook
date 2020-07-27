@@ -3,6 +3,7 @@
     <ebook-title></ebook-title>
     <ebook-reader></ebook-reader>
     <ebook-menu></ebook-menu>
+    <ebook-bookmark></ebook-bookmark>
   </div>
 </template>
 
@@ -10,6 +11,7 @@
   import EbookReader from '../../components/ebook/EbookReader'
   import EbookTitle from '../../components/ebook/EbookTitle'
   import EbookMenu from '../../components/ebook/EbookMenu'
+  import EbookBookmark from '../../components/ebook/EbookBookmark'
   import { getReadTime, saveReadTime } from '../../utils/localStorage'
   import { ebookMixin } from '../../utils/mixin'
 
@@ -18,7 +20,8 @@
     components: {
       EbookReader,
       EbookTitle,
-      EbookMenu
+      EbookMenu,
+      EbookBookmark
     },
     mixins: [ebookMixin],
     methods: {

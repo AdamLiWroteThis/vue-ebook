@@ -111,7 +111,7 @@
     background: white;
     width: 100%;
     height: px2rem(90);
-    z-index: 101;
+    z-index: 201;
     box-shadow: 0 px2rem(-8) px2rem(8) rgba(0, 0, 0, .15);
 
     .setting-progress {
@@ -125,7 +125,7 @@
         width: 100%;
         height: px2rem(40);
         font-size: px2rem(14);
-        @include center();
+        @include center;
       }
 
       .progress-wrapper {
@@ -134,7 +134,7 @@
         height: 100%;
         padding: 0 px2rem(15);
         box-sizing: border-box;
-        @include center();
+        @include center;
 
         .progress-icon-wrapper {
           font-size: px2rem(20);
