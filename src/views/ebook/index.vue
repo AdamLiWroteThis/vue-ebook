@@ -1,5 +1,5 @@
 <template>
-  <div class="ebook">
+  <div class="ebook" ref="ebook">
     <ebook-title></ebook-title>
     <ebook-reader></ebook-reader>
     <ebook-menu></ebook-menu>
@@ -33,6 +33,16 @@
             saveReadTime(this.fileName, readTime)
           }
         }, 1000)
+      },
+      move (v) {
+        this.$refs.ebook.style.top = v + 'px'
+      },
+      restore () {
+        this.$refs.ebook.style.top = 0
+        this.$refs.ebook.style.transition = 'all 0.3s linear'
+        setTimeout(() => {
+          this.$refs.ebook.style.transition = ''
+        })
       }
     },
     mounted () {
@@ -42,10 +52,25 @@
       if (this.task) {
         clearInterval(this.task)
       }
+    },
+    watch: {
+      offsetY (newY) {
+        if (newY > 0) {
+          this.move(newY)
+        } else if (newY === 0) {
+          this.restore()
+        }
+      }
     }
   }
 </script>
 
 <style lang="scss" scoped>
-
+  .ebook {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 </style>
