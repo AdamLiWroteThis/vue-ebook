@@ -129,7 +129,7 @@
         this.book = new Epub(url)
         this.setCurrentBook(this.book)
         this.initRendition()
-        this.initGesture()
+        // this.initGesture()
         this.parseBook()
         this.currentBook.ready.then(() => {
           return this.book.locations.generate(750 * (window.innerWidth / 375) * (getFontSize(this.fileName) / 16))
@@ -162,7 +162,6 @@
         this.setMenuVisible(!this.menuVisible)
       },
       onMaskClick (e) {
-        console.log(e)
         const offsetX = e.offsetX
         const width = window.innerWidth
         if (offsetX > 0 && offsetX < width * 0.3) {
@@ -174,7 +173,6 @@
         }
       },
       move (e) {
-        console.log('move', e)
         let offsetY = 0
         if (this.firstOffsetY) {
           offsetY = e.changedTouches[0].clientY - this.firstOffsetY
