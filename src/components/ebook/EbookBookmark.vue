@@ -6,7 +6,7 @@
       </div>
       <div class="ebook-bookmark-text">{{text}}</div>
     </div>
-    <div class="ebook-bookmark-icon-wrapper">
+    <div class="ebook-bookmark-icon-wrapper" :style="isFixed ? fixedStyle : {}">
       <bookmark :color="color" :width="15" :height="35"></bookmark>
     </div>
   </div>
@@ -25,7 +25,8 @@ export default {
   data() {
     return {
       text: this.$t('book.pulldownAddMark'),
-      color: WHITE
+      color: WHITE,
+      isFixed: false
     }
   },
   mixins: [ebookMixin],
@@ -34,6 +35,9 @@ export default {
   },
   watch: {
     offsetY(v) {
+      if (!this.bookAvailable || this.menuVisible || this.settingVisible > 0) {
+        return
+      }
       if (v >= this.height && v < this.threshold) {
         this.beforeThreshold(v)
       } else if (v >= this.threshold) {
@@ -51,39 +55,71 @@ export default {
     },
     threshold() {
       return realPx(55)
+    },
+    fixedStyle() {
+      return {
+        position: 'fixed',
+        top: 0,
+        right: `${(window.innerWidth - this.$refs.bookmark.clientWidth) / 2}px`
+      }
     }
   },
   methods: {
+    addBookmark() {
+      const currentLocation = this.currentBook.rendition.currentLocation()
+      const cfibase = currentLocation.start.cfi.replace(/!.*/, '')
+      const cfistart = currentLocation.start.cfi.replace(/.*!/, '').replace(/\)$/, '')
+      const cfiend = currentLocation.end.cfi.replace(/.*!/, '').replace(/\)$/, '')
+
+      const cfirange = `${cfibase}!,${cfistart},${cfiend})`
+      this.currentBook.getRange(cfirange).then(range => {
+        console.log(range.toString())
+      })
+    },
+    removeBookmark() {
+    },
     restore() {
       setTimeout(() => {
         this.$refs.bookmark.style.top = `${-this.height}px`
         this.$refs.iconDown.style.transform = ''
       }, 200)
+      if (this.isFixed) {
+        this.setIsBookmark(true)
+        this.addBookmark()
+      } else {
+        this.setIsBookmark(false)
+        this.removeBookmark()
+      }
     },
     beforeHeight() {
       if (this.isBookmark) {
         this.text = this.$t('book.pulldownDeleteMark')
         this.color = BLUE
+        this.isFixed = true
       } else {
         this.text = this.$t('book.pulldownAddMark')
         this.color = WHITE
+        this.isFixed = false
       }
     },
     beforeThreshold(v) {
-      this.beforeHeight()
       this.$refs.bookmark.style.top = `${-v}px`
+      this.beforeHeight()
       const iconDown = this.$refs.iconDown
       if (iconDown.style.transform === 'rotate(180deg)') {
         iconDown.style.transform = ''
       }
+      this.isFixed = false
     },
     afterThreshold(v) {
       if (this.isBookmark) {
         this.text = this.$t('book.releaseDeleteMark')
         this.color = WHITE
+        this.isFixed = false
       } else {
         this.text = this.$t('book.releaseAddMark')
         this.color = BLUE
+        this.isFixed = true
       }
       this.$refs.bookmark.style.top = `${-v}px`
       const iconDown = this.$refs.iconDown
