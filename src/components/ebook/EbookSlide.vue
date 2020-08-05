@@ -31,86 +31,87 @@
 </template>
 
 <script>
-  import { ebookMixin } from '../../utils/mixin'
-  import EbookSlideContent from './EbookSlideContent'
-  import EbookLoading from './EbookLoading'
+import {ebookMixin} from '../../utils/mixin'
+import EbookSlideContent from './EbookSlideContent'
+import EbookSlideBookmark from './EbookSlideBookmark'
+import EbookLoading from './EbookLoading'
 
-  export default {
-    name: 'EbookSlide',
-    mixins: [ebookMixin],
-    components: {
-      EbookLoading
-    },
-    data () {
-      return {
-        currentTab: 1,
-        content: EbookSlideContent,
-        bookmark: null
-      }
-    },
-    methods: {
-      selectTab (tab) {
-        this.currentTab = tab
-      }
+export default {
+  name: 'EbookSlide',
+  mixins: [ebookMixin],
+  components: {
+    EbookLoading
+  },
+  data() {
+    return {
+      currentTab: 1,
+      content: EbookSlideContent,
+      bookmark: EbookSlideBookmark
+    }
+  },
+  methods: {
+    selectTab(tab) {
+      this.currentTab = tab
     }
   }
+}
 </script>
 
 <style lang="scss" scoped>
-  @import 'src/assets/styles/global';
+@import 'src/assets/styles/global';
 
-  .slide-content-wrapper {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+.slide-content-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 300;
+  display: flex;
+
+  .content {
+    flex: 0 0 85%;
+    width: 85%;
     height: 100%;
-    z-index: 300;
-    display: flex;
 
-    .content {
-      flex: 0 0 85%;
-      width: 85%;
+    .content-page-wrapper {
+      width: 100%;
       height: 100%;
+      display: flex;
+      flex-direction: column;
 
-      .content-page-wrapper {
+      .content-page {
+        flex: 1;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+
+      .content-page-tab {
+        flex: 0 0 px2rem(48);
         width: 100%;
         height: 100%;
         display: flex;
-        flex-direction: column;
 
-        .content-page {
+        .content-page-tab-item {
           flex: 1;
-          width: 100%;
-          height: 100%;
-          overflow: hidden;
+          @include center;
+          font-size: px2rem(14);
         }
-
-        .content-page-tab {
-          flex: 0 0 px2rem(48);
-          width: 100%;
-          height: 100%;
-          display: flex;
-
-          .content-page-tab-item {
-            flex: 1;
-            @include center;
-            font-size: px2rem(14);
-          }
-        }
-      }
-
-      .content-empty {
-        width: 100%;
-        height: 100%;
-        @include center;
       }
     }
 
-    .content-bg {
-      flex: 0 0 15%;
-      width: 15%;
+    .content-empty {
+      width: 100%;
       height: 100%;
+      @include center;
     }
   }
+
+  .content-bg {
+    flex: 0 0 15%;
+    width: 15%;
+    height: 100%;
+  }
+}
 </style>

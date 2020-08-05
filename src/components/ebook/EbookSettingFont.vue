@@ -66,7 +66,7 @@
     flex-direction: column;
     background: white;
     width: 100%;
-    height: px2rem(60);
+    height: px2rem(80);
     z-index: 201;
     box-shadow: 0 px2rem(-8) px2rem(8) rgba(0, 0, 0, .15);
 

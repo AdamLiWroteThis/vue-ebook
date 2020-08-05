@@ -173,7 +173,7 @@ export default {
       }
     },
     move(e) {
-      if (this.offsetY <= 65) {
+      if (this.offsetY <= 200) {
         let offsetY = 0
         if (this.firstOffsetY) {
           offsetY = e.changedTouches[0].clientY - this.firstOffsetY

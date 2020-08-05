@@ -1,5 +1,7 @@
 <template>
   <div class="ebook" ref="ebook">
+    <ebook-header></ebook-header>
+    <ebook-footer></ebook-footer>
     <ebook-title></ebook-title>
     <ebook-reader></ebook-reader>
     <ebook-menu></ebook-menu>
@@ -12,6 +14,8 @@ import EbookReader from '../../components/ebook/EbookReader'
 import EbookTitle from '../../components/ebook/EbookTitle'
 import EbookMenu from '../../components/ebook/EbookMenu'
 import EbookBookmark from '../../components/ebook/EbookBookmark'
+import EbookHeader from '@/components/ebook/EbookHeader'
+import EbookFooter from '@/components/ebook/EbookFooter'
 import {getReadTime, saveReadTime} from '../../utils/localStorage'
 import {ebookMixin} from '../../utils/mixin'
 
@@ -21,7 +25,9 @@ export default {
     EbookReader,
     EbookTitle,
     EbookMenu,
-    EbookBookmark
+    EbookBookmark,
+    EbookHeader,
+    EbookFooter
   },
   mixins: [ebookMixin],
   methods: {
@@ -59,7 +65,7 @@ export default {
   watch: {
     offsetY(v) {
       if (!this.menuVisible && this.bookAvailable) {
-        if (v > 0 & v < 85) {
+        if (v > 0 && v <= 205) {
           this.move(v)
         } else if (v === 0) {
           this.restore()

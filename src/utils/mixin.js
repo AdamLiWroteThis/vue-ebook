@@ -1,6 +1,6 @@
-import { mapGetters, mapActions } from 'vuex'
-import { addCss, themeList, reomveAllCss, getReadTimeByMinute } from './book'
-import { saveLocation } from './localStorage'
+import {mapGetters, mapActions} from 'vuex'
+import {addCss, themeList, reomveAllCss, getReadTimeByMinute} from './book'
+import {getBookmark, saveLocation} from './localStorage'
 
 export const ebookMixin = {
   computed: {
@@ -25,8 +25,11 @@ export const ebookMixin = {
       'offsetY',
       'isBookmark'
     ]),
-    themeList () {
+    themeList() {
       return themeList(this)
+    },
+    getSectionName() {
+      return this.section ? this.navigation[this.section].label : ''
     }
   },
   methods: {
@@ -51,7 +54,7 @@ export const ebookMixin = {
       'setOffsetY',
       'setIsBookmark'
     ]),
-    initGlobalStyle () {
+    initGlobalStyle() {
       reomveAllCss()
       switch (this.defaultTheme) {
         case 'Default':
@@ -71,7 +74,7 @@ export const ebookMixin = {
           break
       }
     },
-    refreshLocation () {
+    refreshLocation() {
       const currentLocation = this.currentBook.rendition.currentLocation()
       if (currentLocation && currentLocation.start) {
         const startCfi = currentLocation.start.cfi
@@ -79,9 +82,19 @@ export const ebookMixin = {
         this.setProgress(Number.parseInt(progress * 100))
         this.setSection(currentLocation.start.index)
         saveLocation(this.fileName, startCfi)
+        const bookmark = getBookmark(this.fileName)
+        if (bookmark) {
+          if (bookmark.some(item => item.cfi === startCfi)) {
+            this.setIsBookmark(true)
+          } else {
+            this.setIsBookmark(false)
+          }
+        } else {
+          this.setIsBookmark(false)
+        }
       }
     },
-    display (target, cb) {
+    display(target, cb) {
       if (target) {
         this.currentBook.rendition.display(target).then(() => {
           this.refreshLocation()
@@ -95,12 +108,12 @@ export const ebookMixin = {
       }
       this.hideTitleAndMenu()
     },
-    hideTitleAndMenu () {
+    hideTitleAndMenu() {
       this.setMenuVisible(false)
       this.setSettingVisible(-1)
       this.setFontFamilyVisible(false)
     },
-    getReadTimeText () {
+    getReadTimeText() {
       return this.$t('book.haveRead').replace('$1', getReadTimeByMinute(this.fileName))
     }
   }
