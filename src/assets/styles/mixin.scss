@@ -21,6 +21,13 @@ $fontSize: 37.5;
   align-items: center;
 }
 
+@mixin columnLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 .icon {
   color: #333;
   font-size: px2rem(20);

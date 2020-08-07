@@ -1,34 +1,41 @@
 <template>
-  <div class="search-bar" :class="{'hide-title':!titleVisible,'hide-shadow':!shadowVisible}">
-    <transition name="title-move">
-      <div class="search-bar-title-wrapper" v-show="titleVisible">
-        <div class="title-text-wrapper">
-          <span class="title-text title">{{$t('home.title')}}</span>
+  <div>
+    <div class="search-bar" :class="{'hide-title':!titleVisible,'hide-shadow':!shadowVisible}">
+      <transition name="title-move">
+        <div class="search-bar-title-wrapper" v-show="titleVisible">
+          <div class="title-text-wrapper">
+            <span class="title-text title">{{$t('home.title')}}</span>
+          </div>
+          <div class="title-icon-shake-wrapper">
+            <span class="icon-shake icon"></span>
+          </div>
         </div>
-        <div class="title-icon-shake-wrapper">
-          <span class="icon-shake icon"></span>
+      </transition>
+      <div class="title-icon-back-wrapper" :class="{'hide-title':!titleVisible}">
+        <span class="icon-back icon"></span>
+      </div>
+      <div class="search-bar-input-wrapper" :class="{'hide-title':!titleVisible}">
+        <div class="search-bar-blank" :class="{'hide-title':!titleVisible}"></div>
+        <div class="search-bar-input">
+          <span class="icon-search icon"></span>
+          <input type="text" class="input" :placeholder="$t('home.hint')" v-model="searchText"/>
         </div>
       </div>
-    </transition>
-    <div class="title-icon-back-wrapper" :class="{'hide-title':!titleVisible}">
-      <span class="icon-back icon"></span>
     </div>
-    <div class="search-bar-input-wrapper" :class="{'hide-title':!titleVisible}">
-      <div class="search-bar-blank" :class="{'hide-title':!titleVisible}"></div>
-      <div class="search-bar-input">
-        <span class="icon-search icon"></span>
-        <input type="text" class="input" :placeholder="$t('home.hint')" v-model="searchText"/>
-      </div>
-    </div>
+    <hot-search-list></hot-search-list>
   </div>
 </template>
 
 <script>
 import {storeHomeMixin} from '@/utils/mixin'
+import HotSearchList from '@/components/home/HotSearchList'
 
 export default {
   name: 'SearchBar',
   mixins: [storeHomeMixin],
+  components: {
+    HotSearchList
+  },
   data() {
     return {
       searchText: '',
