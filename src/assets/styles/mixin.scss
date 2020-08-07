@@ -41,3 +41,14 @@ $fontSize: 37.5;
   text-overflow: ellipsis;
   word-break: keep-all;
 }
+
+.icon {
+  color: #666;
+  font-size: px2rem(16);
+}
+
+.title {
+  color: #666;
+  font-size: px2rem(16);
+  font-weight: bold;
+}
