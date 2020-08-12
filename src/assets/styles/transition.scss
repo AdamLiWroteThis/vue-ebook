@@ -74,3 +74,17 @@ $ratio: 375/10;
 .title-move-leave-active, .title-move-enter-active {
   transition: all 0.3s linear;
 }
+
+.hot-search-move-enter, .hot-search-move-leave-to {
+  opacity: 0;
+  transform: translate3d(0, px2rem(30), 0);
+}
+
+.hot-search-move-enter-to, .hot-search-move-leave {
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+}
+
+.hot-search-move-leave-active, .hot-search-move-enter-active {
+  transition: all 0.3s linear;
+}

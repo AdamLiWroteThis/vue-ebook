@@ -59,3 +59,12 @@ $fontSize: 37.5;
   font-size: px2rem(16);
   font-weight: bold;
 }
+
+@mixin absCenter() {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}

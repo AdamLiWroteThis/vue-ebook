@@ -1,13 +1,13 @@
-import {mapGetters, mapActions} from 'vuex'
-import {addCss, themeList, reomveAllCss, getReadTimeByMinute} from './book'
+import {mapActions, mapGetters} from 'vuex'
+import {addCss, getReadTimeByMinute, reomveAllCss, themeList} from './book'
 import {getBookmark, saveLocation} from './localStorage'
 
 export const storeHomeMixin = {
   computed: {
-    ...mapGetters(['offsetY', 'hotSearchOffsetY'])
+    ...mapGetters(['offsetY', 'hotSearchOffsetY', 'flapCardVisible'])
   },
   methods: {
-    ...mapActions(['setOffsetY', 'setHotSearchOffsetY'])
+    ...mapActions(['setOffsetY', 'setHotSearchOffsetY', 'setFlapCardVisible'])
   }
 }
 
