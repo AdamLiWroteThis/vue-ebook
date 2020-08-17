@@ -27,6 +27,11 @@ import {flapCardList} from '@/utils/store'
 export default {
   name: 'FlapCard',
   mixins: [storeHomeMixin],
+  props: {
+    data: {
+      type: Object
+    }
+  },
   data() {
     return {
       flapCardList,
@@ -54,13 +59,6 @@ export default {
   mounted() {
   },
   methods: {
-    runAnimation() {
-      this.runFlapCardAnimation = true
-      setTimeout(() => {
-        this.startFlapCardAnimation()
-        this.startPointAnimation()
-      }, 300)
-    },
     close() {
       this.setFlapCardVisible(false)
       this.stopFalpCardAnimation()
@@ -112,6 +110,17 @@ export default {
       backFlapCard._g = backFlapCard.g - 5 * 9
       this.rotate(this.back, 'back')
     },
+    reset() {
+      this.front = 0
+      this.back = 1
+      this.flapCardList.forEach((item, index) => {
+        item.zIndex = 100 - index
+        item._g = item.g
+        item.rotateDegree = 0
+        this.rotate(index, 'front')
+        this.rotate(index, 'back')
+      })
+    },
     rotate(index, type) {
       const item = this.flapCardList[index]
       let dom
@@ -122,6 +131,13 @@ export default {
       }
       dom.style.transform = `rotateY(${item.rotateDegree}deg)`
       dom.style.backgroundColor = `rgb(${item.r}, ${item._g}, ${item.b})`
+    },
+    runAnimation() {
+      this.runFlapCardAnimation = true
+      setTimeout(() => {
+        this.startFlapCardAnimation()
+        this.startPointAnimation()
+      }, 300)
     },
     semiCircleStyle(item, dir) {
       return {
@@ -135,6 +151,9 @@ export default {
       this.task = setInterval(() => {
         this.flapCardRotate()
       }, this.intervalTime)
+      setTimeout(() => {
+        this.stopAnimation()
+      }, 2500)
     },
     startPointAnimation() {
       this.runPointAnimation = true
@@ -142,22 +161,12 @@ export default {
         this.runPointAnimation = false
       }, 750)
     },
-    reset() {
-      this.front = 0
-      this.back = 1
-      this.flapCardList.forEach((item, index) => {
-        item.zIndex = 100 - index
-        item._g = item.g
-        item.rotateDegree = 0
-        this.rotate(index, 'front')
-        this.rotate(index, 'back')
-      })
-    },
-    stopFalpCardAnimation() {
+    stopAnimation() {
+      this.runFlapCardAnimation = false
       if (this.task) {
         clearInterval(this.task)
-        this.reset()
       }
+      this.reset()
     }
   }
 }
@@ -181,9 +190,11 @@ export default {
     height: px2rem(64);
     border-radius: px2rem(5);
     background: white;
+    transform: scale(0);
+    opacity: 0;
 
     &.animation {
-      animation: flap-card-move 0.3s ease-in;
+      animation: flap-card-move 0.3s ease-in both;
     }
 
     @keyframes flap-card-move {

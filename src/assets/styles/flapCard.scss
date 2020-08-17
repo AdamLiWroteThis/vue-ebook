@@ -35,7 +35,7 @@ $moves: (
   $keyframesName: "move" + $index;
   $animationTime: .75s;
   $animationType: linear;
-  $animationIterator: infinite;
+  $animationIterator: 1;
   $width: map-get($item, width);
   $height: map-get($item, height);
   $backgroud: map-get($item, background);
