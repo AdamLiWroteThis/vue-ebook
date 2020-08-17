@@ -68,3 +68,10 @@ $fontSize: 37.5;
   bottom: 0;
   margin: auto;
 }
+
+@mixin columnTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}

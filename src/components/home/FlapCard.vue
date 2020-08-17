@@ -9,6 +9,19 @@
                ref="right"></div>
         </div>
       </div>
+      <div class="book-card" :class="{'animation': runBookCardAnimation}" v-if="ifShowBookCard">
+        <div class="book-card-wrapper">
+          <div class="img-wrapper">
+            <img class="img" v-lazy="data.cover">
+          </div>
+          <div class="content-wrapper">
+            <div class="title">{{data.title}}</div>
+            <div class="author sub-title-medium">{{data.author}}</div>
+            <div class="category">{{categoryText()}}</div>
+          </div>
+          <div class="read-btn" @click.stop="showBookDetail">{{$t('home.readNow')}}</div>
+        </div>
+      </div>
       <div class="point-wrapper">
         <div class="point" :class="{'animation':runPointAnimation}" v-for="(item,index) in pointList"
              :key="index"></div>
@@ -22,7 +35,7 @@
 
 <script>
 import {storeHomeMixin} from '@/utils/mixin'
-import {flapCardList} from '@/utils/store'
+import {flapCardList, categoryText} from '@/utils/store'
 
 export default {
   name: 'FlapCard',
@@ -40,7 +53,9 @@ export default {
       intervalTime: 25,
       runFlapCardAnimation: false,
       runPointAnimation: false,
-      pointList: null
+      pointList: null,
+      runBookCardAnimation: false,
+      ifShowBookCard: false
     }
   },
   watch: {
@@ -59,9 +74,12 @@ export default {
   mounted() {
   },
   methods: {
+    categoryText() {
+      categoryText(this.data.category, this)
+    },
     close() {
       this.setFlapCardVisible(false)
-      this.stopFalpCardAnimation()
+      this.stopAnimation()
     },
     flapCardRotate() {
       const frontFlapCard = this.flapCardList[this.front]
@@ -174,7 +192,6 @@ export default {
 
 <style lang="scss" scoped>
 @import "../../assets/styles/global";
-@import "../../assets/styles/flapCard";
 
 .flap-card-wrapper {
   @include absCenter;
@@ -263,6 +280,88 @@ export default {
             }
           }
         }
+      }
+    }
+  }
+
+  .book-card {
+    position: relative;
+    width: 65%;
+    // height: 70%;
+    box-sizing: border-box;
+    border-radius: px2rem(15);
+    background: white;
+
+    &.animation {
+      animation: scale $bookShowTime ease-in both;
+      @keyframes scale {
+        0% {
+          transform: scale(0);
+          opacity: 0;
+        }
+        100% {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+    }
+
+    .book-card-wrapper {
+      width: 100%;
+      height: 100%;
+      margin-bottom: px2rem(30);
+      @include columnTop;
+
+      .img-wrapper {
+        width: 100%;
+        margin-top: px2rem(20);
+        @include center;
+
+        .img {
+          width: px2rem(90);
+          height: px2rem(130);
+        }
+      }
+
+      .content-wrapper {
+        padding: 0 px2rem(20);
+        margin-top: px2rem(20);
+
+        .title {
+          color: #333;
+          font-weight: bold;
+          font-size: px2rem(18);
+          line-height: px2rem(20);
+          max-height: px2rem(40);
+          text-align: center;
+          @include ellipsis2(2)
+        }
+
+        .author {
+          margin-top: px2rem(10);
+          text-align: center;
+        }
+
+        .category {
+          color: #999;
+          font-size: px2rem(14);
+          margin-top: px2rem(10);
+          text-align: center;
+        }
+      }
+
+      .read-btn {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 1100;
+        width: 100%;
+        border-radius: 0 0 px2rem(15) px2rem(15);
+        padding: px2rem(15) 0;
+        text-align: center;
+        color: white;
+        font-size: px2rem(14);
+        background: $color-blue;
       }
     }
   }

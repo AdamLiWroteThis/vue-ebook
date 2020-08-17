@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>calculator</title>
+</head>
+<body>
+<script language="JavaScript">
+    let capital = 0
+    let capitalEachMonth = 1000
+    let months = 420
+    const interest = 1.12
+    let inflation = 1.03
+    let capitalWithInflation = 10000
+
+    for (let m = 1; m <= months; m++) {
+        if (m % 12 === 0) {
+            capital *= interest
+            if ((m / 12) > 10) {
+                capitalEachMonth += 1000
+            }
+            capitalWithInflation *= inflation
+            console.log(`第${(m / 12)}年投资收益：${Math.floor(capital)}`)
+            console.log(`第${(m / 12)}年120000元年购买力：${Math.floor(capitalWithInflation * 12)}`)
+            if (capital * 0.12 > capitalWithInflation * 12) {
+                console.log(`第${(m / 12)}年投资收益超过年通货膨胀，你财务自由啦！`)
+            }
+        }
+        capital += capitalEachMonth
+    }
+</script>
+</body>
+</html>
