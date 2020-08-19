@@ -62,7 +62,6 @@ export default {
       }
     },
     nextSection() {
-      console.log(this.currentBook.spine)
       if (this.section < this.currentBook.spine.length - 1 && this.bookAvailable) {
         this.setSection(this.section + 1).then(() => {
           this.displaySection()

@@ -86,7 +86,6 @@ export default {
 
       const cfirange = `${cfibase}!,${cfistart},${cfiend})`
       this.currentBook.getRange(cfirange).then(range => {
-        // console.log(range.toString())
         const text = range.toString().replace(/\s\s/g, '')
         this.bookmark.push({
           cfi: currentLocation.start.cfi,

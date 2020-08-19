@@ -9,7 +9,6 @@ export const storeHomeMixin = {
   methods: {
     ...mapActions(['setOffsetY', 'setHotSearchOffsetY', 'setFlapCardVisible']),
     showBookDetail(book) {
-      console.log(book)
       this.$router.push({
         path: '/store/detail',
         query: {

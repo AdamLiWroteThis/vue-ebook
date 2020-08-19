@@ -3,7 +3,7 @@
     <transition name="slide-down">
       <div class="title-wrapper" v-show="menuVisible">
         <div class="left">
-          <span class="icon-back icon"></span>
+          <span class="icon-back icon" @click="back"></span>
         </div>
         <div class="right">
           <div class="icon-wrapper">
@@ -22,12 +22,17 @@
 </template>
 
 <script>
-  import { ebookMixin } from '../../utils/mixin'
+import {ebookMixin} from '../../utils/mixin'
 
-  export default {
-    name: 'EbookTitle',
-    mixins: [ebookMixin]
+export default {
+  name: 'EbookTitle',
+  mixins: [ebookMixin],
+  methods: {
+    back() {
+      this.$router.go(-1)
+    }
   }
+}
 </script>
 
 <style lang="scss" scoped>
