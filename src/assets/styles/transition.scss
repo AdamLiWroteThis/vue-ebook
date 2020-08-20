@@ -2,24 +2,39 @@ $animationTime: .2s;
 $animationType: linear;
 $ratio: 375/10;
 
+// slide-down
+
 .slide-down-enter, .slide-down-leave-to {
   opacity: 0;
   transform: translate3d(0, -100%, 0);
 }
 
-.slide-down-center-to, .slide-down-leave, .slide-up-center-to, .slide-up-leave {
+.slide-down-center-to, .slide-down-leave {
   opacity: 1;
   transform: translate3d(0, 0, 0);
 }
 
-.slide-down-leave-active, .slide-down-enter-active, .slide-up-leave-active, .slide-up-enter-active {
-  transition: all 0.3s linear;
+.slide-down-leave-active, .slide-down-enter-active {
+  transition: all $animationTime $animationType;
+}
+
+// slide-up
+
+.slide-up-center-to, .slide-up-leave {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.slide-up-enter-active, .slide-up-leave-active {
+  transition: all $animationTime $animationType;
 }
 
 .slide-up-enter, .slide-up-leave-to {
   opacity: 0;
   transform: translate3d(0, 100%, 0);
 }
+
+// slide-right
 
 .slide-right-enter, .slide-right-leave-to {
   opacity: 0;
@@ -32,8 +47,10 @@ $ratio: 375/10;
 }
 
 .slide-right-leave-active, .slide-right-enter-active {
-  transition: all 0.3s linear;
+  transition: all $animationTime $animationType;
 }
+
+// fade
 
 .fade-enter, .fade-leave-to {
   opacity: 0;
@@ -44,8 +61,10 @@ $ratio: 375/10;
 }
 
 .fade-leave-active, .fade-enter-active {
-  transition: all 0.3s linear;
+  transition: all $animationTime $animationType;
 }
+
+// popup-slide-up
 
 .popup-slide-up-center-to, .popup-slide-up-leave {
   opacity: 1;
@@ -53,13 +72,15 @@ $ratio: 375/10;
 }
 
 .popup-slide-up-leave-active, .popup-slide-up-enter-active {
-  transition: all 0.1s linear;
+  transition: all $animationTime $animationType;
 }
 
 .popup-slide-up-enter, .popup-slide-up-leave-to {
   opacity: 0;
   transform: translate3d(0, 100%, 0);
 }
+
+// title-move
 
 .title-move-enter, .title-move-leave-to {
   opacity: 0;
@@ -72,8 +93,10 @@ $ratio: 375/10;
 }
 
 .title-move-leave-active, .title-move-enter-active {
-  transition: all 0.3s linear;
+  transition: all $animationTime $animationType;
 }
+
+// hot-search-move
 
 .hot-search-move-enter, .hot-search-move-leave-to {
   opacity: 0;
@@ -86,5 +109,21 @@ $ratio: 375/10;
 }
 
 .hot-search-move-leave-active, .hot-search-move-enter-active {
-  transition: all 0.3s linear;
+  transition: all $animationTime $animationType;
+}
+
+// shelf-tab-slide-up
+
+.shelf-tab-slide-up-enter, .shelf-tab-slide-up-leave-to {
+  opacity: 0;
+  transform: translate3d(0, px2rem(30), 0);
+}
+
+.shelf-tab-slide-up-enter-to, .shelf-tab-slide-up-leave {
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+}
+
+.shelf-tab-slide-up-leave-active, .shelf-tab-slide-up-enter-active {
+  transition: all $animationTime $animationType;
 }
