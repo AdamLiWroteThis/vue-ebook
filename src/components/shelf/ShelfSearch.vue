@@ -1,5 +1,5 @@
 <template>
-  <div class="shelf-search-wrapper">
+  <div class="shelf-search-wrapper" :class="{'search-top':ifInputClicked,'hide-shadow':ifHideShadow}">
     <div class="shelf-search" :class="{'search-top':ifInputClicked}">
       <div class="search-wrapper">
         <div class="icon-search-wrapper">
@@ -41,6 +41,7 @@ export default {
   data() {
     return {
       ifInputClicked: false,
+      ifHideShadow: true,
       searchText: '',
       selectedTab: 1
     }
@@ -66,10 +67,16 @@ export default {
       ]
     }
   },
+  watch: {
+    offsetY(offsetY) {
+      if (offsetY > 0) {
+        this.ifHideShadow = false
+      } else {
+        this.ifHideShadow = true
+      }
+    }
+  },
   methods: {
-    onTabClick(id) {
-      this.selectedTab = id
-    },
     clearSearchText() {
       this.searchText = ''
     },
@@ -80,6 +87,9 @@ export default {
     onSearchClick() {
       this.ifInputClicked = true
       this.setShelfTitleVisible(false)
+    },
+    onTabClick(id) {
+      this.selectedTab = id
     },
     switchLocale() {
       if (this.lang === 'en') {
@@ -102,6 +112,13 @@ export default {
   width: 100%;
   height: px2rem(94);
   font-size: px2rem(16);
+  background: white;
+
+  &.search-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
 
   .shelf-search {
     position: absolute;
