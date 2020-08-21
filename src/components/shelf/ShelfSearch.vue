@@ -69,7 +69,7 @@ export default {
   },
   watch: {
     offsetY(offsetY) {
-      if (offsetY > 0) {
+      if (offsetY > 0 && this.ifInputClicked) {
         this.ifHideShadow = false
       } else {
         this.ifHideShadow = true
@@ -113,6 +113,11 @@ export default {
   height: px2rem(94);
   font-size: px2rem(16);
   background: white;
+  box-shadow: 0 px2rem(2) px2rem(2) 0 rgba(0, 0, 0, .1);
+
+  &.hide-shadow {
+    box-shadow: none;
+  }
 
   &.search-top {
     position: fixed;
