@@ -178,3 +178,15 @@ export function categoryText(category, vue) {
       return vue.$t('category.statistics')
   }
 }
+
+export function appendAddToShelf(list) {
+  list.push({
+    id: -1,
+    type: 3
+  })
+  return list
+}
+
+export function removeAddFromShelf(list) {
+  return list.filter(item => item.type !== 3)
+}

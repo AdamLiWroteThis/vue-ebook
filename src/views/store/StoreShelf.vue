@@ -15,6 +15,7 @@ import Scroll from '@/components/common/Scroll'
 import ShelfSearch from '@/components/shelf/ShelfSearch'
 import {shelf} from '@/api/store'
 import ShelfList from '@/components/shelf/ShelfList'
+import {appendAddToShelf} from '@/utils/store'
 
 export default {
   name: 'StoreShelf',
@@ -30,7 +31,7 @@ export default {
     getShelfList() {
       shelf().then(response => {
         if (response.status === 200 && response.data && response.data.bookList) {
-          this.setShelfList(response.data.bookList)
+          this.setShelfList(appendAddToShelf(response.data.bookList))
         }
       })
     }

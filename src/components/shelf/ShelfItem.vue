@@ -1,5 +1,5 @@
 <template>
-  <div class="shelf-item shelf-item-shadow">
+  <div class="shelf-item" :class="{'shelf-item-shadow':data.type===1||data.type===2}">
     <component :is="item" :data="data"></component>
   </div>
 </template>
@@ -42,7 +42,6 @@ export default {
 .shelf-item {
   width: 100%;
   height: 100%;
-  background: mediumvioletred;
 
   &.shelf-item-shadow {
     box-shadow: px2rem(2) px2rem(2) px2rem(6) px2rem(2) rgba(200, 200, 200, .3);
