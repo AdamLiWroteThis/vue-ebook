@@ -21,7 +21,7 @@ const store = {
       state.shelfList = list
     },
     SET_SHELF_SELECTED(state, selected) {
-      state.selected = selected
+      state.shelfSelected = selected
     },
     SET_SHELF_TITLE_VISIBLE(state, visible) {
       state.shelfTitleVisible = visible
