@@ -18,6 +18,7 @@
 <script>
 import {storeShelfMixin} from '@/utils/mixin'
 import {saveBookShelf} from '@/utils/localStorage'
+import {download} from '@/api/store'
 
 export default {
   name: 'ShelfFooter',
@@ -64,7 +65,17 @@ export default {
     }
   },
   methods: {
-    downloadSelectedBook(book) {
+    downloadSelectedBook() {
+      for (let i = 0; i < this.shelfSelected.length; i++) {
+        this.downloadBook(this.shelfSelected[i])
+      }
+    },
+    downloadBook(book) {
+      return new Promise((resolve, reject) => {
+        download(book, res => {
+          console.log(res)
+        })
+      })
     },
     label(item) {
       switch (item.index) {
@@ -101,22 +112,22 @@ export default {
       }
     },
     setDownload() {
-      let isDownload
-      if (this.isDownload) {
-        isDownload = false
-      } else {
-        isDownload = true
-      }
-      this.shelfSelected.forEach(book => {
-        book.cache = isDownload
-        this.downloadSelectedBook(book)
-      })
+      // let isDownload
+      // if (this.isDownload) {
+      //   isDownload = false
+      // } else {
+      //   isDownload = true
+      // }
+      // this.shelfSelected.forEach(book => {
+      //   book.cache = isDownload
+      // })
+      this.downloadSelectedBook()
       this.onComplete()
-      if (isDownload) {
-        this.simpleToast(this.$t('shelf.setDownloadSuccess'))
-      } else {
-        this.simpleToast(this.$t('shelf.removeDownloadSuccess'))
-      }
+      // if (isDownload) {
+      //   this.simpleToast(this.$t('shelf.setDownloadSuccess'))
+      // } else {
+      //   this.simpleToast(this.$t('shelf.removeDownloadSuccess'))
+      // }
     },
     onComplete() {
       this.hidePopup()
