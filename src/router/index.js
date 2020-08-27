@@ -28,6 +28,10 @@ const routes = [
         component: () => import('@/views/store/StoreShelf')
       },
       {
+        path: 'category',
+        component: () => import('@/views/store/StoreCategory')
+      },
+      {
         path: 'home',
         component: () => import('@/views/store/StoreHome')
       },

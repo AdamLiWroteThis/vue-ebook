@@ -5,11 +5,13 @@ const store = {
     isEditMode: false,
     shelfList: [],
     shelfSelected: [],
-    shelfTitleVisible: true
+    shelfTitleVisible: true,
+    shelfCategory: [],
+    currentType: 1
   },
   mutations: {
-    SET_HOT_SEARCH_OFFSETY(state, offsetY) {
-      state.hotSearchOffsetY = offsetY
+    SET_HOT_SEARCH_OFFSETY(state, y) {
+      state.hotSearchOffsetY = y
     },
     SET_FLAP_CARD_VISIBLE(state, visible) {
       state.flapCardVisible = visible
@@ -25,6 +27,12 @@ const store = {
     },
     SET_SHELF_TITLE_VISIBLE(state, visible) {
       state.shelfTitleVisible = visible
+    },
+    SET_SHELF_CATEGORY(state, category) {
+      state.shelfCategory = category
+    },
+    SET_CURRENT_TYPE(state, type) {
+      state.currentType = type
     }
   }
 }

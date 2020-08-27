@@ -17,8 +17,9 @@
 
 <script>
 import {storeShelfMixin} from '@/utils/mixin'
-import {saveBookShelf} from '@/utils/localStorage'
+import {saveBookShelf, removeLocalStorage} from '@/utils/localStorage'
 import {download} from '@/api/store'
+import {removeLocalForage} from '@/utils/localForage'
 
 export default {
   name: 'ShelfFooter',
@@ -65,15 +66,44 @@ export default {
     }
   },
   methods: {
-    downloadSelectedBook() {
+    async downloadSelectedBook() {
       for (let i = 0; i < this.shelfSelected.length; i++) {
-        this.downloadBook(this.shelfSelected[i])
+        await this.downloadBook(this.shelfSelected[i]).then(book => {
+          book.cache = true
+        })
       }
     },
-    downloadBook(book) {
+    removeSelectedBook() {
+      Promise.all(this.shelfSelected.map(book => this.removeBook(book)))
+        .then(books => {
+          books.map(book => {
+            book.cache = false
+          })
+          saveBookShelf(this.shelfList)
+          this.simpleToast(this.$t('shelf.removeDownloadSuccess'))
+        })
+    },
+    removeBook(book) {
       return new Promise((resolve, reject) => {
-        download(book, res => {
-          console.log(res)
+        removeLocalStorage(`${book.categoryText}/${book.fileName}-info`)
+        removeLocalForage(book.fileName)
+        resolve(book)
+      })
+    },
+    downloadBook(book) {
+      let text = ''
+      const toast = this.toast({text})
+      toast.continueShow()
+      return new Promise((resolve, reject) => {
+        download(book, book => {
+          toast.remove()
+          resolve(book)
+        }, (err) => {
+          console.log(err)
+        }, progressEvent => {
+          const progress = Math.floor(progressEvent.loaded / progressEvent.total * 100) + '%'
+          text = this.$t('shelf.progressDownload').replace('$1', `${book.fileName}.epub(${progress})`)
+          toast.updateText(text)
         })
       })
     },
@@ -111,23 +141,15 @@ export default {
         this.simpleToast(this.$t('shelf.closePrivateSuccess'))
       }
     },
-    setDownload() {
-      // let isDownload
-      // if (this.isDownload) {
-      //   isDownload = false
-      // } else {
-      //   isDownload = true
-      // }
-      // this.shelfSelected.forEach(book => {
-      //   book.cache = isDownload
-      // })
-      this.downloadSelectedBook()
+    async setDownload() {
       this.onComplete()
-      // if (isDownload) {
-      //   this.simpleToast(this.$t('shelf.setDownloadSuccess'))
-      // } else {
-      //   this.simpleToast(this.$t('shelf.removeDownloadSuccess'))
-      // }
+      if (this.isDownload) {
+        this.removeSelectedBook()
+      } else {
+        await this.downloadSelectedBook()
+        saveBookShelf(this.shelfList)
+        this.simpleToast(this.$t('shelf.setDownloadSuccess'))
+      }
     },
     onComplete() {
       this.hidePopup()
@@ -214,6 +236,7 @@ export default {
           this.showDownLoad()
           break
         case 3:
+          this.dialog().show()
           break
         case 4:
           this.showRemove()

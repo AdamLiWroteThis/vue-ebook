@@ -206,3 +206,15 @@ export function gotoBookDetail(vue, book) {
     }
   })
 }
+
+export function computeId(list) {
+  return list.map((book, index) => {
+    if (book.type !== 3) {
+      book.id = index + 1
+      if (book.itemList) {
+        book.itemList = computeId(book.itemList)
+      }
+    }
+    return book
+  })
+}

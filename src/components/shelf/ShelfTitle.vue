@@ -2,15 +2,19 @@
   <transition name="fade">
     <div class="shelf-title" :class="{'hide-shadow':ifHideShadow}" v-show="shelfTitleVisible">
       <div class="shelf-title-text-wrapper">
-        <span class="shelf-title-text">{{$t('shelf.title')}}</span>
+        <span class="shelf-title-text">{{title}}</span>
         <span class="shelf-title-sub-text" v-show="isEditMode">{{selectedText}}</span>
       </div>
-      <div class="shelf-title-btn-wrapper shelf-title-left">
+      <div class="shelf-title-btn-wrapper shelf-title-left" v-if="!ifShowBack">
         <span class="shelf-title-btn-text" @click="clearCache">{{$t('shelf.clearCache')}}</span>
       </div>
       <div class="shelf-title-btn-wrapper shelf-title-right">
-      <span class="shelf-title-btn-text"
-            @click="onEditClick">{{isEditMode ? $t('shelf.cancel') : $t('shelf.edit')}}</span>
+        <span class="shelf-title-btn-text"
+              @click="onEditClick">{{isEditMode ? $t('shelf.cancel') : $t('shelf.edit')}}</span>
+      </div>
+      <div class="shelf-title-btn-wrapper shelf-title-left" v-if="ifShowBack">
+        <span class="icon-back"
+              @click="back"></span>
       </div>
     </div>
   </transition>
@@ -18,10 +22,19 @@
 
 <script>
 import {storeShelfMixin} from '@/utils/mixin'
+import {clearLocalForage} from '@/utils/localForage'
+import {clearLocalStorage} from '@/utils/localStorage'
 
 export default {
   name: 'ShelfTitle',
   mixins: [storeShelfMixin],
+  props: {
+    title: String,
+    ifShowBack: {
+      type: Boolean,
+      default: false
+    }
+  },
   data() {
     return {
       ifHideShadow: true
@@ -43,14 +56,28 @@ export default {
     }
   },
   methods: {
+    back() {
+      this.$router.go(-1)
+      this.setIsEditMode(false)
+    },
     clearCache() {
-      alert('clear cache')
+      clearLocalStorage()
+      clearLocalForage()
+      this.setShelfList([])
+      this.setShelfSelected([])
+      this.getShelfList()
+      this.simpleToast(this.$t('shelf.clearCacheSuccess'))
     },
     onEditClick() {
       if (!this.isEditMode) {
         this.setShelfSelected([])
         this.shelfList.forEach(item => {
           item.selected = false
+          if (item.itemList) {
+            item.itemList.forEach(subItem => {
+              subItem.selected = false
+            })
+          }
         })
       }
       this.setIsEditMode(!this.isEditMode)
@@ -101,6 +128,11 @@ export default {
     box-sizing: border-box;
     height: 100%;
     @include center;
+
+    .icon-back {
+      font-size: px2rem(20);
+      color: #666;
+    }
 
     &.shelf-title-left {
       left: 0;

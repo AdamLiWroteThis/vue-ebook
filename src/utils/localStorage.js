@@ -10,7 +10,7 @@ export function getLocalStorage(key) {
   return localStorage.get(key)
 }
 
-export function romoveLocalStorage(key) {
+export function removeLocalStorage(key) {
   return localStorage.delete(key)
 }
 

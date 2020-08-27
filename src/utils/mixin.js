@@ -1,16 +1,37 @@
 import {mapActions, mapGetters} from 'vuex'
 import {addCss, getReadTimeByMinute, reomveAllCss, themeList} from './book'
-import {getBookmark, saveLocation} from './localStorage'
-import {gotoBookDetail} from '@/utils/store'
+import {getBookmark, getBookShelf, saveBookShelf, saveLocation} from './localStorage'
+import {appendAddToShelf, gotoBookDetail} from '@/utils/store'
+import {shelf} from '@/api/store'
 
 export const storeShelfMixin = {
   computed: {
-    ...mapGetters(['isEditMode', 'shelfList', 'shelfSelected', 'shelfTitleVisible', 'offsetY'])
+    ...mapGetters(['isEditMode', 'shelfList', 'shelfSelected', 'shelfTitleVisible', 'offsetY', 'shelfCategory', 'currentType'])
   },
   methods: {
-    ...mapActions(['setIsEditMode', 'setShelfList', 'setShelfSelected', 'setShelfTitleVisible', 'setOffsetY']),
+    ...mapActions(['setIsEditMode', 'setShelfList', 'setShelfSelected', 'setShelfTitleVisible', 'setOffsetY', 'setShelfCategory', 'setCurrentType']),
     showBookDetail(book) {
       gotoBookDetail(this, book)
+    },
+    getCategoryList(title) {
+      this.getShelfList().then(() => {
+        const categoryList = this.shelfList.filter(book => book.type === 2 && book.title === title)[0]
+        this.setShelfCategory(categoryList)
+      })
+    },
+    getShelfList() {
+      let shelfList = getBookShelf()
+      if (!shelfList) {
+        shelf().then(response => {
+          if (response.status === 200 && response.data && response.data.bookList) {
+            shelfList = appendAddToShelf(response.data.bookList)
+            saveBookShelf(shelfList)
+            return this.setShelfList(shelfList)
+          }
+        })
+      } else {
+        return this.setShelfList(shelfList)
+      }
     }
   }
 }
