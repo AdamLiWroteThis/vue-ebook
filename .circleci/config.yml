@@ -1,0 +1,29 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:14
+    steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "60:7e:01:81:c0:c4:02:d9:43:0f:31:d9:80:16:13:94"
+      - checkout
+      - restore_cache:
+          keys:
+            - dependencies
+      - run:
+          name: Install
+          command: yarn install
+      - save_cache:
+          paths:
+            - node_modules
+          key: dependencies
+      - run:
+          name: Build
+          command: yarn build
+      - run:
+          name: Prepare shell commands
+          command: chmod +x scripts/deploy.sh
+      - run:
+          name: Run Deploy to Github Pages
+          command: ./scripts/deploy.sh
