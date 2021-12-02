@@ -1,10 +1,10 @@
 <template>
-  <div class="shelf-list" :style="{top:shelfListTop}">
+  <div class="shelf-list" :style="{ top: shelfListTop }">
     <transition-group name="list" tag="div" id="shelf-list">
       <div class="shelf-list-item-wrapper" v-for="item in data" :key="item.id">
-        <shelf-item :data="item" :style="{height:itemHeight}"></shelf-item>
+        <shelf-item :data="item" :style="{ height: itemHeight }"></shelf-item>
         <div class="shelf-list-title-wrapper">
-          <span class="shelf-list-title title-small">{{item.title}}</span>
+          <span class="shelf-list-title title-small">{{ item.title }}</span>
         </div>
       </div>
     </transition-group>
@@ -12,15 +12,15 @@
 </template>
 
 <script>
-import {storeShelfMixin} from '@/utils/mixin'
-import ShelfItem from '@/components/shelf/ShelfItem'
-import {px2rem, realPx} from '@/utils/utils'
+import { storeShelfMixin } from "@/utils/mixin";
+import ShelfItem from "@/components/shelf/ShelfItem";
+import { px2rem, realPx } from "@/utils/utils";
 
 export default {
-  name: 'ShelfList',
-  components: {ShelfItem},
+  name: "ShelfList",
+  components: { ShelfItem },
   data() {
-    return {}
+    return {};
   },
   props: {
     top: {
@@ -31,14 +31,14 @@ export default {
   },
   computed: {
     itemHeight() {
-      return (window.innerWidth - realPx(120)) / 3 / 250 * 350 + 'px'
+      return ((window.innerWidth - realPx(120)) / 3 / 250) * 350 + "px";
     },
     shelfListTop() {
-      return px2rem(this.top) + 'rem'
+      return px2rem(this.top) + "rem";
     }
   },
   mixins: [storeShelfMixin]
-}
+};
 </script>
 
 <style lang="scss" scoped>
@@ -69,7 +69,7 @@ export default {
       }
 
       &.list-move {
-        transition: transform .5s;
+        transition: transform 0.5s;
       }
 
       .shelf-list-title-wrapper {
