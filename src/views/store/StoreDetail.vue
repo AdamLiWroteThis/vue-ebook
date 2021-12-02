@@ -1,72 +1,97 @@
 <template>
   <div class="book-detail">
-    <detail-title @back="back"
-                  :showShelf="true"
-                  ref="title"></detail-title>
-    <scroll class="content-wrapper"
-            :top="42"
-            :bottom="52"
-            @onScroll="onScroll"
-            ref="scroll">
-      <book-info :cover="cover"
-                 :title="title"
-                 :author="author"
-                 :desc="desc"></book-info>
+    <detail-title @back="back" :showShelf="true" ref="title"></detail-title>
+    <scroll
+      class="content-wrapper"
+      :top="42"
+      :bottom="52"
+      @onScroll="onScroll"
+      ref="scroll"
+    >
+      <book-info
+        :cover="cover"
+        :title="title"
+        :author="author"
+        :desc="desc"
+      ></book-info>
       <div class="book-detail-content-wrapper">
-        <div class="book-detail-content-title">{{$t('detail.copyright')}}</div>
+        <div class="book-detail-content-title">
+          {{ $t("detail.copyright") }}
+        </div>
         <div class="book-detail-content-list-wrapper">
           <div class="book-detail-content-row">
-            <div class="book-detail-content-label">{{$t('detail.publisher')}}</div>
-            <div class="book-detail-content-text">{{publisher}}</div>
+            <div class="book-detail-content-label">
+              {{ $t("detail.publisher") }}
+            </div>
+            <div class="book-detail-content-text">{{ publisher }}</div>
           </div>
           <div class="book-detail-content-row">
-            <div class="book-detail-content-label">{{$t('detail.category')}}</div>
-            <div class="book-detail-content-text">{{categoryText}}</div>
+            <div class="book-detail-content-label">
+              {{ $t("detail.category") }}
+            </div>
+            <div class="book-detail-content-text">{{ categoryText }}</div>
           </div>
           <div class="book-detail-content-row">
-            <div class="book-detail-content-label">{{$t('detail.lang')}}</div>
-            <div class="book-detail-content-text">{{lang}}</div>
+            <div class="book-detail-content-label">{{ $t("detail.lang") }}</div>
+            <div class="book-detail-content-text">{{ lang }}</div>
           </div>
           <div class="book-detail-content-row">
-            <div class="book-detail-content-label">{{$t('detail.ISBN')}}</div>
-            <div class="book-detail-content-text">{{isbn}}</div>
+            <div class="book-detail-content-label">{{ $t("detail.ISBN") }}</div>
+            <div class="book-detail-content-text">{{ isbn }}</div>
           </div>
         </div>
       </div>
       <div class="book-detail-content-wrapper">
-        <div class="book-detail-content-title">{{$t('detail.navigation')}}</div>
+        <div class="book-detail-content-title">
+          {{ $t("detail.navigation") }}
+        </div>
         <div class="book-detail-content-list-wrapper">
           <div class="loading-text-wrapper" v-if="!this.navigation">
-            <span class="loading-text">{{$t('detail.loading')}}</span>
+            <span class="loading-text">{{ $t("detail.loading") }}</span>
           </div>
           <div class="book-detail-content-item-wrapper">
-            <div class="book-detail-content-item" v-for="(item, index) in flatNavigation" :key="index"
-                 @click="read(item)">
-              <div class="book-detail-content-navigation-text"
-                   :class="{'is-sub': item.deep> 1}"
-                   :style="itemStyle(item)"
-                   v-if="item.label">{{item.label}}
+            <div
+              class="book-detail-content-item"
+              v-for="(item, index) in flatNavigation"
+              :key="index"
+              @click="read(item)"
+            >
+              <div
+                class="book-detail-content-navigation-text"
+                :class="{ 'is-sub': item.deep > 1 }"
+                :style="itemStyle(item)"
+                v-if="item.label"
+              >
+                {{ item.label }}
               </div>
             </div>
           </div>
         </div>
       </div>
       <div class="book-detail-content-wrapper">
-        <div class="book-detail-content-title">{{$t('detail.trial')}}</div>
+        <div class="book-detail-content-title">{{ $t("detail.trial") }}</div>
         <div class="book-detail-content-list-wrapper">
           <div class="loading-text-wrapper" v-if="!this.displayed">
-            <span class="loading-text">{{$t('detail.loading')}}</span>
+            <span class="loading-text">{{ $t("detail.loading") }}</span>
           </div>
         </div>
         <div id="preview" v-show="this.displayed" ref="preview"></div>
       </div>
     </scroll>
     <div class="bottom-wrapper">
-      <div class="bottom-btn" @click.stop.prevent="readBook()">{{$t('detail.read')}}</div>
-      <div class="bottom-btn" @click.stop.prevent="trialListening()">{{$t('detail.listen')}}</div>
+      <div class="bottom-btn" @click.stop.prevent="readBook()">
+        {{ $t("detail.read") }}
+      </div>
+      <div class="bottom-btn" @click.stop.prevent="trialListening()">
+        {{ $t("detail.listen") }}
+      </div>
       <div class="bottom-btn" @click.stop.prevent="addOrRemoveShelf()">
         <span class="icon-check" v-if="inBookShelf"></span>
-        {{inBookShelf ? $t('detail.isAddedToShelf') : $t('detail.addOrRemoveShelf')}}
+        {{
+          inBookShelf
+            ? $t("detail.isAddedToShelf")
+            : $t("detail.addOrRemoveShelf")
+        }}
       </div>
     </div>
     <toast :text="toastText" ref="toast"></toast>
@@ -248,6 +273,7 @@ export default {
               rootFile = rootFile.substring(1, rootFile.length)
             }
             this.opf = `${process.env.VUE_APP_EPUB_OPF_URL}/${this.fileName}/${rootFile}`
+            // this.opf = `${process.env.VUE_APP_EPUB_OPF_URL}/${this.fileName}/${rootFile}`
             this.parseBook(this.opf)
           } else {
             this.showToast(response.data.msg)
@@ -388,7 +414,7 @@ export default {
     display: flex;
     width: 100%;
     height: px2rem(52);
-    box-shadow: 0 px2rem(-2) px2rem(2) rgba(0, 0, 0, .1);
+    box-shadow: 0 px2rem(-2) px2rem(2) rgba(0, 0, 0, 0.1);
 
     .bottom-btn {
       flex: 1;
