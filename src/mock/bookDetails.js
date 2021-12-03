@@ -2,23 +2,29 @@ module.exports = {
   error_code: 0,
   msg: "获取成功",
   data: {
-    id: 3,
-    fileName: "2018_Book_PeerReviewPeerEducationAndMode",
-    cover:
-      "https://47.99.166.157/book/res/img//Philosophy/978-3-319-90955-4_CoverFigure.jpg",
-    title:
-      "Peer Review, Peer Education, and Modeling in the Practice of Clinical Ethics Consultation: The Zadeh Project",
-    author: "Stuart G. Finder",
-    publisher: "Springer International Publishing",
-    bookId: "2018_Book_PeerReviewPeerEducationAndMode",
-    category: 18,
-    categoryText: "Philosophy",
-    language: "en",
-    rootFile: "OEBPS/package.opf",
-    selected: false,
-    private: false,
+    author: "Juan Garbajosa, Xiaofeng Wang and Ademar Aguiar",
+    bookId: "2018_Book_AgileProcessesInSoftwareEngine",
     cache: false,
+    category: 1,
+    categoryText: "ComputerScience",
+    cover:
+      "http://47.99.166.157/book/res/img//ComputerScience/2018_Book_AgileProcessesInSoftwareEngine.jpeg",
+    coverPath: null,
+    createDt: null,
+    createUser: null,
+    fileName: "2018_Book_AgileProcessesInSoftwareEngine",
+    filePath: null,
     haveRead: 0,
-    type: 1
+    id: 203,
+    language: "en",
+    originalName: null,
+    private: false,
+    publisher: "Springer International Publishing, Cham",
+    rootFile: "OEBPS/content.opf",
+    selected: false,
+    title: "Agile Processes in Software Engineering and Extreme Programming",
+    unzipPath: null,
+    updateDt: null,
+    updateType: "0"
   }
 };

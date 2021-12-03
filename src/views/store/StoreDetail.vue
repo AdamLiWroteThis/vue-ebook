@@ -240,6 +240,7 @@ export default {
         this.metadata = metadata
       })
       this.book.loaded.navigation.then(nav => {
+        console.log(nav)
         this.navigation = nav
         if (this.navigation.toc && this.navigation.toc.length > 1) {
           const candisplay = this.display(this.navigation.toc[1].href)
@@ -266,14 +267,18 @@ export default {
         }).then(response => {
           if (response.status === 200 && response.data.error_code === 0 && response.data.data) {
             const data = response.data.data
+            console.log(data)
             this.bookItem = data
             this.cover = this.bookItem.cover
             let rootFile = data.rootFile
             if (rootFile.startsWith('/')) {
               rootFile = rootFile.substring(1, rootFile.length)
             }
+
             this.opf = `${process.env.VUE_APP_EPUB_OPF_URL}/${this.fileName}/${rootFile}`
-            // this.opf = `${process.env.VUE_APP_EPUB_OPF_URL}/${this.fileName}/${rootFile}`
+            // mock静态文件
+            // this.opf = `${process.env.VUE_APP_BASE_URL}/epub/ComputerScience/${this.fileName}/${rootFile}`
+
             this.parseBook(this.opf)
           } else {
             this.showToast(response.data.msg)

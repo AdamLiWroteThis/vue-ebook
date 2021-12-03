@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:uid" content="978-3-319-91602-6"/>
+  </head>
+  <docTitle>
+     <text>Agile Processes in Software Engineering and Extreme Programming</text>
+  </docTitle>
+  <docAuthor>
+     <text>Juan Garbajosa, Xiaofeng Wang and Ademar Aguiar</text>
+  </docAuthor>
+<navMap>
+    <navPoint id="navpoint-1" playOrder="1">
+      <navLabel>
+        <text>Cover</text>
+      </navLabel>
+      <content src="ACoverHTML.html"/>
+    </navPoint>
+    <navPoint id="navpoint-2" playOrder="2">
+      <navLabel>
+        <text>Frontmatter</text>
+      </navLabel>
+      <content src="A468350_1_En_BookFrontmatter_OnlinePDF.html"/>
+    </navPoint>
+    <navPoint id="navpoint-3" playOrder="3">
+      <navLabel>
+        <text>1. Agile Requirements</text>
+      </navLabel>
+      <content src="A468350_1_En_1_ChapterPart1.html"/>
+    <navPoint id="navpoint-4" playOrder="4">
+      <navLabel>
+        <text>Cosmic User Story Standard</text>
+      </navLabel>
+      <content src="A468350_1_En_1_Chapter.html"/>
+    </navPoint>
+    <navPoint id="navpoint-5" playOrder="5">
+      <navLabel>
+        <text>Improving Mockup-Based Requirement Specification with End-User Annotations</text>
+      </navLabel>
+      <content src="A468350_1_En_2_Chapter.html"/>
+    </navPoint>
+
+    </navPoint>
+    <navPoint id="navpoint-6" playOrder="6">
+      <navLabel>
+        <text>2. Agile Testing</text>
+      </navLabel>
+      <content src="A468350_1_En_3_ChapterPart2.html"/>
+    <navPoint id="navpoint-7" playOrder="7">
+      <navLabel>
+        <text>Combining STPA and BDD for Safety Analysis and Verification in Agile Development: A Controlled Experiment</text>
+      </navLabel>
+      <content src="A468350_1_En_3_Chapter.html"/>
+    </navPoint>
+    <navPoint id="navpoint-8" playOrder="8">
+      <navLabel>
+        <text>Software Tester, We Want to Hire You! an Analysis of the Demand for Soft Skills</text>
+      </navLabel>
+      <content src="A468350_1_En_4_Chapter.html"/>
+    </navPoint>
+    <navPoint id="navpoint-9" playOrder="9">
+      <navLabel>
+        <text>Developersâ Initial Perceptions on TDD Practice: A Thematic Analysis with Distinct Domains and Languages</text>
+      </navLabel>
+      <content src="A468350_1_En_5_Chapter.html"/>
+    </navPoint>
+    <navPoint id="navpoint-10" playOrder="10">
+      <navLabel>
+        <text>Myths and Facts About Static Application Security Testing Tools: An Action Research at Telenor Digital</text>
+      </navLabel>
+      <content src="A468350_1_En_6_Chapter.html"/>
+    </navPoint>
+    <navPoint id="navpoint-11" playOrder="11">
+      <navLabel>
+        <text>Automated Acceptance Tests as Software Requirements: An Experiment to Compare the Applicability of Fit Tables and Gherkin Language</text>
+      </navLabel>
+      <content src="A468350_1_En_7_Chapter.html"/>
+    </navPoint>
+
+    </navPoint>
+    <navPoint id="navpoint-12" playOrder="12">
+      <navLabel>
+        <text>3. Agile Transformation</text>
+      </navLabel>
+      <content src="A468350_1_En_8_ChapterPart3.html"/>
+    <navPoint id="navpoint-13" playOrder="13">
+      <navLabel>
+        <text>Interface Problems of Agile in a Non-agile Environment</text>
+      </navLabel>
+      <content src="A468350_1_En_8_Chapter.html"/>
+    </navPoint>
+    <navPoint id="navpoint-14" playOrder="14">
+      <navLabel>
+        <text>Enterprise Agility: Why Is Transformation so Hard?</text>
+      </navLabel>
+      <content src="A468350_1_En_9_Chapter.html"/>
+    </navPoint>
+    <navPoint id="navpoint-15" playOrder="15">
+      <navLabel>
+        <text>Technical and Organizational Agile Practices: A Latin-American Survey</text>
+      </navLabel>
+      <content src="A468350_1_En_10_Chapter.html"/>
+    </navPoint>
+    <navPoint id="navpoint-16" playOrder="16">
+      <navLabel>
+        <text>Agile Software Development â Adoption and Maturity: An Activity Theory Perspective</text>
+      </navLabel>
+      <content src="A468350_1_En_11_Chapter.html"/>
+    </navPoint>
+
+    </navPoint>
+    <navPoint id="navpoint-17" playOrder="17">
+      <navLabel>
+        <text>4. Scaling Agile</text>
+      </navLabel>
+      <content src="A468350_1_En_12_ChapterPart4.html"/>
+    <navPoint id="navpoint-18" playOrder="18">
+      <navLabel>
+        <text>Do Agile Methods Work for Large Software Projects?</text>
+      </navLabel>
+      <content src="A468350_1_En_12_Chapter.html"/>
+    </navPoint>
+    <navPoint id="navpoint-19" playOrder="19">
+      <navLabel>
+        <text>Learning in the Large - An Exploratory Study of Retrospectives in Large-Scale Agile Development</text>
+      </navLabel>
+      <content src="A468350_1_En_13_Chapter.html"/>
+    </navPoint>
+    <navPoint id="navpoint-20" playOrder="20">
+      <navLabel>
+        <text>Reporting in Agile Portfolio Management: Routines, Metrics and Artefacts to Maintain an Effective Oversight</text>
+      </navLabel>
+      <content src="A468350_1_En_14_Chapter.html"/>
+    </navPoint>
+    <navPoint id="navpoint-21" playOrder="21">
+      <navLabel>
+        <text>Inter-team Coordination in Large-Scale Agile Development: A Case Study of Three Enabling Mechanisms</text>
+      </navLabel>
+      <content src="A468350_1_En_15_Chapter.html"/>
+    </navPoint>
+    <navPoint id="navpoint-22" playOrder="22">
+      <navLabel>
+        <text>Supporting Large-Scale Agile Development with Domain-Driven Design</text>
+      </navLabel>
+      <content src="A468350_1_En_16_Chapter.html"/>
+    </navPoint>
+    <navPoint id="navpoint-23" playOrder="23">
+      <navLabel>
+        <text>Towards Agile Scalability Engineering</text>
+      </navLabel>
+      <content src="A468350_1_En_17_Chapter.html"/>
+    </navPoint>
+
+    </navPoint>
+    <navPoint id="navpoint-24" playOrder="24">
+      <navLabel>
+        <text>5. Human-Centric Agile</text>
+      </navLabel>
+      <content src="A468350_1_En_18_ChapterPart5.html"/>
+    <navPoint id="navpoint-25" playOrder="25">
+      <navLabel>
+        <text>Stress in Agile Software Development: Practices and Outcomes</text>
+      </navLabel>
+      <content src="A468350_1_En_18_Chapter.html"/>
+    </navPoint>
+    <navPoint id="navpoint-26" playOrder="26">
+      <navLabel>
+        <text>Teamwork Quality and Team Performance: Exploring Differences Between Small and Large Agile Projects</text>
+      </navLabel>
+      <content src="A468350_1_En_19_Chapter.html"/>
+    </navPoint>
+
+    </navPoint>
+    <navPoint id="navpoint-27" playOrder="27">
+      <navLabel>
+        <text>6. Continuous Experimentation</text>
+      </navLabel>
+      <content src="A468350_1_En_20_ChapterPart6.html"/>
+    <navPoint id="navpoint-28" playOrder="28">
+      <navLabel>
+        <text>Challenges and Strategies for Undertaking Continuous Experimentation to Embedded Systems: Industry and Research Perspectives</text>
+      </navLabel>
+      <content src="A468350_1_En_20_Chapter.html"/>
+    </navPoint>
+    <navPoint id="navpoint-29" playOrder="29">
+      <navLabel>
+        <text>ICOs Overview: Should Investors Choose an ICO Developed with the Lean Startup Methodology?</text>
+      </navLabel>
+      <content src="A468350_1_En_21_Chapter.html"/>
+    </navPoint>
+    </navPoint>
+    <navPoint id="navpoint-30" playOrder="30">
+      <navLabel>
+        <text>Backmatter</text>
+      </navLabel>
+      <content src="A468350_1_En_BookBackmatter_OnlinePDF.html"/>
+    </navPoint>
+</navMap>
+</ncx>
