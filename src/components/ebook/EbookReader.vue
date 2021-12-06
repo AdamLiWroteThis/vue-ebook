@@ -58,7 +58,7 @@ export default {
   methods: {
     initEpub(url) {
       this.book = new Epub(url);
-      console.log(this.book);
+
       this.setCurrentBook(this.book);
       this.initRendition();
       // this.initGesture()
@@ -73,7 +73,7 @@ export default {
           this.setBookAvailable(true);
           this.refreshLocation();
         });
-    }, 
+    },
     initFontFamily() {
       const font = getFontFamily(this.fileName);
       if (!font) {
@@ -113,8 +113,10 @@ export default {
       this.rendition = this.book.renderTo("read", {
         width: window.innerWidth,
         height: window.innerHeight,
+        manager: "continuous",
         method: "default"
       });
+
       const location = getLocation(this.fileName);
       this.display(location, () => {
         this.initTheme();
@@ -122,6 +124,7 @@ export default {
         this.initFontSize();
         this.initGlobalStyle();
       });
+      console.log(this.book);
       this.rendition.hooks.content.register(contents => {
         Promise.all([
           contents.addStylesheet(
