@@ -62,7 +62,7 @@
     </navPoint>
     <navPoint id="navpoint-9" playOrder="9">
       <navLabel>
-        <text>Developersâ Initial Perceptions on TDD Practice: A Thematic Analysis with Distinct Domains and Languages</text>
+        <text>Developers’ Initial Perceptions on TDD Practice: A Thematic Analysis with Distinct Domains and Languages</text>
       </navLabel>
       <content src="A468350_1_En_5_Chapter.html"/>
     </navPoint>
@@ -105,7 +105,7 @@
     </navPoint>
     <navPoint id="navpoint-16" playOrder="16">
       <navLabel>
-        <text>Agile Software Development â Adoption and Maturity: An Activity Theory Perspective</text>
+        <text>Agile Software Development – Adoption and Maturity: An Activity Theory Perspective</text>
       </navLabel>
       <content src="A468350_1_En_11_Chapter.html"/>
     </navPoint>
