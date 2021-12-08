@@ -15,7 +15,7 @@
 
 <script>
 import Epub from "epubjs";
-import { ebookMixin } from "../../utils/mixin";
+import { ebookMixin } from "@/utils/mixin";
 import {
   getFontFamily,
   getFontSize,
@@ -23,8 +23,8 @@ import {
   saveFontFamily,
   saveTheme,
   getLocation
-} from "../../utils/localStorage";
-import { flatten } from "../../utils/book";
+} from "@/utils/localStorage";
+import { flatten } from "@/utils/book";
 import { getLocalForage } from "@/utils/localForage";
 
 global.ePub = Epub;
@@ -281,7 +281,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../../assets/styles/global";
+@import "@/assets/styles/global";
 
 .ebook-reader {
   width: 100%;

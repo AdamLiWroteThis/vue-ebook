@@ -1,37 +1,51 @@
 <template>
   <transition name="fade">
-    <div class="shelf-title" :class="{'hide-shadow':ifHideShadow}" v-show="shelfTitleVisible">
+    <div
+      class="shelf-title"
+      :class="{ 'hide-shadow': ifHideShadow }"
+      v-show="shelfTitleVisible"
+    >
       <div class="shelf-title-text-wrapper">
-        <span class="shelf-title-text">{{title}}</span>
-        <span class="shelf-title-sub-text" v-show="isEditMode">{{selectedText}}</span>
+        <span class="shelf-title-text">{{ title }}</span>
+        <span class="shelf-title-sub-text" v-show="isEditMode">{{
+          selectedText
+        }}</span>
       </div>
       <div class="shelf-title-btn-wrapper shelf-title-left" v-if="showClear">
-        <span class="shelf-title-btn-text" @click="clearCache">{{$t('shelf.clearCache')}}</span>
+        <span class="shelf-title-btn-text" @click="clearCache">{{
+          $t("shelf.clearCache")
+        }}</span>
       </div>
       <div class="shelf-title-btn-wrapper shelf-title-right" v-if="showEdit">
-        <span class="shelf-title-btn-text"
-              @click="onEditClick">{{isEditMode ? $t('shelf.cancel') : $t('shelf.edit')}}</span>
+        <span class="shelf-title-btn-text" @click="onEditClick">{{
+          isEditMode ? $t("shelf.cancel") : $t("shelf.edit")
+        }}</span>
       </div>
       <div class="shelf-title-btn-wrapper shelf-title-left" v-if="showBack">
-        <span class="icon-back"
-              @click="back"></span>
+        <span class="icon-back" @click="back"></span>
       </div>
-      <div class="shelf-title-btn-wrapper"
-           :class="{'shelf-title-left': changeGroupLeft, 'shelf-title-right': changeGroupRight}" @click="changeGroup"
-           v-if="showChangeGroup">
-        <span class="shelf-title-btn-text">{{$t('shelf.editGroup')}}</span>
+      <div
+        class="shelf-title-btn-wrapper"
+        :class="{
+          'shelf-title-left': changeGroupLeft,
+          'shelf-title-right': changeGroupRight
+        }"
+        @click="changeGroup"
+        v-if="showChangeGroup"
+      >
+        <span class="shelf-title-btn-text">{{ $t("shelf.editGroup") }}</span>
       </div>
     </div>
   </transition>
 </template>
 
 <script>
-import {storeShelfMixin} from '@/utils/mixin'
-import {clearLocalForage} from '@/utils/localForage'
-import {clearLocalStorage, saveBookShelf} from '@/utils/localStorage'
+import { storeShelfMixin } from "@/utils/mixin";
+import { clearLocalForage } from "@/utils/localForage";
+import { clearLocalStorage, saveBookShelf } from "@/utils/localStorage";
 
 export default {
-  name: 'ShelfTitle',
+  name: "ShelfTitle",
   mixins: [storeShelfMixin],
   props: {
     title: String
@@ -39,145 +53,162 @@ export default {
   data() {
     return {
       ifHideShadow: true
-    }
+    };
   },
   computed: {
     selectedText() {
-      const selectedNumber = this.shelfSelected ? this.shelfSelected.length : 0
-      return selectedNumber <= 0 ? this.$t('shelf.selectBook') : (selectedNumber === 1 ? this.$t('shelf.haveSelectedBook').replace('$1', selectedNumber) : this.$t('shelf.haveSelectedBooks').replace('$1', selectedNumber))
+      const selectedNumber = this.shelfSelected ? this.shelfSelected.length : 0;
+      return selectedNumber <= 0
+        ? this.$t("shelf.selectBook")
+        : selectedNumber === 1
+        ? this.$t("shelf.haveSelectedBook").replace("$1", selectedNumber)
+        : this.$t("shelf.haveSelectedBooks").replace("$1", selectedNumber);
     },
     showBack() {
-      return this.currentType === 2 && !this.isEditMode
+      return this.currentType === 2 && !this.isEditMode;
     },
     showEdit() {
-      return this.currentType === 1 || !this.emptyCategory
+      return this.currentType === 1 || !this.emptyCategory;
     },
     showClear() {
-      return this.currentType === 1
+      return this.currentType === 1;
     },
     showChangeGroup() {
-      return this.currentType === 2 && (this.isEditMode || this.emptyCategory)
+      return this.currentType === 2 && (this.isEditMode || this.emptyCategory);
     },
     changeGroupLeft() {
-      return !this.emptyCategory
+      return !this.emptyCategory;
     },
     changeGroupRight() {
-      return this.emptyCategory
+      return this.emptyCategory;
     },
     emptyCategory() {
-      return !this.shelfCategory || !this.shelfCategory.itemList || this.shelfCategory.itemList.length === 0
+      return (
+        !this.shelfCategory ||
+        !this.shelfCategory.itemList ||
+        this.shelfCategory.itemList.length === 0
+      );
     },
     popupCancelBtn() {
-      return this.createPopupBtn(this.$t('shelf.cancel'), () => {
-        this.hidePopup()
-      })
+      return this.createPopupBtn(this.$t("shelf.cancel"), () => {
+        this.hidePopup();
+      });
     }
   },
   watch: {
     offsetY(offsetY) {
       if (offsetY > 0) {
-        this.ifHideShadow = false
+        this.ifHideShadow = false;
       } else {
-        this.ifHideShadow = true
+        this.ifHideShadow = true;
       }
     }
   },
   methods: {
     onComplete() {
-      this.hidePopup()
-      this.setShelfList(this.shelfList.filter(book => book.id !== this.shelfCategory.id))
-        .then(() => {
-          saveBookShelf(this.shelfList)
-          this.$router.go(-1)
-          this.setIsEditMode(false)
-        })
+      this.hidePopup();
+      this.setShelfList(
+        this.shelfList.filter(book => book.id !== this.shelfCategory.id)
+      ).then(() => {
+        saveBookShelf(this.shelfList);
+        this.$router.go(-1);
+        this.setIsEditMode(false);
+      });
     },
     deleteGroup() {
       if (this.emptyCategory) {
-        this.setShelfSelected(this.shelfCategory.itemList)
-        this.moveOutOfGroup(this.onComplete)
+        this.setShelfSelected(this.shelfCategory.itemList);
+        this.moveOutOfGroup(this.onComplete);
       } else {
-        this.onComplete()
+        this.onComplete();
       }
     },
     showDeleteGroup() {
-      this.hidePopup()
+      this.hidePopup();
       setTimeout(() => {
         this.popupMenu = this.popup({
-          title: this.$t('shelf.deleteGroupTitle'),
+          title: this.$t("shelf.deleteGroupTitle"),
           btn: [
-            this.createPopupBtn(this.$t('shelf.confirm'), () => {
-              this.deleteGroup()
-            }, 'danger'),
-            this.createPopupBtn(this.$t('shelf.cancel'), () => {
-              this.hidePopup()
+            this.createPopupBtn(
+              this.$t("shelf.confirm"),
+              () => {
+                this.deleteGroup();
+              },
+              "danger"
+            ),
+            this.createPopupBtn(this.$t("shelf.cancel"), () => {
+              this.hidePopup();
             })
           ]
-        }).show()
-      }, 200)
+        }).show();
+      }, 200);
     },
     changeGroupName() {
-      this.hidePopup()
+      this.hidePopup();
       this.dialog({
         showNewGroup: true,
         groupName: this.shelfCategory.title
-      }).show()
+      }).show();
     },
     hidePopup() {
-      this.popupMenu.hide()
+      this.popupMenu.hide();
     },
-    createPopupBtn(text, onClick, type = 'normal') {
+    createPopupBtn(text, onClick, type = "normal") {
       return {
         text: text,
         type: type,
         click: onClick
-      }
+      };
     },
     changeGroup() {
       this.popupMenu = this.popup({
         btn: [
-          this.createPopupBtn(this.$t('shelf.editGroupName'), () => {
-            this.changeGroupName()
+          this.createPopupBtn(this.$t("shelf.editGroupName"), () => {
+            this.changeGroupName();
           }),
-          this.createPopupBtn(this.$t('shelf.deleteGroup'), () => {
-            this.showDeleteGroup()
-          }, 'danger'),
+          this.createPopupBtn(
+            this.$t("shelf.deleteGroup"),
+            () => {
+              this.showDeleteGroup();
+            },
+            "danger"
+          ),
           this.popupCancelBtn
         ]
-      }).show()
+      }).show();
     },
     back() {
-      this.$router.go(-1)
-      this.setIsEditMode(false)
+      this.$router.go(-1);
+      this.setIsEditMode(false);
     },
     clearCache() {
-      clearLocalStorage()
-      clearLocalForage()
-      this.setShelfList([])
-      this.setShelfSelected([])
-      this.getShelfList()
-      this.simpleToast(this.$t('shelf.clearCacheSuccess'))
+      clearLocalStorage();
+      clearLocalForage();
+      this.setShelfList([]);
+      this.setShelfSelected([]);
+      this.getShelfList();
+      this.simpleToast(this.$t("shelf.clearCacheSuccess"));
     },
     onEditClick() {
       if (!this.isEditMode) {
-        this.setShelfSelected([])
+        this.setShelfSelected([]);
         this.shelfList.forEach(item => {
-          item.selected = false
+          item.selected = false;
           if (item.itemList) {
             item.itemList.forEach(subItem => {
-              subItem.selected = false
-            })
+              subItem.selected = false;
+            });
           }
-        })
+        });
       }
-      this.setIsEditMode(!this.isEditMode)
+      this.setIsEditMode(!this.isEditMode);
     }
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>
-@import "../../assets/styles/global";
+@import "@/assets/styles/global";
 
 .shelf-title {
   position: relative;
@@ -185,7 +216,7 @@ export default {
   width: 100%;
   height: px2rem(42);
   background: white;
-  box-shadow: 0 px2rem(2) px2rem(2) 0 rgba(0, 0, 0, .1);
+  box-shadow: 0 px2rem(2) px2rem(2) 0 rgba(0, 0, 0, 0.1);
 
   &.hide-shadow {
     box-shadow: none;
@@ -236,7 +267,7 @@ export default {
 
     .shelf-title-btn-text {
       font-size: px2rem(14);
-      color: #666
+      color: #666;
     }
   }
 }

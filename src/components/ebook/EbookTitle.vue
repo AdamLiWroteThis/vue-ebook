@@ -22,46 +22,46 @@
 </template>
 
 <script>
-import {ebookMixin} from '../../utils/mixin'
+import { ebookMixin } from "../../utils/mixin";
 
 export default {
-  name: 'EbookTitle',
+  name: "EbookTitle",
   mixins: [ebookMixin],
   methods: {
     back() {
-      this.$router.go(-1)
+      this.$router.go(-1);
     }
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>
-  @import "src/assets/styles/global";
+@import "@/assets/styles/global";
 
-  .title-wrapper {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 200;
-    width: 100%;
-    height: px2rem(48);
-    background: white;
-    display: flex;
-    box-shadow: 0 px2rem(4) px2rem(4) rgba(0, 0, 0, .15);
+.title-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  width: 100%;
+  height: px2rem(48);
+  background: white;
+  display: flex;
+  box-shadow: 0 px2rem(4) px2rem(4) rgba(0, 0, 0, 0.15);
 
-    .left {
+  .left {
+    flex: 0 0 px2rem(40);
+    @include center;
+  }
+
+  .right {
+    flex: 1;
+    @include right;
+
+    .icon-wrapper {
       flex: 0 0 px2rem(40);
       @include center;
     }
-
-    .right {
-      flex: 1;
-      @include right;
-
-      .icon-wrapper {
-        flex: 0 0 px2rem(40);
-        @include center;
-      }
-    }
   }
+}
 </style>

@@ -1,83 +1,105 @@
 <template>
   <div class="book-speaking">
     <detail-title @back="back" ref="title"></detail-title>
-    <scroll class="content-wrapper"
-            :top="42"
-            :bottom="scrollBottom"
-            :ifNoScroll="disableScroll"
-            @onScroll="onScroll"
-            ref="scroll">
-      <book-info :cover="cover"
-                 :title="title"
-                 :author="author"
-                 :desc="desc"></book-info>
+    <scroll
+      class="content-wrapper"
+      :top="42"
+      :bottom="scrollBottom"
+      :ifNoScroll="disableScroll"
+      @onScroll="onScroll"
+      ref="scroll"
+    >
+      <book-info
+        :cover="cover"
+        :title="title"
+        :author="author"
+        :desc="desc"
+      ></book-info>
       <div class="book-speak-title-wrapper">
         <div class="icon-speak-wrapper">
           <span class="icon-speak"></span>
         </div>
         <div class="speak-title-wrapper">
-          <span class="speak-title">{{$t('speak.voice')}}</span>
+          <span class="speak-title">{{ $t("speak.voice") }}</span>
         </div>
         <div class="icon-down-wrapper" @click="toggleContent">
-          <span :class="{'icon-down2': !ifShowContent, 'icon-up': ifShowContent}"></span>
+          <span
+            :class="{ 'icon-down2': !ifShowContent, 'icon-up': ifShowContent }"
+          ></span>
         </div>
       </div>
       <div class="book-detail-content-wrapper" v-show="ifShowContent">
         <div class="book-detail-content-list-wrapper">
           <div class="loading-text-wrapper" v-if="!this.navigation">
-            <span class="loading-text">{{$t('detail.loading')}}</span>
+            <span class="loading-text">{{ $t("detail.loading") }}</span>
           </div>
           <div class="book-detail-content-item-wrapper">
-            <div class="book-detail-content-item" v-for="(item, index) in flatNavigation" :key="index"
-                 @click="speak(item, index)">
-              <speak-playing v-if="playingIndex === index"
-                             :number="5"
-                             ref="speakPlaying"></speak-playing>
-              <div class="book-detail-content-navigation-text" :class="{'is-playing': playingIndex === index}"
-                   v-if="item.label">{{item.label}}
+            <div
+              class="book-detail-content-item"
+              v-for="(item, index) in flatNavigation"
+              :key="index"
+              @click="speak(item, index)"
+            >
+              <speak-playing
+                v-if="playingIndex === index"
+                :number="5"
+                ref="speakPlaying"
+              ></speak-playing>
+              <div
+                class="book-detail-content-navigation-text"
+                :class="{ 'is-playing': playingIndex === index }"
+                v-if="item.label"
+              >
+                {{ item.label }}
               </div>
             </div>
           </div>
         </div>
       </div>
-      <audio @canplay="onCanPlay"
-             @timeupdate="onTimeUpdate"
-             @ended="onAudioEnded"
-             ref="audio"></audio>
+      <audio
+        @canplay="onCanPlay"
+        @timeupdate="onTimeUpdate"
+        @ended="onAudioEnded"
+        ref="audio"
+      ></audio>
     </scroll>
-    <bottom :chapter="chapter"
-            :currentSectionIndex="currentSectionIndex"
-            :currentSectionTotal="currentSectionTotal"
-            :showPlay="showPlay"
-            :isPlaying.sync="isPlaying"
-            :playInfo="playInfo"
-            @onPlayingCardClick="onPlayingCardClick"></bottom>
+    <bottom
+      :chapter="chapter"
+      :currentSectionIndex="currentSectionIndex"
+      :currentSectionTotal="currentSectionTotal"
+      :showPlay="showPlay"
+      :isPlaying.sync="isPlaying"
+      :playInfo="playInfo"
+      @onPlayingCardClick="onPlayingCardClick"
+    ></bottom>
     <div class="book-wrapper">
       <div id="read"></div>
     </div>
-    <speak-window :title="this.chapter ? this.chapter.label : ''"
-                  :book="book"
-                  :section="section"
-                  :currentSectionIndex.sync="currentSectionIndex"
-                  :currentSectionTotal="currentSectionTotal"
-                  :isPlaying.sync="isPlaying"
-                  :playInfo="playInfo"
-                  @updateText="updateText"
-                  ref="speakWindow"></speak-window>
+    <speak-window
+      :title="this.chapter ? this.chapter.label : ''"
+      :book="book"
+      :section="section"
+      :currentSectionIndex.sync="currentSectionIndex"
+      :currentSectionTotal="currentSectionTotal"
+      :isPlaying.sync="isPlaying"
+      :playInfo="playInfo"
+      @updateText="updateText"
+      ref="speakWindow"
+    ></speak-window>
   </div>
 </template>
 
 <script type="text/ecmascript-6">
-import DetailTitle from '../../components/detail/DetaiTitle'
-import BookInfo from '../../components/detail/BookInfo'
-import Scroll from '../../components/common/Scroll'
-import SpeakPlaying from '../../components/speak/SpeakPlaying'
-import Bottom from '../../components/speak/SpeakBottom'
-import SpeakWindow from '../../components/speak/SpeakMask'
-import {findBook, getCategoryName} from '../../utils/store'
-import {download, flatList} from '../../api/store'
-import {getLocalForage} from '../../utils/localForage'
-import {realPx} from '../../utils/utils'
+import DetailTitle from '@/components/detail/DetaiTitle'
+import BookInfo from '@/components/detail/BookInfo'
+import Scroll from '@/components/common/Scroll'
+import SpeakPlaying from '@/components/speak/SpeakPlaying'
+import Bottom from '@/components/speak/SpeakBottom'
+import SpeakWindow from '@/components/speak/SpeakMask'
+import {findBook, getCategoryName} from '@/utils/store'
+import {download, flatList} from '@/api/store'
+import {getLocalForage} from '@/utils/localForage'
+import {realPx} from '@/utils/utils'
 import Epub from 'epubjs'
 
 global.ePub = Epub
@@ -443,7 +465,7 @@ export default {
 </script>
 
 <style lang="scss" rel="stylesheet/scss" scoped>
-@import "../../assets/styles/global";
+@import "@/assets/styles/global";
 
 .book-speaking {
   font-size: px2rem(16);

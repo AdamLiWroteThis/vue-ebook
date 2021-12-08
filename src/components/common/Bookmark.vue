@@ -3,10 +3,10 @@
 </template>
 
 <script>
-import {px2rem} from '../../utils/utils'
+import { px2rem } from "@/utils/utils";
 
 export default {
-  name: 'Bookmark',
+  name: "Bookmark",
   props: {
     width: Number,
     height: Number,
@@ -17,27 +17,31 @@ export default {
       if (this.color) {
         return {
           borderColor: `${this.color} ${this.color} transparent ${this.color}`
-        }
+        };
       } else {
-        return {}
+        return {};
       }
     }
   },
   methods: {
     refresh() {
       if (this.width && this.height) {
-        this.$refs.bookmark.style.borderWidth = `${px2rem(this.height - 5)}rem ${px2rem(this.width / 2)}rem ${px2rem(5)}rem ${px2rem(this.width / 2)}rem`
+        this.$refs.bookmark.style.borderWidth = `${px2rem(
+          this.height - 5
+        )}rem ${px2rem(this.width / 2)}rem ${px2rem(5)}rem ${px2rem(
+          this.width / 2
+        )}rem`;
       }
     }
   },
   mounted() {
-    this.refresh()
+    this.refresh();
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>
-@import "../../assets/styles/global";
+@import "@/assets/styles/global";
 
 .bookmark {
   width: 0;

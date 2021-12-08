@@ -1,16 +1,25 @@
 <template>
   <div class="popup" v-if="popupVisible">
     <transition name="fade">
-      <div class="popup-bg" @click.stop.prevent="hide" v-show="popupVisible"></div>
+      <div
+        class="popup-bg"
+        @click.stop.prevent="hide"
+        v-show="popupVisible"
+      ></div>
     </transition>
     <transition name="popup-slide-up">
       <div class="popup-wrapper" v-show="visible">
-        <div class="popup-title" v-if="title && title.length>0">
-          {{title}}
+        <div class="popup-title" v-if="title && title.length > 0">
+          {{ title }}
         </div>
-        <div class="popup-btn" v-for="item in btn"
-             :class="{'danger':item.type==='danger'}"
-             :key="item.index" @click="item.click">{{item.text}}
+        <div
+          class="popup-btn"
+          v-for="item in btn"
+          :class="{ danger: item.type === 'danger' }"
+          :key="item.index"
+          @click="item.click"
+        >
+          {{ item.text }}
         </div>
       </div>
     </transition>
@@ -19,7 +28,7 @@
 
 <script>
 export default {
-  name: 'Popup',
+  name: "Popup",
   props: {
     title: String,
     btn: Array
@@ -28,27 +37,27 @@ export default {
     return {
       popupVisible: false,
       visible: false
-    }
+    };
   },
   methods: {
     show() {
-      this.popupVisible = true
+      this.popupVisible = true;
       setTimeout(() => {
-        this.visible = true
-      }, 200)
+        this.visible = true;
+      }, 200);
     },
     hide() {
-      this.visible = false
+      this.visible = false;
       setTimeout(() => {
-        this.popupVisible = false
-      }, 200)
+        this.popupVisible = false;
+      }, 200);
     }
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>
-@import "../../assets/styles/global";
+@import "@/assets/styles/global";
 
 .popup {
   position: fixed;
@@ -59,7 +68,7 @@ export default {
   z-index: 2000;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, .4);
+  background: rgba(0, 0, 0, 0.4);
 
   .popup-bg {
     width: 100%;
@@ -96,7 +105,7 @@ export default {
       @include center();
 
       &.danger {
-        color: $color-pink
+        color: $color-pink;
       }
     }
   }

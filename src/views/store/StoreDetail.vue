@@ -99,12 +99,12 @@
 </template>
 
 <script type="text/ecmascript-6">
-import DetailTitle from '../../components/detail/DetaiTitle'
-import BookInfo from '../../components/detail/BookInfo'
-import Scroll from '../../components/common/Scroll'
-import Toast from '../../components/common/Toast'
-import {detail} from '../../api/store'
-import {px2rem, realPx} from '../../utils/utils'
+import DetailTitle from '@/components/detail/DetaiTitle'
+import BookInfo from '@/components/detail/BookInfo'
+import Scroll from '@/components/common/Scroll'
+import Toast from '@/components/common/Toast'
+import {detail} from '@/api/store'
+import {px2rem, realPx} from '@/utils/utils'
 import Epub from 'epubjs'
 import {getLocalForage} from '@/utils/localForage'
 
@@ -321,7 +321,7 @@ export default {
 </script>
 
 <style lang="scss" rel="stylesheet/scss" scoped>
-@import "../../assets/styles/global";
+@import "@/assets/styles/global";
 
 .book-detail {
   width: 100%;

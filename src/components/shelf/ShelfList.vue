@@ -42,7 +42,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../../assets/styles/global";
+@import "@/assets/styles/global";
 
 .shelf-list {
   position: absolute;

@@ -1,8 +1,12 @@
 <template>
   <div class="shelf-item-category">
-    <div class="shelf-item-category-list" v-if="data.itemList.length>0">
-      <div class="shelf-item-category-item" v-for="item in data.itemList" :key="item.id">
-        <img class="shelf-item-category-img" :src="item.cover" alt="">
+    <div class="shelf-item-category-list" v-if="data.itemList.length > 0">
+      <div
+        class="shelf-item-category-item"
+        v-for="item in data.itemList"
+        :key="item.id"
+      >
+        <img class="shelf-item-category-img" :src="item.cover" alt="" />
       </div>
     </div>
     <div class="shelf-item-category-bg" v-else>
@@ -13,17 +17,16 @@
 
 <script>
 export default {
-  name: 'ShelfItemCategory',
+  name: "ShelfItemCategory",
   props: {
     data: Object
   },
-  mounted() {
-  }
-}
+  mounted() {}
+};
 </script>
 
 <style lang="scss" scoped>
-@import "../../assets/styles/global";
+@import "@/assets/styles/global";
 
 .shelf-item-category {
   width: 100%;
@@ -45,15 +48,15 @@ export default {
       height: 33.33%;
       box-sizing: border-box;
 
-      &:nth-child(3n+1) {
+      &:nth-child(3n + 1) {
         padding: 0 px2rem(2.5) px2rem(5) px2rem(5);
       }
 
-      &:nth-child(3n+2) {
+      &:nth-child(3n + 2) {
         padding: 0 px2rem(2.5) px2rem(5) px2rem(2.5);
       }
 
-      &:nth-child(3n+3) {
+      &:nth-child(3n + 3) {
         padding: 0 px2rem(5) px2rem(5) px2rem(2.5);
       }
 

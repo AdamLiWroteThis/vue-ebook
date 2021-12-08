@@ -3,14 +3,13 @@
     <div class="dialog" v-show="visible">
       <div class="dialog-wrapper">
         <div class="dialog-title-wrapper">
-          <span class="dialog-title-text">{{title}}</span>
+          <span class="dialog-title-text">{{ title }}</span>
         </div>
-        <slot>
-        </slot>
+        <slot> </slot>
         <div class="dialog-btn-wrapper">
           <slot name="btn">
-            <div class="dialog-btn" @click="hide">{{$t('shelf.cancel')}}</div>
-            <div class="dialog-btn">{{$t('shelf.confirm')}}</div>
+            <div class="dialog-btn" @click="hide">{{ $t("shelf.cancel") }}</div>
+            <div class="dialog-btn">{{ $t("shelf.confirm") }}</div>
           </slot>
         </div>
       </div>
@@ -20,28 +19,28 @@
 
 <script>
 export default {
-  name: 'Dialog',
+  name: "Dialog",
   props: {
     title: String
   },
   data() {
     return {
       visible: false
-    }
+    };
   },
   methods: {
     show() {
-      this.visible = true
+      this.visible = true;
     },
     hide() {
-      this.visible = false
+      this.visible = false;
     }
   }
-}
+};
 </script>
 
 <style lang="scss" rel="stylesheet/scss" scoped>
-@import "../../assets/styles/global";
+@import "@/assets/styles/global";
 
 .dialog {
   position: fixed;
@@ -52,7 +51,7 @@ export default {
   z-index: 2000;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, .2);
+  background: rgba(0, 0, 0, 0.2);
   font-size: px2rem(16);
   color: #333;
   @include center;
@@ -89,11 +88,11 @@ export default {
         flex: 1;
 
         &.is-empty {
-          color: rgba(255, 255, 255, .5);
+          color: rgba(255, 255, 255, 0.5);
         }
 
         &:active {
-          color: rgba(255, 255, 255, .5)
+          color: rgba(255, 255, 255, 0.5);
         }
       }
     }

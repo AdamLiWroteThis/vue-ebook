@@ -6,12 +6,12 @@
 
 <script>
 export default {
-  name: 'ShelfItemAdd'
-}
+  name: "ShelfItemAdd"
+};
 </script>
 
 <style lang="scss" scoped>
-@import "../../assets/styles/global";
+@import "@/assets/styles/global";
 
 .shelf-item-add {
   width: 100%;

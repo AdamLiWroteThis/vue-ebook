@@ -1,21 +1,28 @@
 <template>
   <div class="ebook-slide-bookmark">
-    <div class="slide-bookmark-title">{{$t('book.bookmark')}} · {{bookmark ? bookmark.length : 0}}</div>
+    <div class="slide-bookmark-title">
+      {{ $t("book.bookmark") }} · {{ bookmark ? bookmark.length : 0 }}
+    </div>
     <scroll class="slide-bookmark-list" :top="48" :bottom="48">
-      <div class="slide-bookmark-item" v-for="(item, index) in bookmark" :key="index" @click="display(item.cfi)">
+      <div
+        class="slide-bookmark-item"
+        v-for="(item, index) in bookmark"
+        :key="index"
+        @click="display(item.cfi)"
+      >
         <div class="slide-bookmark-item-icon">
           <div class="icon-bookmark"></div>
         </div>
-        <div class="slide-bookmark-item-text">{{item.text}}</div>
+        <div class="slide-bookmark-item-text">{{ item.text }}</div>
       </div>
     </scroll>
   </div>
 </template>
 
 <script type="text/ecmascript-6">
-import {ebookMixin} from '../../utils/mixin'
+import {ebookMixin} from '@/utils/mixin'
 import Scroll from '../common/Scroll'
-import {getBookmark} from '../../utils/localStorage'
+import {getBookmark} from '@/utils/localStorage'
 
 export default {
   mixins: [ebookMixin],
@@ -34,7 +41,7 @@ export default {
 </script>
 
 <style lang="scss" rel="stylesheet/scss" scoped>
-@import "../../assets/styles/global";
+@import "@/assets/styles/global";
 
 .ebook-slide-bookmark {
   width: 100%;
