@@ -8,7 +8,7 @@ module.exports = {
     category: 1,
     categoryText: "ComputerScience",
     cover:
-      "http://47.99.166.157/book/res/img/ComputerScience/2018_Book_AgileProcessesInSoftwareEngine.jpeg",
+      "https://47.99.166.157/book/res/img/ComputerScience/2018_Book_AgileProcessesInSoftwareEngine.jpeg",
     coverPath: null,
     createDt: null,
     createUser: null,

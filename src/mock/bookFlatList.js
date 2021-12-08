@@ -6,7 +6,7 @@ module.exports = {
       id: 1,
       fileName: "2016_Book_PhysiologyPsychoacousticsAndCo",
       cover:
-        "http://47.99.166.157/book/res/img/Biomedicine/978-3-319-25474-6_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Biomedicine/978-3-319-25474-6_CoverFigure.jpg",
       title:
         "Physiology, Psychoacoustics and Cognition in Normal and Impaired Hearing",
       author: "Pim van Dijk",
@@ -24,7 +24,7 @@ module.exports = {
       id: 2,
       fileName: "2017_Book_HormonesMetabolismAndTheBenefi",
       cover:
-        "http://47.99.166.157/book/res/img/Biomedicine/978-3-319-72790-5_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Biomedicine/978-3-319-72790-5_CoverFigure.jpg",
       title: "Hormones, Metabolism and the Benefits of Exercise",
       author: "Bruce Spiegelman",
       publisher: "Springer International Publishing",
@@ -41,7 +41,7 @@ module.exports = {
       id: 3,
       fileName: "2018_Book_NicotinicAcetylcholineReceptor",
       cover:
-        "http://47.99.166.157/book/res/img/Biomedicine/978-981-10-8488-1_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Biomedicine/978-981-10-8488-1_CoverFigure.jpg",
       title: "Nicotinic Acetylcholine Receptor Signaling in Neuroprotection",
       author: "Akinori Akaike",
       publisher: "Springer Singapore",
@@ -58,7 +58,7 @@ module.exports = {
       id: 4,
       fileName: "2018_Book_Self-AssembledMoleculesNewKind",
       cover:
-        "http://47.99.166.157/book/res/img/Biomedicine/978-3-319-65639-7_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Biomedicine/978-3-319-65639-7_CoverFigure.jpg",
       title: "Self-Assembled Molecules – New Kind of Protein Ligands",
       author: "Irena Roterman",
       publisher: "Springer International Publishing",
@@ -75,7 +75,7 @@ module.exports = {
       id: 5,
       fileName: "2016_Book_AgileProcessesInSoftwareEngine",
       cover:
-        "http://47.99.166.157/book/res/img/BusinessandManagement/978-3-319-33515-5_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/BusinessandManagement/978-3-319-33515-5_CoverFigure.jpg",
       title:
         "Agile Processes, in Software Engineering, and Extreme Programming",
       author: "Helen Sharp",
@@ -93,7 +93,7 @@ module.exports = {
       id: 6,
       fileName: "2018_Book_DronesAndTheCreativeIndustry",
       cover:
-        "http://47.99.166.157/book/res/img/BusinessandManagement/978-3-319-95261-1_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/BusinessandManagement/978-3-319-95261-1_CoverFigure.jpg",
       title: "Drones and the Creative Industry",
       author: "Virginia Santamarina-Campos",
       publisher: "Springer International Publishing",
@@ -110,7 +110,7 @@ module.exports = {
       id: 7,
       fileName: "2018_Book_EducationAndSkillsForInclusive",
       cover:
-        "http://47.99.166.157/book/res/img/BusinessandManagement/978-981-10-6559-0_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/BusinessandManagement/978-981-10-6559-0_CoverFigure.jpg",
       title:
         "Education and Skills for Inclusive Growth, Green Jobs and the Greening of Economies in Asia",
       author: "Rupert Maclean",
@@ -128,7 +128,7 @@ module.exports = {
       id: 8,
       fileName: "2018_Book_EntrepreneurialCognition",
       cover:
-        "http://47.99.166.157/book/res/img/BusinessandManagement/978-3-319-71782-1_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/BusinessandManagement/978-3-319-71782-1_CoverFigure.jpg",
       title: "Entrepreneurial Cognition",
       author: "Dean A. Shepherd",
       publisher: "Springer International Publishing",
@@ -145,7 +145,7 @@ module.exports = {
       id: 9,
       fileName: "2018_Book_KundennutzenDurchDigitaleTrans",
       cover:
-        "http://47.99.166.157/book/res/img/BusinessandManagement/978-3-662-55707-5_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/BusinessandManagement/978-3-662-55707-5_CoverFigure.jpg",
       title: "Kundennutzen durch digitale Transformation",
       author: "Elke Brucker-Kley",
       publisher: "Springer Berlin Heidelberg",
@@ -162,7 +162,7 @@ module.exports = {
       id: 10,
       fileName: "2018_Book_MarketSegmentationAnalysis",
       cover:
-        "http://47.99.166.157/book/res/img/BusinessandManagement/978-981-10-8818-6_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/BusinessandManagement/978-981-10-8818-6_CoverFigure.jpg",
       title: "Market Segmentation Analysis",
       author: "Sara Dolnicar",
       publisher: "Springer Singapore",
@@ -179,7 +179,7 @@ module.exports = {
       id: 11,
       fileName: "2018_Book_Prozessintelligenz",
       cover:
-        "http://47.99.166.157/book/res/img/BusinessandManagement/978-3-662-55705-1_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/BusinessandManagement/978-3-662-55705-1_CoverFigure.jpg",
       title: "Prozessintelligenz",
       author: "Elke Brucker-Kley",
       publisher: "Springer Berlin Heidelberg",
@@ -196,7 +196,7 @@ module.exports = {
       id: 12,
       fileName: "2018_Book_RESTARTSustainableBusinessMode",
       cover:
-        "http://47.99.166.157/book/res/img/BusinessandManagement/978-3-319-91971-3_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/BusinessandManagement/978-3-319-91971-3_CoverFigure.jpg",
       title: "RESTART Sustainable Business Model Innovation",
       author: "Sveinung Jørgensen",
       publisher: "Springer International Publishing",
@@ -213,7 +213,7 @@ module.exports = {
       id: 13,
       fileName: "2017_Book_SatelliteEarthObservationsAndT",
       cover:
-        "http://47.99.166.157/book/res/img/EarthSciences/978-981-10-3713-9_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/EarthSciences/978-981-10-3713-9_CoverFigure.jpg",
       title:
         "Satellite Earth Observations and Their Impact on Society and Policy",
       author: "Masami Onoda",
@@ -231,7 +231,7 @@ module.exports = {
       id: 14,
       fileName: "2018_Book_EarthObservationOpenScienceAnd",
       cover:
-        "http://47.99.166.157/book/res/img/EarthSciences/978-3-319-65633-5_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/EarthSciences/978-3-319-65633-5_CoverFigure.jpg",
       title: "Earth Observation Open Science and Innovation",
       author: "Pierre-Philippe Mathieu",
       publisher: "Springer International Publishing",
@@ -248,7 +248,7 @@ module.exports = {
       id: 15,
       fileName: "2018_Book_HandbookOfMathematicalGeoscien",
       cover:
-        "http://47.99.166.157/book/res/img/EarthSciences/978-3-319-78999-6_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/EarthSciences/978-3-319-78999-6_CoverFigure.jpg",
       title: "Handbook of Mathematical Geosciences",
       author: "B. S. Daya Sagar",
       publisher: "Springer International Publishing",
@@ -265,7 +265,7 @@ module.exports = {
       id: 16,
       fileName: "2018_Book_ControlTheoryTutorial",
       cover:
-        "http://47.99.166.157/book/res/img/Engineering/978-3-319-91707-8_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Engineering/978-3-319-91707-8_CoverFigure.jpg",
       title: "Control Theory Tutorial",
       author: "Steven A. Frank",
       publisher: "Springer International Publishing",
@@ -282,7 +282,7 @@ module.exports = {
       id: 17,
       fileName: "2018_Book_FoundationsOfTrustedAutonomy",
       cover:
-        "http://47.99.166.157/book/res/img/Engineering/978-3-319-64816-3_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Engineering/978-3-319-64816-3_CoverFigure.jpg",
       title: "Foundations of Trusted Autonomy",
       author: "Hussein A. Abbass",
       publisher: "Springer International Publishing",
@@ -299,7 +299,7 @@ module.exports = {
       id: 18,
       fileName: "2018_Book_RiskCommunicationForTheFuture",
       cover:
-        "http://47.99.166.157/book/res/img/Engineering/978-3-319-74098-0_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Engineering/978-3-319-74098-0_CoverFigure.jpg",
       title: "Risk Communication for the Future",
       author: "Mathilde Bourrier",
       publisher: "Springer International Publishing",
@@ -316,7 +316,7 @@ module.exports = {
       id: 19,
       fileName: "2018_Book_AutonomousControlForAReliableI",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/978-3-319-90415-3_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/ComputerScience/978-3-319-90415-3_CoverFigure.jpg",
       title: "Autonomous Control for a Reliable Internet of Services",
       author: "Ivan Ganchev",
       publisher: "Springer International Publishing",
@@ -333,7 +333,7 @@ module.exports = {
       id: 20,
       fileName: "2018_Book_ComputerAidedVerification",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/978-3-319-96142-2_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/ComputerScience/978-3-319-96142-2_CoverFigure.jpg",
       title: "Computer Aided Verification",
       author: "Hana Chockler",
       publisher: "Springer International Publishing",
@@ -350,7 +350,7 @@ module.exports = {
       id: 21,
       fileName: "2018_Book_FoundationsOfSoftwareScienceAn",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/978-3-319-89366-2_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/ComputerScience/978-3-319-89366-2_CoverFigure.jpg",
       title: "Foundations of Software Science and Computation Structures",
       author: "Christel Baier",
       publisher: "Springer International Publishing",
@@ -367,7 +367,7 @@ module.exports = {
       id: 22,
       fileName: "2018_Book_FundamentalApproachesToSoftwar",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/978-3-319-89363-1_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/ComputerScience/978-3-319-89363-1_CoverFigure.jpg",
       title: "Fundamental Approaches to Software Engineering",
       author: "Alessandra Russo",
       publisher: "Springer International Publishing",
@@ -384,7 +384,7 @@ module.exports = {
       id: 23,
       fileName: "2018_Book_LanguageTechnologiesForTheChal",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/978-3-319-73706-5_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/ComputerScience/978-3-319-73706-5_CoverFigure.jpg",
       title: "Language Technologies for the Challenges of the Digital Age",
       author: "Georg Rehm",
       publisher: "Springer International Publishing",
@@ -401,7 +401,7 @@ module.exports = {
       id: 24,
       fileName: "2018_Book_SecurityInComputerAndInformati",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/978-3-319-95189-8_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/ComputerScience/978-3-319-95189-8_CoverFigure.jpg",
       title: "Security in Computer and Information Sciences",
       author: "Erol Gelenbe",
       publisher: "Springer International Publishing",
@@ -418,7 +418,7 @@ module.exports = {
       id: 25,
       fileName: "2018_Book_TheHuaweiAndSnowdenQuestions",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/978-3-319-74950-1_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/ComputerScience/978-3-319-74950-1_CoverFigure.jpg",
       title: "The Huawei and Snowden Questions",
       author: "Olav Lysne",
       publisher: "Springer International Publishing",
@@ -435,7 +435,7 @@ module.exports = {
       id: 26,
       fileName: "2018_Book_AFairShareOfTax",
       cover:
-        "http://47.99.166.157/book/res/img/Economics/978-3-319-69772-7_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Economics/978-3-319-69772-7_CoverFigure.jpg",
       title: "A Fair Share of Tax",
       author: "Lotta Björklund Larsen",
       publisher: "Springer International Publishing",
@@ -452,7 +452,7 @@ module.exports = {
       id: 27,
       fileName: "2018_Book_ApplyingTheKaizenInAfrica",
       cover:
-        "http://47.99.166.157/book/res/img/Economics/978-3-319-91400-8_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Economics/978-3-319-91400-8_CoverFigure.jpg",
       title: "Applying the Kaizen in Africa",
       author: "Keijiro Otsuka",
       publisher: "Springer International Publishing",
@@ -469,7 +469,7 @@ module.exports = {
       id: 28,
       fileName: "2018_Book_BuildingAResilientAndSustainab",
       cover:
-        "http://47.99.166.157/book/res/img/Economics/978-3-319-76222-7_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Economics/978-3-319-76222-7_CoverFigure.jpg",
       title:
         "Building a Resilient and Sustainable Agriculture in Sub-Saharan Africa",
       author: "Abebe Shimeles",
@@ -487,7 +487,7 @@ module.exports = {
       id: 29,
       fileName: "2018_Book_CompetitionAuthoritiesInSouthE",
       cover:
-        "http://47.99.166.157/book/res/img/Economics/978-3-319-76644-7_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Economics/978-3-319-76644-7_CoverFigure.jpg",
       title: "Competition Authorities in South Eastern Europe",
       author: "Boris Begović",
       publisher: "Springer International Publishing",
@@ -504,7 +504,7 @@ module.exports = {
       id: 30,
       fileName: "2018_Book_HousingMarketDynamicsInAfrica",
       cover:
-        "http://47.99.166.157/book/res/img/Economics/978-1-137-59792-2_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Economics/978-1-137-59792-2_CoverFigure.jpg",
       title: "Housing Market Dynamics in Africa",
       author: "El-hadj M. Bah",
       publisher: "Palgrave Macmillan UK",
@@ -521,7 +521,7 @@ module.exports = {
       id: 31,
       fileName: "2018_Book_InklusivesWachstumUndWirtschaf",
       cover:
-        "http://47.99.166.157/book/res/img/Economics/978-3-658-21344-2_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Economics/978-3-658-21344-2_CoverFigure.jpg",
       title: "Inklusives Wachstum und wirtschaftliche Sicherheit",
       author: "Christian Keuschnigg",
       publisher: "Springer Fachmedien Wiesbaden",
@@ -538,7 +538,7 @@ module.exports = {
       id: 32,
       fileName: "2018_Book_SocioeconomicsOfAgriculture",
       cover:
-        "http://47.99.166.157/book/res/img/Economics/978-3-319-74141-3_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Economics/978-3-319-74141-3_CoverFigure.jpg",
       title: "Socioeconomics of Agriculture",
       author: "Stefan Mann",
       publisher: "Springer International Publishing",
@@ -555,7 +555,7 @@ module.exports = {
       id: 33,
       fileName: "2018_Book_TimePredictions",
       cover:
-        "http://47.99.166.157/book/res/img/Economics/978-3-319-74953-2_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Economics/978-3-319-74953-2_CoverFigure.jpg",
       title: "Time Predictions",
       author: "Torleif Halkjelsvik",
       publisher: "Springer International Publishing",
@@ -572,7 +572,7 @@ module.exports = {
       id: 34,
       fileName: "2018_Book_GeographiesOfTheUniversity",
       cover:
-        "http://47.99.166.157/book/res/img/Geography/978-3-319-75593-9_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Geography/978-3-319-75593-9_CoverFigure.jpg",
       title: "Geographies of the University",
       author: "Peter Meusburger",
       publisher: "Springer International Publishing",
@@ -589,7 +589,7 @@ module.exports = {
       id: 35,
       fileName: "2018_Book_HousingEstatesInEurope",
       cover:
-        "http://47.99.166.157/book/res/img/Geography/978-3-319-92813-5_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Geography/978-3-319-92813-5_CoverFigure.jpg",
       title: "Housing Estates in Europe",
       author: "Daniel Baldwin Hess",
       publisher: "Springer International Publishing",
@@ -606,7 +606,7 @@ module.exports = {
       id: 36,
       fileName: "2016_Book_GovernanceForDroughtResilience",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/978-3-319-29671-5_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Environment/978-3-319-29671-5_CoverFigure.jpg",
       title: "Governance for Drought Resilience",
       author: "Hans Bressers",
       publisher: "Springer International Publishing",
@@ -623,7 +623,7 @@ module.exports = {
       id: 37,
       fileName: "2018_Book_BiofuelsAndSustainability",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/978-4-431-54895-9_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Environment/978-4-431-54895-9_CoverFigure.jpg",
       title: "Biofuels and Sustainability",
       author: "Kazuhiko Takeuchi",
       publisher: "Springer Japan",
@@ -640,7 +640,7 @@ module.exports = {
       id: 38,
       fileName: "2018_Book_DesigningSustainableTechnologi",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/978-3-319-66981-6_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Environment/978-3-319-66981-6_CoverFigure.jpg",
       title: "Designing Sustainable Technologies, Products and Policies",
       author: "Enrico Benetto",
       publisher: "Springer International Publishing",
@@ -657,7 +657,7 @@ module.exports = {
       id: 39,
       fileName: "2018_Book_FreshwaterMicroplastics",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/978-3-319-61615-5_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Environment/978-3-319-61615-5_CoverFigure.jpg",
       title: "Freshwater Microplastics",
       author: "Martin Wagner",
       publisher: "Springer International Publishing",
@@ -674,7 +674,7 @@ module.exports = {
       id: 40,
       fileName: "2018_Book_MercuryPollutionInMinamata",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/978-981-10-7392-2_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Environment/978-981-10-7392-2_CoverFigure.jpg",
       title: "Mercury Pollution in Minamata",
       author: "Hisashi Yokoyama",
       publisher: "Springer Singapore",
@@ -691,7 +691,7 @@ module.exports = {
       id: 41,
       fileName: "2018_Book_NewVision2050",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/978-4-431-56623-6_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Environment/978-4-431-56623-6_CoverFigure.jpg",
       title: "New Vision 2050",
       author: "Hiroshi Komiyama",
       publisher: "Springer Japan",
@@ -708,7 +708,7 @@ module.exports = {
       id: 42,
       fileName: "2018_Book_TechnologiesForDevelopment",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/978-3-319-91068-0_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Environment/978-3-319-91068-0_CoverFigure.jpg",
       title: "Technologies for Development",
       author: "Silvia Hostettler",
       publisher: "Springer International Publishing",
@@ -725,7 +725,7 @@ module.exports = {
       id: 43,
       fileName: "2018_Book_EthicsAndCivilDrones",
       cover:
-        "http://47.99.166.157/book/res/img/Laws/978-3-319-71087-7_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Laws/978-3-319-71087-7_CoverFigure.jpg",
       title: "Ethics and Civil Drones",
       author: "María de Miguel Molina",
       publisher: "Springer International Publishing",
@@ -742,7 +742,7 @@ module.exports = {
       id: 44,
       fileName: "2018_Book_Multi-dimensionalApproachesTow",
       cover:
-        "http://47.99.166.157/book/res/img/Laws/978-981-13-1232-8_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Laws/978-981-13-1232-8_CoverFigure.jpg",
       title: "Multi-dimensional Approaches Towards New Technology",
       author: "Ashish Bharadwaj",
       publisher: "Springer Singapore",
@@ -759,7 +759,7 @@ module.exports = {
       id: 45,
       fileName: "2018_Book_NordicMediationResearch",
       cover:
-        "http://47.99.166.157/book/res/img/Laws/978-3-319-73019-6_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Laws/978-3-319-73019-6_CoverFigure.jpg",
       title: "Nordic Mediation Research",
       author: "Anna Nylund",
       publisher: "Springer International Publishing",
@@ -776,7 +776,7 @@ module.exports = {
       id: 46,
       fileName: "2018_Book_ReconsideringConstitutionalFor",
       cover:
-        "http://47.99.166.157/book/res/img/Laws/978-3-319-73037-0_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Laws/978-3-319-73037-0_CoverFigure.jpg",
       title:
         "Reconsidering Constitutional Formation II Decisive Constitutional Normativity",
       author: "Ulrike Müßig",
@@ -794,7 +794,7 @@ module.exports = {
       id: 47,
       fileName: "2016_Book_ResearchOnAndActivitiesForMath",
       cover:
-        "http://47.99.166.157/book/res/img/Education/978-3-319-39450-3_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Education/978-3-319-39450-3_CoverFigure.jpg",
       title: "Research On and Activities For Mathematically Gifted Students",
       author: "Florence Mihaela Singer",
       publisher: "Springer International Publishing",
@@ -811,7 +811,7 @@ module.exports = {
       id: 48,
       fileName: "2018_Book_25YearsOfTransformationsOfHigh",
       cover:
-        "http://47.99.166.157/book/res/img/Education/978-3-319-52980-6_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Education/978-3-319-52980-6_CoverFigure.jpg",
       title:
         "25 Years of Transformations of Higher Education Systems in Post-Soviet Countries",
       author: "Jeroen Huisman",
@@ -829,7 +829,7 @@ module.exports = {
       id: 49,
       fileName: "2018_Book_BuildingTheFoundationWholeNumb",
       cover:
-        "http://47.99.166.157/book/res/img/Education/978-3-319-63555-2_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Education/978-3-319-63555-2_CoverFigure.jpg",
       title: "Building the Foundation: Whole Numbers in the Primary Grades",
       author: "Maria G. Bartolini Bussi",
       publisher: "Springer International Publishing",
@@ -846,7 +846,7 @@ module.exports = {
       id: 50,
       fileName: "2018_Book_CurriculumReformInTheEuropeanS",
       cover:
-        "http://47.99.166.157/book/res/img/Education/978-3-319-71464-6_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Education/978-3-319-71464-6_CoverFigure.jpg",
       title: "Curriculum Reform in the European Schools",
       author: "Sandra Leaton Gray",
       publisher: "Springer International Publishing",
@@ -863,7 +863,7 @@ module.exports = {
       id: 51,
       fileName: "2018_Book_EuropeanHigherEducationAreaThe",
       cover:
-        "http://47.99.166.157/book/res/img/Education/978-3-319-77407-7_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Education/978-3-319-77407-7_CoverFigure.jpg",
       title:
         "European Higher Education Area: The Impact of Past and Future Policies",
       author: "Adrian Curaj",
@@ -881,7 +881,7 @@ module.exports = {
       id: 52,
       fileName: "2018_Book_HigherEducationInTheEraOfTheFo",
       cover:
-        "http://47.99.166.157/book/res/img/Education/978-981-13-0194-0_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Education/978-981-13-0194-0_CoverFigure.jpg",
       title: "Higher Education in the Era of the Fourth Industrial Revolution",
       author: "Nancy W. Gleason",
       publisher: "Springer Singapore",
@@ -898,7 +898,7 @@ module.exports = {
       id: 53,
       fileName: "2018_Book_InvitedLecturesFromThe13thInte",
       cover:
-        "http://47.99.166.157/book/res/img/Education/978-3-319-72170-5_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Education/978-3-319-72170-5_CoverFigure.jpg",
       title:
         "Invited Lectures from the 13th International Congress on Mathematical Education",
       author: "Gabriele Kaiser",
@@ -916,7 +916,7 @@ module.exports = {
       id: 54,
       fileName: "2018_Book_ModernMathematicsEducationForE",
       cover:
-        "http://47.99.166.157/book/res/img/Education/978-3-319-71416-5_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Education/978-3-319-71416-5_CoverFigure.jpg",
       title: "Modern Mathematics Education for Engineering Curricula in Europe",
       author: "Seppo Pohjolainen",
       publisher: "Springer International Publishing",
@@ -933,7 +933,7 @@ module.exports = {
       id: 55,
       fileName: "2018_Book_OpenAndDistanceEducationInAust",
       cover:
-        "http://47.99.166.157/book/res/img/Education/978-981-13-0298-5_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Education/978-981-13-0298-5_CoverFigure.jpg",
       title:
         "Open and Distance Education in Australia, Europe and the Americas",
       author: "Adnan Qayyum",
@@ -951,7 +951,7 @@ module.exports = {
       id: 56,
       fileName: "2018_Book_TeachingToleranceInAGlobalized",
       cover:
-        "http://47.99.166.157/book/res/img/Education/978-3-319-78692-6_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Education/978-3-319-78692-6_CoverFigure.jpg",
       title: "Teaching Tolerance in a Globalized World",
       author: "Andrés Sandoval-Hernández",
       publisher: "Springer International Publishing",
@@ -968,7 +968,7 @@ module.exports = {
       id: 57,
       fileName: "2018_Book_VocationalTeacherEducationInCe",
       cover:
-        "http://47.99.166.157/book/res/img/Education/978-3-319-73093-6_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Education/978-3-319-73093-6_CoverFigure.jpg",
       title: "Vocational Teacher Education in Central Asia",
       author: "Jens Drummer",
       publisher: "Springer International Publishing",
@@ -985,7 +985,7 @@ module.exports = {
       id: 58,
       fileName: "2018_Book_AnimalsAndTheShapingOfModernMe",
       cover:
-        "http://47.99.166.157/book/res/img/History/978-3-319-64337-3_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/History/978-3-319-64337-3_CoverFigure.jpg",
       title: "Animals and the Shaping of Modern Medicine",
       author: "Abigail Woods",
       publisher: "Springer International Publishing",
@@ -1002,7 +1002,7 @@ module.exports = {
       id: 59,
       fileName: "2018_Book_DrinkingInVictorianAndEdwardia",
       cover:
-        "http://47.99.166.157/book/res/img/History/978-3-319-92964-4_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/History/978-3-319-92964-4_CoverFigure.jpg",
       title: "Drinking in Victorian and Edwardian Britain",
       author: "Thora Hands",
       publisher: "Springer International Publishing",
@@ -1019,7 +1019,7 @@ module.exports = {
       id: 60,
       fileName: "2018_Book_HarnessingThePowerOfTheCrimina",
       cover:
-        "http://47.99.166.157/book/res/img/History/978-3-319-77908-9_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/History/978-3-319-77908-9_CoverFigure.jpg",
       title: "Harnessing the Power of the Criminal Corpse",
       author: "Sarah Tarlow",
       publisher: "Springer International Publishing",
@@ -1036,7 +1036,7 @@ module.exports = {
       id: 61,
       fileName: "2018_Book_TheCostOfInsanityInNineteenth-",
       cover:
-        "http://47.99.166.157/book/res/img/History/978-3-319-65244-3_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/History/978-3-319-65244-3_CoverFigure.jpg",
       title: "The Cost of Insanity in Nineteenth-Century Ireland",
       author: "Alice Mauger",
       publisher: "Springer International Publishing",
@@ -1053,7 +1053,7 @@ module.exports = {
       id: 62,
       fileName: "2018_Book_Bioeconomy",
       cover:
-        "http://47.99.166.157/book/res/img/LifeSciences/978-3-319-68152-8_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/LifeSciences/978-3-319-68152-8_CoverFigure.jpg",
       title: "Bioeconomy",
       author: "Iris Lewandowski",
       publisher: "Springer International Publishing",
@@ -1070,7 +1070,7 @@ module.exports = {
       id: 63,
       fileName: "2018_Book_CosmicRayNeutronSensingEstimat",
       cover:
-        "http://47.99.166.157/book/res/img/LifeSciences/978-3-319-69539-6_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/LifeSciences/978-3-319-69539-6_CoverFigure.jpg",
       title:
         "Cosmic Ray Neutron Sensing: Estimation of Agricultural Crop Biomass Water Equivalent",
       author: "Ammar Wahbi",
@@ -1088,7 +1088,7 @@ module.exports = {
       id: 64,
       fileName: "2018_Book_Pre-FieldScreeningProtocolsFor",
       cover:
-        "http://47.99.166.157/book/res/img/LifeSciences/978-3-319-77338-4_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/LifeSciences/978-3-319-77338-4_CoverFigure.jpg",
       title: "Pre-Field Screening Protocols for Heat-Tolerant Mutants in Rice",
       author: "Fatma Sarsu",
       publisher: "Springer International Publishing",
@@ -1105,7 +1105,7 @@ module.exports = {
       id: 65,
       fileName: "2018_Book_RiverineEcosystemManagement",
       cover:
-        "http://47.99.166.157/book/res/img/LifeSciences/978-3-319-73250-3_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/LifeSciences/978-3-319-73250-3_CoverFigure.jpg",
       title: "Riverine Ecosystem Management",
       author: "Stefan Schmutz",
       publisher: "Springer International Publishing",
@@ -1122,7 +1122,7 @@ module.exports = {
       id: 66,
       fileName: "2018_Book_SagoPalm",
       cover:
-        "http://47.99.166.157/book/res/img/LifeSciences/978-981-10-5269-9_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/LifeSciences/978-981-10-5269-9_CoverFigure.jpg",
       title: "Sago Palm",
       author: "Hiroshi Ehara",
       publisher: "Springer Singapore",
@@ -1139,7 +1139,7 @@ module.exports = {
       id: 67,
       fileName: "2018_Book_Nanoinformatics",
       cover:
-        "http://47.99.166.157/book/res/img/MaterialsScience/978-981-10-7617-6_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/MaterialsScience/978-981-10-7617-6_CoverFigure.jpg",
       title: "Nanoinformatics",
       author: "Isao Tanaka",
       publisher: "Springer Singapore",
@@ -1156,7 +1156,7 @@ module.exports = {
       id: 68,
       fileName: "2016_Book_FiniteDifferenceComputingWithE",
       cover:
-        "http://47.99.166.157/book/res/img/Mathematics/978-3-319-29439-1_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Mathematics/978-3-319-29439-1_CoverFigure.jpg",
       title: "Finite Difference Computing with Exponential Decay Models",
       author: "Hans Petter Langtangen",
       publisher: "Springer International Publishing",
@@ -1173,7 +1173,7 @@ module.exports = {
       id: 69,
       fileName: "2016_Book_AHistoryOfRadionuclideStudiesI",
       cover:
-        "http://47.99.166.157/book/res/img/MedicineAndPublicHealth/978-3-319-28624-2_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/MedicineAndPublicHealth/978-3-319-28624-2_CoverFigure.jpg",
       title: "A History of Radionuclide Studies in the UK",
       author: "Ralph McCready",
       publisher: "Springer International Publishing",
@@ -1190,7 +1190,7 @@ module.exports = {
       id: 70,
       fileName: "2018_Book_DiseasesOfTheAbdomenAndPelvis2",
       cover:
-        "http://47.99.166.157/book/res/img/MedicineAndPublicHealth/978-3-319-75019-4_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/MedicineAndPublicHealth/978-3-319-75019-4_CoverFigure.jpg",
       title: "Diseases of the Abdomen and Pelvis 2018–2021",
       author: "Juerg Hodler",
       publisher: "Springer International Publishing",
@@ -1207,7 +1207,7 @@ module.exports = {
       id: 71,
       fileName: "2018_Book_FragilityFractureNursing",
       cover:
-        "http://47.99.166.157/book/res/img/MedicineAndPublicHealth/978-3-319-76681-2_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/MedicineAndPublicHealth/978-3-319-76681-2_CoverFigure.jpg",
       title: "Fragility Fracture Nursing",
       author: "Karen Hertz",
       publisher: "Springer International Publishing",
@@ -1224,7 +1224,7 @@ module.exports = {
       id: 72,
       fileName: "2018_Book_GlobalHealthCollaboration",
       cover:
-        "http://47.99.166.157/book/res/img/MedicineAndPublicHealth/978-3-319-77685-9_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/MedicineAndPublicHealth/978-3-319-77685-9_CoverFigure.jpg",
       title: "Global Health Collaboration",
       author: "Margaret S. Winchester",
       publisher: "Springer International Publishing",
@@ -1241,7 +1241,7 @@ module.exports = {
       id: 73,
       fileName: "2018_Book_HandbookOfLifeCourseHealthDeve",
       cover:
-        "http://47.99.166.157/book/res/img/MedicineAndPublicHealth/978-3-319-47143-3_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/MedicineAndPublicHealth/978-3-319-47143-3_CoverFigure.jpg",
       title: "Handbook of Life Course Health Development",
       author: "Neal Halfon",
       publisher: "Springer International Publishing",
@@ -1258,7 +1258,7 @@ module.exports = {
       id: 74,
       fileName: "2018_Book_PrimaryAngioplasty",
       cover:
-        "http://47.99.166.157/book/res/img/MedicineAndPublicHealth/978-981-13-1114-7_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/MedicineAndPublicHealth/978-981-13-1114-7_CoverFigure.jpg",
       title: "Primary Angioplasty",
       author: "Timothy J Watson",
       publisher: "Springer Singapore",
@@ -1275,7 +1275,7 @@ module.exports = {
       id: 75,
       fileName: "2018_Book_TheEuropeanBloodAndMarrowTrans",
       cover:
-        "http://47.99.166.157/book/res/img/MedicineAndPublicHealth/978-3-319-50026-3_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/MedicineAndPublicHealth/978-3-319-50026-3_CoverFigure.jpg",
       title:
         "The European Blood and Marrow Transplantation Textbook for Nurses",
       author: "Michelle Kenyon",
@@ -1293,7 +1293,7 @@ module.exports = {
       id: 76,
       fileName: "2017_Book_Non-EquilibriumSocialScienceAn",
       cover:
-        "http://47.99.166.157/book/res/img/Physics/978-3-319-42424-8_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Physics/978-3-319-42424-8_CoverFigure.jpg",
       title: "Non-Equilibrium Social Science and Policy",
       author: "Jeffrey Johnson",
       publisher: "Springer International Publishing",
@@ -1310,7 +1310,7 @@ module.exports = {
       id: 77,
       fileName: "2018_Book_InternationalCooperationForEnh",
       cover:
-        "http://47.99.166.157/book/res/img/Physics/978-3-662-57366-2_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Physics/978-3-662-57366-2_CoverFigure.jpg",
       title:
         "International Cooperation for Enhancing Nuclear Safety, Security, Safeguards and Non-proliferation–60 Years of IAEA and EURATOM",
       author: "Luciano Maiani",
@@ -1328,7 +1328,7 @@ module.exports = {
       id: 78,
       fileName: "2018_Book_PhysicalACausality",
       cover:
-        "http://47.99.166.157/book/res/img/Physics/978-3-319-70815-7_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Physics/978-3-319-70815-7_CoverFigure.jpg",
       title: "Physical (A)Causality",
       author: "Karl Svozil",
       publisher: "Springer International Publishing",
@@ -1345,7 +1345,7 @@ module.exports = {
       id: 79,
       fileName: "2018_Book_SolarParticleRadiationStormsFo",
       cover:
-        "http://47.99.166.157/book/res/img/Physics/978-3-319-60051-2_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Physics/978-3-319-60051-2_CoverFigure.jpg",
       title: "Solar Particle Radiation Storms Forecasting and Analysis",
       author: "Olga E. Malandraki",
       publisher: "Springer International Publishing",
@@ -1362,7 +1362,7 @@ module.exports = {
       id: 80,
       fileName: "2016_Book_TheChallengeOfChance",
       cover:
-        "http://47.99.166.157/book/res/img/Philosophy/978-3-319-26300-7_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Philosophy/978-3-319-26300-7_CoverFigure.jpg",
       title: "THE CHALLENGE OF CHANCE",
       author: "Klaas Landsman",
       publisher: "Springer International Publishing",
@@ -1379,7 +1379,7 @@ module.exports = {
       id: 81,
       fileName: "2018_Book_EvaluatingEvidenceOfMechanisms",
       cover:
-        "http://47.99.166.157/book/res/img/Philosophy/978-3-319-94610-8_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Philosophy/978-3-319-94610-8_CoverFigure.jpg",
       title: "Evaluating Evidence of Mechanisms in Medicine",
       author: "Veli-Pekka Parkkinen",
       publisher: "Springer International Publishing",
@@ -1396,7 +1396,7 @@ module.exports = {
       id: 82,
       fileName: "2018_Book_HappinessIsTheWrongMetric",
       cover:
-        "http://47.99.166.157/book/res/img/Philosophy/978-3-319-69623-2_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Philosophy/978-3-319-69623-2_CoverFigure.jpg",
       title: "Happiness is the Wrong Metric",
       author: "Amitai Etzioni",
       publisher: "Springer International Publishing",
@@ -1413,7 +1413,7 @@ module.exports = {
       id: 83,
       fileName: "2018_Book_PeerReviewPeerEducationAndMode",
       cover:
-        "http://47.99.166.157/book/res/img/Philosophy/978-3-319-90955-4_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Philosophy/978-3-319-90955-4_CoverFigure.jpg",
       title:
         "Peer Review, Peer Education, and Modeling in the Practice of Clinical Ethics Consultation: The Zadeh Project",
       author: "Stuart G. Finder",
@@ -1431,7 +1431,7 @@ module.exports = {
       id: 84,
       fileName: "2018_Book_RethinkingHealthCareEthics",
       cover:
-        "http://47.99.166.157/book/res/img/Philosophy/978-981-13-0830-7_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Philosophy/978-981-13-0830-7_CoverFigure.jpg",
       title: "Rethinking Health Care Ethics",
       author: "Stephen Scher",
       publisher: "Springer Singapore",
@@ -1448,7 +1448,7 @@ module.exports = {
       id: 85,
       fileName: "2018_Book_Well-beingSustainabilityAndSoc",
       cover:
-        "http://47.99.166.157/book/res/img/Philosophy/978-3-319-76696-6_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Philosophy/978-3-319-76696-6_CoverFigure.jpg",
       title: "Well-Being, Sustainability and Social Development",
       author: "Harry Lintsen",
       publisher: "Springer International Publishing",
@@ -1465,7 +1465,7 @@ module.exports = {
       id: 86,
       fileName: "2018_Book_DeliberativePublicEngagementWi",
       cover:
-        "http://47.99.166.157/book/res/img/Psychology/978-3-319-78160-0_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/Psychology/978-3-319-78160-0_CoverFigure.jpg",
       title: "Deliberative Public Engagement with Science",
       author: "Lisa M. PytlikZillig",
       publisher: "Springer International Publishing",
@@ -1482,7 +1482,7 @@ module.exports = {
       id: 87,
       fileName: "2018_Book_ADemographicPerspectiveOnGende",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/978-3-319-72356-3_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/SocialSciences/978-3-319-72356-3_CoverFigure.jpg",
       title: "A Demographic Perspective on Gender, Family and Health in Europe",
       author: "Gabriele Doblhammer",
       publisher: "Springer International Publishing",
@@ -1499,7 +1499,7 @@ module.exports = {
       id: 88,
       fileName: "2018_Book_BetweenMobilityAndMigration",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/978-3-319-77991-1_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/SocialSciences/978-3-319-77991-1_CoverFigure.jpg",
       title: "Between Mobility and Migration",
       author: "Peter Scholten",
       publisher: "Springer International Publishing",
@@ -1516,7 +1516,7 @@ module.exports = {
       id: 89,
       fileName: "2018_Book_ContemporaryPerspectivesOnAgei",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/978-3-319-73820-8_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/SocialSciences/978-3-319-73820-8_CoverFigure.jpg",
       title: "Contemporary Perspectives on Ageism",
       author: "Liat Ayalon",
       publisher: "Springer International Publishing",
@@ -1533,7 +1533,7 @@ module.exports = {
       id: 90,
       fileName: "2018_Book_InsideAsylumBureaucracyOrganiz",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/978-3-319-63306-0_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/SocialSciences/978-3-319-63306-0_CoverFigure.jpg",
       title:
         "Inside Asylum Bureaucracy: Organizing Refugee Status Determination in Austria",
       author: "Julia Dahlvik",
@@ -1551,7 +1551,7 @@ module.exports = {
       id: 91,
       fileName: "2018_Book_KnowledgeAndInstitutions",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/978-3-319-75328-7_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/SocialSciences/978-3-319-75328-7_CoverFigure.jpg",
       title: "Knowledge and Institutions",
       author: "Johannes Glückler",
       publisher: "Springer International Publishing",
@@ -1568,7 +1568,7 @@ module.exports = {
       id: 92,
       fileName: "2018_Book_LoneParenthoodInTheLifeCourse",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/978-3-319-63295-7_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/SocialSciences/978-3-319-63295-7_CoverFigure.jpg",
       title: "Lone Parenthood in the Life Course",
       author: "Laura Bernardi",
       publisher: "Springer International Publishing",
@@ -1585,7 +1585,7 @@ module.exports = {
       id: 93,
       fileName: "2018_Book_MHealthInnovationInAsia",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/978-94-024-1251-2_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/SocialSciences/978-94-024-1251-2_CoverFigure.jpg",
       title: "mHealth Innovation in Asia",
       author: "Emma Baulch",
       publisher: "Springer Netherlands",
@@ -1602,7 +1602,7 @@ module.exports = {
       id: 94,
       fileName: "2018_Book_MethodologicalInvestigationsIn",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/978-3-319-72408-9_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/SocialSciences/978-3-319-72408-9_CoverFigure.jpg",
       title: "Methodological Investigations in Agent-Based Modelling",
       author: "Eric Silverman",
       publisher: "Springer International Publishing",
@@ -1619,7 +1619,7 @@ module.exports = {
       id: 95,
       fileName: "2018_Book_ProtestMovementsInAsylumAndDep",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/978-3-319-74696-8_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/SocialSciences/978-3-319-74696-8_CoverFigure.jpg",
       title: "Protest Movements in Asylum and Deportation",
       author: "Sieglinde Rosenberger",
       publisher: "Springer International Publishing",
@@ -1636,7 +1636,7 @@ module.exports = {
       id: 96,
       fileName: "2018_Book_QualitativeResearchInEuropeanM",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/978-3-319-76861-8_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/SocialSciences/978-3-319-76861-8_CoverFigure.jpg",
       title: "Qualitative Research in European Migration Studies",
       author: "Ricard Zapata-Barrero",
       publisher: "Springer International Publishing",
@@ -1653,7 +1653,7 @@ module.exports = {
       id: 97,
       fileName: "2018_Book_SocialDynamicsInSwissSociety",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/978-3-319-89557-4_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/SocialSciences/978-3-319-89557-4_CoverFigure.jpg",
       title: "Social Dynamics in Swiss Society",
       author: "Robin Tillmann",
       publisher: "Springer International Publishing",
@@ -1670,7 +1670,7 @@ module.exports = {
       id: 98,
       fileName: "2018_Book_TheThirdSectorAsARenewableReso",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/978-3-319-71473-8_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/SocialSciences/978-3-319-71473-8_CoverFigure.jpg",
       title: "The Third Sector As A Renewable Resource for Europe",
       author: "Bernard Enjolras",
       publisher: "Springer International Publishing",
@@ -1687,7 +1687,7 @@ module.exports = {
       id: 99,
       fileName: "2018_Book_Africa-EuropeResearchAndInnova",
       cover:
-        "http://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/978-3-319-69929-5_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/978-3-319-69929-5_CoverFigure.jpg",
       title: "Africa-Europe Research and Innovation Cooperation",
       author: "Andrew Cherry",
       publisher: "Springer International Publishing",
@@ -1704,7 +1704,7 @@ module.exports = {
       id: 100,
       fileName: "2018_Book_AsianCenturyOnAKnife-edge",
       cover:
-        "http://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/978-981-10-7182-9_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/978-981-10-7182-9_CoverFigure.jpg",
       title: "Asian Century… on a Knife-edge",
       author: "John West",
       publisher: "Springer Singapore",
@@ -1721,7 +1721,7 @@ module.exports = {
       id: 101,
       fileName: "2018_Book_DebatingTransformationsOfNatio",
       cover:
-        "http://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/978-3-319-92719-0_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/978-3-319-92719-0_CoverFigure.jpg",
       title: "Debating Transformations of National Citizenship",
       author: "Rainer Bauböck",
       publisher: "Springer International Publishing",
@@ -1738,7 +1738,7 @@ module.exports = {
       id: 102,
       fileName: "2018_Book_LimitsToTheEuropeanUnionSNorma",
       cover:
-        "http://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/978-3-319-77824-2_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/978-3-319-77824-2_CoverFigure.jpg",
       title:
         "Limits to the European Union’s Normative Power in a Post-conflict Society",
       author: "Rok Zupančič",
@@ -1756,7 +1756,7 @@ module.exports = {
       id: 103,
       fileName: "2018_Book_RisikoadaptiertePrävention",
       cover:
-        "http://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/978-3-658-20801-1_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/978-3-658-20801-1_CoverFigure.jpg",
       title: "Risikoadaptierte Prävention",
       author: "Friedhelm Meier",
       publisher: "Springer Fachmedien Wiesbaden",
@@ -1773,7 +1773,7 @@ module.exports = {
       id: 104,
       fileName: "2018_Book_RussiaSTurnToTheEast",
       cover:
-        "http://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/978-3-319-69790-1_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/978-3-319-69790-1_CoverFigure.jpg",
       title: "Russia’s Turn to the East",
       author: "Helge Blakkisrud",
       publisher: "Springer International Publishing",
@@ -1790,7 +1790,7 @@ module.exports = {
       id: 105,
       fileName: "2018_Book_SolidarityInEurope",
       cover:
-        "http://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/978-3-319-73335-7_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/978-3-319-73335-7_CoverFigure.jpg",
       title: "Solidarity in Europe",
       author: "Christian Lahusen",
       publisher: "Springer International Publishing",
@@ -1807,7 +1807,7 @@ module.exports = {
       id: 106,
       fileName: "2018_Book_TheEUAndChinaInAfricanAuthorit",
       cover:
-        "http://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/978-3-319-63591-0_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/978-3-319-63591-0_CoverFigure.jpg",
       title: "The EU and China in African Authoritarian Regimes",
       author: "Christine Hackenesch",
       publisher: "Springer International Publishing",
@@ -1824,7 +1824,7 @@ module.exports = {
       id: 107,
       fileName: "2018_Book_TobaccoControlPolicyInTheNethe",
       cover:
-        "http://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/978-3-319-72368-6_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/978-3-319-72368-6_CoverFigure.jpg",
       title: "Tobacco Control Policy in the Netherlands",
       author: "Marc C. Willemsen",
       publisher: "Springer International Publishing",
@@ -1841,7 +1841,7 @@ module.exports = {
       id: 108,
       fileName: "2019_Book_DebatingEuropeanCitizenship",
       cover:
-        "http://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/978-3-319-89905-3_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/978-3-319-89905-3_CoverFigure.jpg",
       title: "Debating European Citizenship",
       author: "Rainer Bauböck",
       publisher: "Springer International Publishing",
@@ -1858,7 +1858,7 @@ module.exports = {
       id: 109,
       fileName: "2019_Book_SwissPublicAdministration",
       cover:
-        "http://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/978-3-319-92381-9_CoverFigure.jpg",
+        "https://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/978-3-319-92381-9_CoverFigure.jpg",
       title: "Swiss Public Administration",
       author: "Andreas Ladner",
       publisher: "Springer International Publishing",
@@ -1875,7 +1875,7 @@ module.exports = {
       id: 110,
       fileName: "2014_Book_Self-ReportedPopulationHealthA",
       cover:
-        "http://47.99.166.157/book/res/img/Biomedicine/2014_Book_Self-ReportedPopulationHealthA.jpeg",
+        "https://47.99.166.157/book/res/img/Biomedicine/2014_Book_Self-ReportedPopulationHealthA.jpeg",
       title:
         "Self-Reported Population Health: An International Perspective based on EQ-5D",
       author: "Agota Szende, Bas Janssen and Juan Cabasés",
@@ -1893,7 +1893,7 @@ module.exports = {
       id: 111,
       fileName: "2015_Book_ContemporaryBioethics",
       cover:
-        "http://47.99.166.157/book/res/img/Biomedicine/2015_Book_ContemporaryBioethics.jpeg",
+        "https://47.99.166.157/book/res/img/Biomedicine/2015_Book_ContemporaryBioethics.jpeg",
       title: "Contemporary Bioethics",
       author: "Mohammed Ali Al-Bar and Hassan Chamsi-Pasha",
       publisher: "Springer International Publishing, Cham",
@@ -1910,7 +1910,7 @@ module.exports = {
       id: 112,
       fileName: "2015_Book_HighDensityLipoproteins",
       cover:
-        "http://47.99.166.157/book/res/img/Biomedicine/2015_Book_HighDensityLipoproteins.jpeg",
+        "https://47.99.166.157/book/res/img/Biomedicine/2015_Book_HighDensityLipoproteins.jpeg",
       title: "High Density Lipoproteins",
       author: "Arnold von Eckardstein and Dimitris Kardassis",
       publisher: "Springer International Publishing, Cham",
@@ -1927,7 +1927,7 @@ module.exports = {
       id: 113,
       fileName: "2015_Book_InnovativeMedicine",
       cover:
-        "http://47.99.166.157/book/res/img/Biomedicine/2015_Book_InnovativeMedicine.jpeg",
+        "https://47.99.166.157/book/res/img/Biomedicine/2015_Book_InnovativeMedicine.jpeg",
       title: "Innovative Medicine",
       author: "Kazuwa Nakao, Nagahiro Minato and Shinji Uemoto",
       publisher: "Springer Japan, Tokyo",
@@ -1944,7 +1944,7 @@ module.exports = {
       id: 114,
       fileName: "2016_Book_ATimeForMetabolismAndHormones",
       cover:
-        "http://47.99.166.157/book/res/img/Biomedicine/2016_Book_ATimeForMetabolismAndHormones.jpeg",
+        "https://47.99.166.157/book/res/img/Biomedicine/2016_Book_ATimeForMetabolismAndHormones.jpeg",
       title: "A Time for Metabolism and Hormones",
       author: "Paolo Sassone-Corsi and Yves Christen",
       publisher: "Springer International Publishing, Cham",
@@ -1961,7 +1961,7 @@ module.exports = {
       id: 115,
       fileName: "2016_Book_Micro-Meso-AndMacro-Connectomi",
       cover:
-        "http://47.99.166.157/book/res/img/Biomedicine/2016_Book_Micro-Meso-AndMacro-Connectomi.jpeg",
+        "https://47.99.166.157/book/res/img/Biomedicine/2016_Book_Micro-Meso-AndMacro-Connectomi.jpeg",
       title: "Micro-, Meso- and Macro-Connectomics of the Brain",
       author: "Henry Kennedy, David C. Van Essen and Yves Christen",
       publisher: "Springer International Publishing, Cham",
@@ -1978,7 +1978,7 @@ module.exports = {
       id: 116,
       fileName: "2016_Book_Micro-Meso-AndMacro-DynamicsOf",
       cover:
-        "http://47.99.166.157/book/res/img/Biomedicine/2016_Book_Micro-Meso-AndMacro-DynamicsOf.jpeg",
+        "https://47.99.166.157/book/res/img/Biomedicine/2016_Book_Micro-Meso-AndMacro-DynamicsOf.jpeg",
       title: "Micro-, Meso- and Macro-Dynamics of the Brain",
       author: "György Buzsáki and Yves Christen",
       publisher: "Springer International Publishing, Cham",
@@ -1995,7 +1995,7 @@ module.exports = {
       id: 117,
       fileName: "2016_Book_StemCellsInNeuroendocrinology",
       cover:
-        "http://47.99.166.157/book/res/img/Biomedicine/2016_Book_StemCellsInNeuroendocrinology.jpeg",
+        "https://47.99.166.157/book/res/img/Biomedicine/2016_Book_StemCellsInNeuroendocrinology.jpeg",
       title: "Stem Cells in Neuroendocrinology",
       author: "Donald Pfaff and Yves Christen",
       publisher: "Springer International Publishing, Cham",
@@ -2012,7 +2012,7 @@ module.exports = {
       id: 118,
       fileName: "2017_Book_GenomeEditingInNeurosciences",
       cover:
-        "http://47.99.166.157/book/res/img/Biomedicine/2017_Book_GenomeEditingInNeurosciences.jpeg",
+        "https://47.99.166.157/book/res/img/Biomedicine/2017_Book_GenomeEditingInNeurosciences.jpeg",
       title: "Genome Editing in Neurosciences",
       author: "Rudolf Jaenisch, Feng Zhang and Fred Gage",
       publisher: "Springer International Publishing, Cham",
@@ -2029,7 +2029,7 @@ module.exports = {
       id: 119,
       fileName: "2017_Book_SnowSportsTraumaAndSafety",
       cover:
-        "http://47.99.166.157/book/res/img/Biomedicine/2017_Book_SnowSportsTraumaAndSafety.jpeg",
+        "https://47.99.166.157/book/res/img/Biomedicine/2017_Book_SnowSportsTraumaAndSafety.jpeg",
       title: "Snow Sports Trauma and Safety",
       author: "Irving S. Scher, Richard M. Greenwald and Nicola Petrone",
       publisher: "Springer International Publishing, Cham",
@@ -2046,7 +2046,7 @@ module.exports = {
       id: 120,
       fileName: "2014_Book_LibraryAndInformationSciences",
       cover:
-        "http://47.99.166.157/book/res/img/BusinessandManagement/2014_Book_LibraryAndInformationSciences.jpeg",
+        "https://47.99.166.157/book/res/img/BusinessandManagement/2014_Book_LibraryAndInformationSciences.jpeg",
       title: "Library and Information Sciences",
       author: "Chuanfu Chen and Ronald Larsen",
       publisher: "Springer Berlin Heidelberg, Berlin, Heidelberg",
@@ -2063,7 +2063,7 @@ module.exports = {
       id: 121,
       fileName: "2015_Book_GlobalBusinessStrategy",
       cover:
-        "http://47.99.166.157/book/res/img/BusinessandManagement/2015_Book_GlobalBusinessStrategy.jpeg",
+        "https://47.99.166.157/book/res/img/BusinessandManagement/2015_Book_GlobalBusinessStrategy.jpeg",
       title: "Global Business Strategy",
       author: "Kazuyuki Motohashi",
       publisher: "Springer Japan, Tokyo",
@@ -2080,7 +2080,7 @@ module.exports = {
       id: 122,
       fileName: "2015_Book_MoralReasoningAtWorkRethinking",
       cover:
-        "http://47.99.166.157/book/res/img/BusinessandManagement/2015_Book_MoralReasoningAtWorkRethinking.jpeg",
+        "https://47.99.166.157/book/res/img/BusinessandManagement/2015_Book_MoralReasoningAtWorkRethinking.jpeg",
       title: "Moral Reasoning at Work: Rethinking Ethics in Organizations",
       author: "Øyvind Kvalnes",
       publisher: "Palgrave Macmillan",
@@ -2097,7 +2097,7 @@ module.exports = {
       id: 123,
       fileName: "2016_Book_CorporateDataQuality",
       cover:
-        "http://47.99.166.157/book/res/img/BusinessandManagement/2016_Book_CorporateDataQuality.jpeg",
+        "https://47.99.166.157/book/res/img/BusinessandManagement/2016_Book_CorporateDataQuality.jpeg",
       title: "Corporate Data Quality",
       author: "Boris Otto and Hubert Österle",
       publisher: "Springer Berlin Heidelberg, Berlin, Heidelberg",
@@ -2114,7 +2114,7 @@ module.exports = {
       id: 124,
       fileName: "2017_Book_DynamicsOfLong-LifeAssets",
       cover:
-        "http://47.99.166.157/book/res/img/BusinessandManagement/2017_Book_DynamicsOfLong-LifeAssets.jpeg",
+        "https://47.99.166.157/book/res/img/BusinessandManagement/2017_Book_DynamicsOfLong-LifeAssets.jpeg",
       title: "Dynamics of Long-Life Assets",
       author: "Stefan N. Grösser, Arcadio Reyes-Lecuona and Göran Granholm",
       publisher: "Springer International Publishing, Cham",
@@ -2131,7 +2131,7 @@ module.exports = {
       id: 125,
       fileName: "2017_Book_FashionFigures",
       cover:
-        "http://47.99.166.157/book/res/img/BusinessandManagement/2017_Book_FashionFigures.jpeg",
+        "https://47.99.166.157/book/res/img/BusinessandManagement/2017_Book_FashionFigures.jpeg",
       title: "Fashion Figures",
       author: "Melissa A. Borza",
       publisher: "Apress, Berkeley, CA",
@@ -2148,7 +2148,7 @@ module.exports = {
       id: 126,
       fileName: "2018_Book_HeterogeneityHighPerformanceCo",
       cover:
-        "http://47.99.166.157/book/res/img/BusinessandManagement/2018_Book_HeterogeneityHighPerformanceCo.jpeg",
+        "https://47.99.166.157/book/res/img/BusinessandManagement/2018_Book_HeterogeneityHighPerformanceCo.jpeg",
       title:
         "Heterogeneity, High Performance Computing, Self-Organization and the Cloud",
       author: "Theo Lynn, John P. Morrison and David Kenny",
@@ -2166,7 +2166,7 @@ module.exports = {
       id: 127,
       fileName: "2016_Book_Verrechnungspreise",
       cover:
-        "http://47.99.166.157/book/res/img/BusinessandManagement/2016_Book_Verrechnungspreise.jpeg",
+        "https://47.99.166.157/book/res/img/BusinessandManagement/2016_Book_Verrechnungspreise.jpeg",
       title: "Verrechnungspreise",
       author: "Roman Dawid",
       publisher: "Springer Fachmedien Wiesbaden, Wiesbaden",
@@ -2183,7 +2183,7 @@ module.exports = {
       id: 128,
       fileName: "2012_Book_Subject-OrientedBusinessProces",
       cover:
-        "http://47.99.166.157/book/res/img/EarthSciences/2012_Book_Subject-OrientedBusinessProces.jpeg",
+        "https://47.99.166.157/book/res/img/EarthSciences/2012_Book_Subject-OrientedBusinessProces.jpeg",
       title: "Subject-Oriented Business Process Management",
       author:
         "Albert Fleischmann, Werner Schmidt, Christian Stary, Stefan Obermeier and Egon Börger",
@@ -2201,7 +2201,7 @@ module.exports = {
       id: 129,
       fileName: "2014_Book_Ocean-AtmosphereInteractionsOf",
       cover:
-        "http://47.99.166.157/book/res/img/EarthSciences/2014_Book_Ocean-AtmosphereInteractionsOf.jpeg",
+        "https://47.99.166.157/book/res/img/EarthSciences/2014_Book_Ocean-AtmosphereInteractionsOf.jpeg",
       title: "Ocean-Atmosphere Interactions of Gases and Particles",
       author: "Peter S. Liss and Martin T. Johnson",
       publisher: "Springer Berlin Heidelberg, Berlin, Heidelberg",
@@ -2218,7 +2218,7 @@ module.exports = {
       id: 130,
       fileName: "2014_Book_SustainableLivingWithEnvironme",
       cover:
-        "http://47.99.166.157/book/res/img/EarthSciences/2014_Book_SustainableLivingWithEnvironme.jpeg",
+        "https://47.99.166.157/book/res/img/EarthSciences/2014_Book_SustainableLivingWithEnvironme.jpeg",
       title: "Sustainable Living with Environmental Risks",
       author: "Nobuhiro Kaneko, Shinji Yoshiura and Masanori Kobayashi",
       publisher: "Springer Japan, Tokyo",
@@ -2235,7 +2235,7 @@ module.exports = {
       id: 131,
       fileName: "2015_Book_PerspectivesOnEuropeanEarthqua",
       cover:
-        "http://47.99.166.157/book/res/img/EarthSciences/2015_Book_PerspectivesOnEuropeanEarthqua.jpeg",
+        "https://47.99.166.157/book/res/img/EarthSciences/2015_Book_PerspectivesOnEuropeanEarthqua.jpeg",
       title: "Perspectives on European Earthquake Engineering and Seismology",
       author: "Atilla Ansal",
       publisher: "Springer International Publishing, Cham",
@@ -2252,7 +2252,7 @@ module.exports = {
       id: 132,
       fileName: "2015_Book_SecondAssessmentOfClimateChang",
       cover:
-        "http://47.99.166.157/book/res/img/EarthSciences/2015_Book_SecondAssessmentOfClimateChang.jpeg",
+        "https://47.99.166.157/book/res/img/EarthSciences/2015_Book_SecondAssessmentOfClimateChang.jpeg",
       title: "Second Assessment of Climate Change for the Baltic Sea Basin",
       author: "The BACC II Author Team",
       publisher: "Springer International Publishing, Cham",
@@ -2269,7 +2269,7 @@ module.exports = {
       id: 133,
       fileName: "2015_Book_SubseafloorBiosphereLinkedToHy",
       cover:
-        "http://47.99.166.157/book/res/img/EarthSciences/2015_Book_SubseafloorBiosphereLinkedToHy.jpeg",
+        "https://47.99.166.157/book/res/img/EarthSciences/2015_Book_SubseafloorBiosphereLinkedToHy.jpeg",
       title: "Subseafloor Biosphere Linked to Hydrothermal Systems",
       author: "Jun-ichiro Ishibashi, Kyoko Okino and Michinari Sunamura",
       publisher: "Springer Japan, Tokyo",
@@ -2286,7 +2286,7 @@ module.exports = {
       id: 134,
       fileName: "2015_Book_WetlandsAndWaterFrameworkDirec",
       cover:
-        "http://47.99.166.157/book/res/img/EarthSciences/2015_Book_WetlandsAndWaterFrameworkDirec.jpeg",
+        "https://47.99.166.157/book/res/img/EarthSciences/2015_Book_WetlandsAndWaterFrameworkDirec.jpeg",
       title: "Wetlands and Water Framework Directive",
       author: "Stefan Ignar and Mateusz Grygoruk",
       publisher: "Springer International Publishing, Cham",
@@ -2303,7 +2303,7 @@ module.exports = {
       id: 135,
       fileName: "2016_Book_IntegratedGroundwaterManagemen",
       cover:
-        "http://47.99.166.157/book/res/img/EarthSciences/2016_Book_IntegratedGroundwaterManagemen.jpeg",
+        "https://47.99.166.157/book/res/img/EarthSciences/2016_Book_IntegratedGroundwaterManagemen.jpeg",
       title: "Integrated Groundwater Management",
       author:
         "Anthony J. Jakeman, Olivier Barreteau, Randall J. Hunt, Jean-Daniel Rinaudo and Andrew Ross",
@@ -2321,7 +2321,7 @@ module.exports = {
       id: 136,
       fileName: "2016_Book_NorthSeaRegionClimateChangeAss",
       cover:
-        "http://47.99.166.157/book/res/img/EarthSciences/2016_Book_NorthSeaRegionClimateChangeAss.jpeg",
+        "https://47.99.166.157/book/res/img/EarthSciences/2016_Book_NorthSeaRegionClimateChangeAss.jpeg",
       title: "North Sea Region Climate Change Assessment",
       author: "Markus Quante and Franciscus Colijn",
       publisher: "Springer International Publishing, Cham",
@@ -2338,7 +2338,7 @@ module.exports = {
       id: 137,
       fileName: "2017_Book_AdvancingCultureOfLivingWithLa",
       cover:
-        "http://47.99.166.157/book/res/img/EarthSciences/2017_Book_AdvancingCultureOfLivingWithLa.jpeg",
+        "https://47.99.166.157/book/res/img/EarthSciences/2017_Book_AdvancingCultureOfLivingWithLa.jpeg",
       title: "Advancing Culture of Living with Landslides",
       author: "Kyoji Sassa, Matjaž Mikoš and Yueping Yin",
       publisher: "Springer International Publishing, Cham",
@@ -2355,7 +2355,7 @@ module.exports = {
       id: 138,
       fileName: "2017_Book_ChinaSGasDevelopmentStrategies",
       cover:
-        "http://47.99.166.157/book/res/img/EarthSciences/2017_Book_ChinaSGasDevelopmentStrategies.jpeg",
+        "https://47.99.166.157/book/res/img/EarthSciences/2017_Book_ChinaSGasDevelopmentStrategies.jpeg",
       title: "China’s Gas Development Strategies",
       author: "",
       publisher: "Springer International Publishing, Cham",
@@ -2372,7 +2372,7 @@ module.exports = {
       id: 139,
       fileName: "2018_Book_EvolutionMonitoringAndPredicti",
       cover:
-        "http://47.99.166.157/book/res/img/EarthSciences/2018_Book_EvolutionMonitoringAndPredicti.jpeg",
+        "https://47.99.166.157/book/res/img/EarthSciences/2018_Book_EvolutionMonitoringAndPredicti.jpeg",
       title: "Evolution, Monitoring and Predicting Models of Rockburst",
       author: "Chunlai Wang",
       publisher: "Springer Singapore, Singapore",
@@ -2389,7 +2389,7 @@ module.exports = {
       id: 140,
       fileName: "2018_Book_ObservingTheVolcanoWorld",
       cover:
-        "http://47.99.166.157/book/res/img/EarthSciences/2018_Book_ObservingTheVolcanoWorld.jpeg",
+        "https://47.99.166.157/book/res/img/EarthSciences/2018_Book_ObservingTheVolcanoWorld.jpeg",
       title: "Observing the Volcano World",
       author:
         "Carina J. Fearnley, Deanne K. Bird, Katharine Haynes, William J. McGuire and Gill Jolly",
@@ -2407,7 +2407,7 @@ module.exports = {
       id: 141,
       fileName: "2014_Book_OpeningScience",
       cover:
-        "http://47.99.166.157/book/res/img/Engineering/2014_Book_OpeningScience.jpeg",
+        "https://47.99.166.157/book/res/img/Engineering/2014_Book_OpeningScience.jpeg",
       title: "Opening Science",
       author: "Sönke Bartling and Sascha Friesike",
       publisher: "Springer International Publishing, Cham",
@@ -2424,7 +2424,7 @@ module.exports = {
       id: 142,
       fileName: "2014_Book_PerspectivesOnEuropeanEarthqua",
       cover:
-        "http://47.99.166.157/book/res/img/Engineering/2014_Book_PerspectivesOnEuropeanEarthqua.jpeg",
+        "https://47.99.166.157/book/res/img/Engineering/2014_Book_PerspectivesOnEuropeanEarthqua.jpeg",
       title: "Perspectives on European Earthquake Engineering and Seismology",
       author: "Atilla Ansal",
       publisher: "Springer International Publishing, Cham",
@@ -2441,7 +2441,7 @@ module.exports = {
       id: 143,
       fileName: "2015_Book_AdvancesInProductionTechnology",
       cover:
-        "http://47.99.166.157/book/res/img/Engineering/2015_Book_AdvancesInProductionTechnology.jpeg",
+        "https://47.99.166.157/book/res/img/Engineering/2015_Book_AdvancesInProductionTechnology.jpeg",
       title: "Advances in Production Technology",
       author: "Christian Brecher",
       publisher: "Springer International Publishing, Cham",
@@ -2458,7 +2458,7 @@ module.exports = {
       id: 144,
       fileName: "2015_Book_ReflectionsOnTheFukushimaDaiic",
       cover:
-        "http://47.99.166.157/book/res/img/Engineering/2015_Book_ReflectionsOnTheFukushimaDaiic.jpeg",
+        "https://47.99.166.157/book/res/img/Engineering/2015_Book_ReflectionsOnTheFukushimaDaiic.jpeg",
       title: "Reflections on the Fukushima Daiichi Nuclear Accident",
       author:
         "Joonhong Ahn, Cathryn Carson, Mikael Jensen, Kohta Juraku, Shinya Nagasaki and Satoru Tanaka",
@@ -2476,7 +2476,7 @@ module.exports = {
       id: 145,
       fileName: "2015_Book_ZukunftDerArbeitInIndustrie40",
       cover:
-        "http://47.99.166.157/book/res/img/Engineering/2015_Book_ZukunftDerArbeitInIndustrie40.jpeg",
+        "https://47.99.166.157/book/res/img/Engineering/2015_Book_ZukunftDerArbeitInIndustrie40.jpeg",
       title: "Zukunft der Arbeit in Industrie 4.0",
       author: "Alfons Botthof and Ernst Andreas Hartmann",
       publisher: "Springer Berlin Heidelberg, Berlin, Heidelberg",
@@ -2493,7 +2493,7 @@ module.exports = {
       id: 146,
       fileName: "2016_Book_AutonomousDriving",
       cover:
-        "http://47.99.166.157/book/res/img/Engineering/2016_Book_AutonomousDriving.jpeg",
+        "https://47.99.166.157/book/res/img/Engineering/2016_Book_AutonomousDriving.jpeg",
       title: "Autonomous Driving",
       author:
         "Markus Maurer, J. Christian Gerdes, Barbara Lenz and Hermann Winner",
@@ -2511,7 +2511,7 @@ module.exports = {
       id: 147,
       fileName: "2016_Book_BayesianMethodsInTheSearchForM",
       cover:
-        "http://47.99.166.157/book/res/img/Engineering/2016_Book_BayesianMethodsInTheSearchForM.jpeg",
+        "https://47.99.166.157/book/res/img/Engineering/2016_Book_BayesianMethodsInTheSearchForM.jpeg",
       title: "Bayesian Methods in the Search for MH370",
       author:
         "Sam Davey, Neil Gordon, Ian Holland, Mark Rutten and Jason Williams",
@@ -2529,7 +2529,7 @@ module.exports = {
       id: 148,
       fileName: "2016_Book_CognitiveSupervisionForRobot-A",
       cover:
-        "http://47.99.166.157/book/res/img/Engineering/2016_Book_CognitiveSupervisionForRobot-A.jpeg",
+        "https://47.99.166.157/book/res/img/Engineering/2016_Book_CognitiveSupervisionForRobot-A.jpeg",
       title:
         "Cognitive Supervision for Robot-Assisted Minimally Invasive Laser Surgery",
       author: "Loris Fichera",
@@ -2547,7 +2547,7 @@ module.exports = {
       id: 149,
       fileName: "2016_Book_DemystifyingClimateModels",
       cover:
-        "http://47.99.166.157/book/res/img/Engineering/2016_Book_DemystifyingClimateModels.jpeg",
+        "https://47.99.166.157/book/res/img/Engineering/2016_Book_DemystifyingClimateModels.jpeg",
       title: "Demystifying Climate Models",
       author: "Andrew Gettelman and Richard B. Rood",
       publisher: "Springer Berlin Heidelberg, Berlin, Heidelberg",
@@ -2564,7 +2564,7 @@ module.exports = {
       id: 150,
       fileName: "2016_Book_IUTAM",
       cover:
-        "http://47.99.166.157/book/res/img/Engineering/2016_Book_IUTAM.jpeg",
+        "https://47.99.166.157/book/res/img/Engineering/2016_Book_IUTAM.jpeg",
       title: "IUTAM",
       author: "Peter Eberhard and Stephen Juhasz",
       publisher: "Springer International Publishing, Cham",
@@ -2581,7 +2581,7 @@ module.exports = {
       id: 151,
       fileName: "2016_Book_ManagingTheComplexityOfCritica",
       cover:
-        "http://47.99.166.157/book/res/img/Engineering/2016_Book_ManagingTheComplexityOfCritica.jpeg",
+        "https://47.99.166.157/book/res/img/Engineering/2016_Book_ManagingTheComplexityOfCritica.jpeg",
       title: "Managing the Complexity of Critical Infrastructures",
       author:
         "Roberto Setola, Vittorio Rosato, Elias Kyriakides and Erich Rome",
@@ -2599,7 +2599,7 @@ module.exports = {
       id: 152,
       fileName: "2017_Book_Error-CorrectionCodingAndDecod",
       cover:
-        "http://47.99.166.157/book/res/img/Engineering/2017_Book_Error-CorrectionCodingAndDecod.jpeg",
+        "https://47.99.166.157/book/res/img/Engineering/2017_Book_Error-CorrectionCodingAndDecod.jpeg",
       title: "Error-Correction Coding and Decoding",
       author:
         "Martin Tomlinson, Cen Jung Tjhai, Marcel A. Ambroze, Mohammed Ahmed and Mubarak Jibril",
@@ -2617,7 +2617,7 @@ module.exports = {
       id: 153,
       fileName: "2017_Book_HandbookOfOceanWaveEnergy",
       cover:
-        "http://47.99.166.157/book/res/img/Engineering/2017_Book_HandbookOfOceanWaveEnergy.jpeg",
+        "https://47.99.166.157/book/res/img/Engineering/2017_Book_HandbookOfOceanWaveEnergy.jpeg",
       title: "Handbook of Ocean Wave Energy",
       author: "Arthur Pecher and Jens Peter Kofoed",
       publisher: "Springer International Publishing, Cham",
@@ -2634,7 +2634,7 @@ module.exports = {
       id: 154,
       fileName: "2017_Book_Model-DrivenDevelopmentAndOper",
       cover:
-        "http://47.99.166.157/book/res/img/Engineering/2017_Book_Model-DrivenDevelopmentAndOper.jpeg",
+        "https://47.99.166.157/book/res/img/Engineering/2017_Book_Model-DrivenDevelopmentAndOper.jpeg",
       title:
         "Model-Driven Development and Operation of Multi-Cloud Applications",
       author: "Elisabetta Nitto, Peter Matthews, Dana Petcu and Arnor Solberg",
@@ -2652,7 +2652,7 @@ module.exports = {
       id: 155,
       fileName: "2017_Book_SustainableManufacturing",
       cover:
-        "http://47.99.166.157/book/res/img/Engineering/2017_Book_SustainableManufacturing.jpeg",
+        "https://47.99.166.157/book/res/img/Engineering/2017_Book_SustainableManufacturing.jpeg",
       title: "Sustainable Manufacturing",
       author: "Rainer Stark, Günther Seliger and Jérémy Bonvoisin",
       publisher: "Springer International Publishing, Cham",
@@ -2669,7 +2669,7 @@ module.exports = {
       id: 156,
       fileName: "2017_Book_TheIllusionOfRiskControl",
       cover:
-        "http://47.99.166.157/book/res/img/Engineering/2017_Book_TheIllusionOfRiskControl.jpeg",
+        "https://47.99.166.157/book/res/img/Engineering/2017_Book_TheIllusionOfRiskControl.jpeg",
       title: "The Illusion of Risk Control",
       author: "Gilles Motet and Corinne Bieder",
       publisher: "Springer International Publishing, Cham",
@@ -2686,7 +2686,7 @@ module.exports = {
       id: 157,
       fileName: "2017_Book_TheoryAndApplicationsOfOrdered",
       cover:
-        "http://47.99.166.157/book/res/img/Engineering/2017_Book_TheoryAndApplicationsOfOrdered.jpeg",
+        "https://47.99.166.157/book/res/img/Engineering/2017_Book_TheoryAndApplicationsOfOrdered.jpeg",
       title: "Theory and Applications of Ordered Fuzzy Numbers",
       author:
         "Piotr Prokopowicz, Jacek Czerniak, Dariusz Mikołajewski, Łukasz Apiecionek and Dominik Ślȩzak",
@@ -2704,7 +2704,7 @@ module.exports = {
       id: 158,
       fileName: "2017_Book_WaterResourceSystemsPlanningAn",
       cover:
-        "http://47.99.166.157/book/res/img/Engineering/2017_Book_WaterResourceSystemsPlanningAn.jpeg",
+        "https://47.99.166.157/book/res/img/Engineering/2017_Book_WaterResourceSystemsPlanningAn.jpeg",
       title: "Water Resource Systems Planning and Management",
       author: "Daniel P. Loucks and Eelco Beek",
       publisher: "Springer International Publishing, Cham",
@@ -2721,7 +2721,7 @@ module.exports = {
       id: 159,
       fileName: "2018_Book_BeyondSafetyTraining",
       cover:
-        "http://47.99.166.157/book/res/img/Engineering/2018_Book_BeyondSafetyTraining.jpeg",
+        "https://47.99.166.157/book/res/img/Engineering/2018_Book_BeyondSafetyTraining.jpeg",
       title: "Beyond Safety Training",
       author: "Corinne Bieder, Claude Gilbert, Benoît Journé and Hervé Laroche",
       publisher: "Springer International Publishing, Cham",
@@ -2738,7 +2738,7 @@ module.exports = {
       id: 160,
       fileName: "2013_Book_AndroidOnX86",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2013_Book_AndroidOnX86.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2013_Book_AndroidOnX86.jpeg",
       title: "Android on x86",
       author: "Iggy Krajci and Darren Cummings",
       publisher: "Apress, Berkeley, CA",
@@ -2755,7 +2755,7 @@ module.exports = {
       id: 161,
       fileName: "2013_Book_EnablingThingsToTalk",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2013_Book_EnablingThingsToTalk.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2013_Book_EnablingThingsToTalk.jpeg",
       title: "Enabling Things to Talk",
       author:
         "Alessandro Bassi, Martin Bauer, Martin Fiedler, Thorsten Kramp, Rob Kranenburg, Sebastian Lange and Stefan Meissner",
@@ -2773,7 +2773,7 @@ module.exports = {
       id: 162,
       fileName: "2013_Book_IntelTrustedExecutionTechnolog",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2013_Book_IntelTrustedExecutionTechnolog.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2013_Book_IntelTrustedExecutionTechnolog.jpeg",
       title: "Intel® Trusted Execution Technology for Server Platforms",
       author: "William Futral and James Greene",
       publisher: "Apress, Berkeley, CA",
@@ -2790,7 +2790,7 @@ module.exports = {
       id: 163,
       fileName: "2018_Book_ZukunftDerArbeitEinePraxisnahe",
       cover:
-        "http://47.99.166.157/book/res/img/Engineering/2018_Book_ZukunftDerArbeitEinePraxisnahe.jpeg",
+        "https://47.99.166.157/book/res/img/Engineering/2018_Book_ZukunftDerArbeitEinePraxisnahe.jpeg",
       title: "Zukunft der Arbeit – Eine praxisnahe Betrachtung",
       author: "Steffen Wischmann and Ernst Andreas Hartmann",
       publisher: "Springer Berlin Heidelberg, Berlin, Heidelberg",
@@ -2807,7 +2807,7 @@ module.exports = {
       id: 164,
       fileName: "2013_Book_IntelXeonPhiCoprocessorArchite",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2013_Book_IntelXeonPhiCoprocessorArchite.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2013_Book_IntelXeonPhiCoprocessorArchite.jpeg",
       title: "Intel® Xeon Phi™ Coprocessor Architecture and Tools",
       author: "Rezaur Rahman",
       publisher: "Apress, Berkeley, CA",
@@ -2824,7 +2824,7 @@ module.exports = {
       id: 165,
       fileName: "2013_Book_ManagingRiskAndInformationSecu",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2013_Book_ManagingRiskAndInformationSecu.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2013_Book_ManagingRiskAndInformationSecu.jpeg",
       title: "Managing Risk and Information Security",
       author: "Malcolm Harkins",
       publisher: "Apress, Berkeley, CA",
@@ -2841,7 +2841,7 @@ module.exports = {
       id: 166,
       fileName: "2013_Book_Office365",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2013_Book_Office365.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2013_Book_Office365.jpeg",
       title: "Office 365",
       author: "Matthew Katzer and Don Crawford",
       publisher: "Apress, Berkeley, CA",
@@ -2858,7 +2858,7 @@ module.exports = {
       id: 167,
       fileName: "2013_Book_RethinkingTheInternetOfThings",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2013_Book_RethinkingTheInternetOfThings.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2013_Book_RethinkingTheInternetOfThings.jpeg",
       title: "Rethinking the Internet of Things",
       author: "Francis daCosta",
       publisher: "Apress, Berkeley, CA",
@@ -2875,7 +2875,7 @@ module.exports = {
       id: 168,
       fileName: "2013_Book_S-BPMIllustrated",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2013_Book_S-BPMIllustrated.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2013_Book_S-BPMIllustrated.jpeg",
       title: "S-BPM Illustrated",
       author: "Albert Fleischmann, Stefan Raß and Robert Singer",
       publisher: "Springer Berlin Heidelberg, Berlin, Heidelberg",
@@ -2892,7 +2892,7 @@ module.exports = {
       id: 169,
       fileName: "2013_Book_SensorTechnologies",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2013_Book_SensorTechnologies.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2013_Book_SensorTechnologies.jpeg",
       title: "Sensor Technologies",
       author: "Michael J. McGrath and Cliodhna Ní Scanaill",
       publisher: "Apress, Berkeley, CA",
@@ -2909,7 +2909,7 @@ module.exports = {
       id: 170,
       fileName: "2013_Book_TouchDevelopProgrammingOnTheGo",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2013_Book_TouchDevelopProgrammingOnTheGo.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2013_Book_TouchDevelopProgrammingOnTheGo.jpeg",
       title: "TouchDevelop: Programming on the Go",
       author: "R. Nigel Horspool and Nikolai Tillmann",
       publisher: "Apress, Berkeley, CA",
@@ -2926,7 +2926,7 @@ module.exports = {
       id: 171,
       fileName: "2014_Book_AndroidApplicationDevelopmentF",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2014_Book_AndroidApplicationDevelopmentF.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2014_Book_AndroidApplicationDevelopmentF.jpeg",
       title: "Android Application Development for the Intel® Platform",
       author: "Ryan Cohen and Tao Wang",
       publisher: "Apress, Berkeley, CA",
@@ -2943,7 +2943,7 @@ module.exports = {
       id: 172,
       fileName: "2014_Book_BuildingTheInfrastructureForCl",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2014_Book_BuildingTheInfrastructureForCl.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2014_Book_BuildingTheInfrastructureForCl.jpeg",
       title: "Building the Infrastructure for Cloud Security",
       author: "Raghu Yeluri and Enrique Castro-Leon",
       publisher: "Apress, Berkeley, CA",
@@ -2960,7 +2960,7 @@ module.exports = {
       id: 173,
       fileName: "2014_Book_ComputerVisionMetrics",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2014_Book_ComputerVisionMetrics.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2014_Book_ComputerVisionMetrics.jpeg",
       title: "Computer Vision Metrics",
       author: "Scott Krig",
       publisher: "Apress, Berkeley, CA",
@@ -2977,7 +2977,7 @@ module.exports = {
       id: 174,
       fileName: "2014_Book_GUIDesignForAndroidApps",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2014_Book_GUIDesignForAndroidApps.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2014_Book_GUIDesignForAndroidApps.jpeg",
       title: "GUI Design for Android Apps",
       author: "Ryan Cohen and Tao Wang",
       publisher: "Apress, Berkeley, CA",
@@ -2994,7 +2994,7 @@ module.exports = {
       id: 175,
       fileName: "2014_Book_DigitalVideoConceptsMethodsAnd",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2014_Book_DigitalVideoConceptsMethodsAnd.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2014_Book_DigitalVideoConceptsMethodsAnd.jpeg",
       title: "Digital Video Concepts, Methods, and Metrics",
       author: "Shahriar Akramullah",
       publisher: "Apress, Berkeley, CA",
@@ -3011,7 +3011,7 @@ module.exports = {
       id: 176,
       fileName: "2014_Book_IntelGalileoAndIntelGalileoGen",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2014_Book_IntelGalileoAndIntelGalileoGen.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2014_Book_IntelGalileoAndIntelGalileoGen.jpeg",
       title: "Intel® Galileo and Intel® Galileo Gen 2",
       author: "Manoel Carlos Ramon",
       publisher: "Apress, Berkeley, CA",
@@ -3028,7 +3028,7 @@ module.exports = {
       id: 177,
       fileName: "2014_Book_LearnBlackBerry10AppDevelopmen",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2014_Book_LearnBlackBerry10AppDevelopmen.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2014_Book_LearnBlackBerry10AppDevelopmen.jpeg",
       title: "Learn BlackBerry 10 App Development",
       author: "Anwar Ludin",
       publisher: "Apress, Berkeley, CA",
@@ -3045,7 +3045,7 @@ module.exports = {
       id: 178,
       fileName: "2014_Book_LinkedOpenData--CreatingKnowle",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2014_Book_LinkedOpenData--CreatingKnowle.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2014_Book_LinkedOpenData--CreatingKnowle.jpeg",
       title: "Linked Open Data -- Creating Knowledge Out of Interlinked Data",
       author: "Sören Auer, Volha Bryl and Sebastian Tramp",
       publisher: "Springer International Publishing, Cham",
@@ -3062,7 +3062,7 @@ module.exports = {
       id: 179,
       fileName: "2014_Book_PlatformEmbeddedSecurityTechno",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2014_Book_PlatformEmbeddedSecurityTechno.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2014_Book_PlatformEmbeddedSecurityTechno.jpeg",
       title: "Platform Embedded Security Technology Revealed",
       author: "Xiaoyu Ruan",
       publisher: "Apress, Berkeley, CA",
@@ -3079,7 +3079,7 @@ module.exports = {
       id: 180,
       fileName: "2014_Book_OptimizingHPCApplicationsWithI",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2014_Book_OptimizingHPCApplicationsWithI.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2014_Book_OptimizingHPCApplicationsWithI.jpeg",
       title: "Optimizing HPC Applications with Intel® Cluster Tools",
       author:
         "Alexander Supalov, Andrey Semin, Michael Klemm and Christopher Dahnken",
@@ -3097,7 +3097,7 @@ module.exports = {
       id: 181,
       fileName: "2014_Book_ProGit",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2014_Book_ProGit.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2014_Book_ProGit.jpeg",
       title: "Pro Git",
       author: "Scott Chacon and Ben Straub",
       publisher: "Apress, Berkeley, CA",
@@ -3114,7 +3114,7 @@ module.exports = {
       id: 182,
       fileName: "2014_Book_ThePrivacyEngineerSManifesto",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2014_Book_ThePrivacyEngineerSManifesto.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2014_Book_ThePrivacyEngineerSManifesto.jpeg",
       title: "The Privacy Engineer’s Manifesto",
       author: "Michelle Finneran Dennedy, Jonathan Fox and Thomas R. Finneran",
       publisher: "Apress, Berkeley, CA",
@@ -3131,7 +3131,7 @@ module.exports = {
       id: 183,
       fileName: "2014_Book_TheInfoSecHandbook",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2014_Book_TheInfoSecHandbook.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2014_Book_TheInfoSecHandbook.jpeg",
       title: "The InfoSec Handbook",
       author: "Umesh Hodeghatta Rao and Umesha Nayak",
       publisher: "Apress, Berkeley, CA",
@@ -3148,7 +3148,7 @@ module.exports = {
       id: 184,
       fileName: "2015_Book_APracticalGuideToTPM20",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2015_Book_APracticalGuideToTPM20.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2015_Book_APracticalGuideToTPM20.jpeg",
       title: "A Practical Guide to TPM 2.0",
       author: "Will Arthur, David Challener and Kenneth Goldman",
       publisher: "Apress, Berkeley, CA",
@@ -3165,7 +3165,7 @@ module.exports = {
       id: 185,
       fileName: "2015_Book_EmbeddedFirmwareSolutions",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2015_Book_EmbeddedFirmwareSolutions.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2015_Book_EmbeddedFirmwareSolutions.jpeg",
       title: "Embedded Firmware Solutions",
       author: "Jiming Sun, Marc Jones, Stefan Reinauer and Vincent Zimmer",
       publisher: "Apress, Berkeley, CA",
@@ -3182,7 +3182,7 @@ module.exports = {
       id: 186,
       fileName: "2015_Book_EfficientLearningMachines",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2015_Book_EfficientLearningMachines.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2015_Book_EfficientLearningMachines.jpeg",
       title: "Efficient Learning Machines",
       author: "Mariette Awad and Rahul Khanna",
       publisher: "Apress, Berkeley, CA",
@@ -3199,7 +3199,7 @@ module.exports = {
       id: 187,
       fileName: "2015_Book_EnergyEfficientServers",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2015_Book_EnergyEfficientServers.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2015_Book_EnergyEfficientServers.jpeg",
       title: "Energy Efficient Servers",
       author: "Corey Gough, Ian Steiner and Winston Saunders",
       publisher: "Apress, Berkeley, CA",
@@ -3216,7 +3216,7 @@ module.exports = {
       id: 188,
       fileName: "2015_Book_Intertwingled",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2015_Book_Intertwingled.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2015_Book_Intertwingled.jpeg",
       title: "Intertwingled",
       author: "Douglas R. Dechow and Daniele C. Struppa",
       publisher: "Springer International Publishing, Cham",
@@ -3233,7 +3233,7 @@ module.exports = {
       id: 189,
       fileName: "2015_Book_Re-engineeringTheUptakeOfICTIn",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2015_Book_Re-engineeringTheUptakeOfICTIn.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2015_Book_Re-engineeringTheUptakeOfICTIn.jpeg",
       title: "Re-engineering the Uptake of ICT in Schools",
       author:
         "Frans Van Assche, Luis Anido, David Griffiths, Cathy Lewin and Sarah McNicol",
@@ -3251,7 +3251,7 @@ module.exports = {
       id: 190,
       fileName: "2015_Book_S-BPMInTheWild",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2015_Book_S-BPMInTheWild.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2015_Book_S-BPMInTheWild.jpeg",
       title: "S-BPM in the Wild",
       author: "Albert Fleischmann, Werner Schmidt and Christian Stary",
       publisher: "Springer International Publishing, Cham",
@@ -3268,7 +3268,7 @@ module.exports = {
       id: 191,
       fileName: "2016_Book_Anti-fragileICTSystems",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2016_Book_Anti-fragileICTSystems.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2016_Book_Anti-fragileICTSystems.jpeg",
       title: "Anti-fragile ICT Systems",
       author: "Kjell Jørgen Hole",
       publisher: "Springer International Publishing, Cham",
@@ -3285,7 +3285,7 @@ module.exports = {
       id: 192,
       fileName: "2016_Book_ComputationAndTheHumanities",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2016_Book_ComputationAndTheHumanities.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2016_Book_ComputationAndTheHumanities.jpeg",
       title: "Computation and the Humanities",
       author: "Julianne Nyhan and Andrew Flinn",
       publisher: "Springer International Publishing, Cham",
@@ -3302,7 +3302,7 @@ module.exports = {
       id: 193,
       fileName: "2016_Book_ComputerAndInformationSciences",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2016_Book_ComputerAndInformationSciences.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2016_Book_ComputerAndInformationSciences.jpeg",
       title: "Computer and Information Sciences",
       author:
         "Tadeusz Czachórski, Erol Gelenbe, Krzysztof Grochla and Ricardo Lent",
@@ -3320,7 +3320,7 @@ module.exports = {
       id: 194,
       fileName: "2016_Book_Cyber-PhysicalSystemsOfSystems",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2016_Book_Cyber-PhysicalSystemsOfSystems.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2016_Book_Cyber-PhysicalSystemsOfSystems.jpeg",
       title: "Cyber-Physical Systems of Systems",
       author: "Andrea Bondavalli, Sara Bouchenak and Hermann Kopetz",
       publisher: "Springer International Publishing, Cham",
@@ -3337,7 +3337,7 @@ module.exports = {
       id: 195,
       fileName: "2016_Book_ManagingRiskAndInformationSecu",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2016_Book_ManagingRiskAndInformationSecu.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2016_Book_ManagingRiskAndInformationSecu.jpeg",
       title: "Managing Risk and Information Security",
       author: "Malcolm W. Harkins",
       publisher: "Apress, Berkeley, CA",
@@ -3354,7 +3354,7 @@ module.exports = {
       id: 196,
       fileName: "2016_Book_DevOpsForDigitalLeaders",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2016_Book_DevOpsForDigitalLeaders.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2016_Book_DevOpsForDigitalLeaders.jpeg",
       title: "DevOps for Digital Leaders",
       author: "Aruna Ravichandran, Kieran Taylor and Peter Waterhouse",
       publisher: "Apress, Berkeley, CA",
@@ -3371,7 +3371,7 @@ module.exports = {
       id: 197,
       fileName: "2016_Book_NewHorizonsForAData-DrivenEcon",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2016_Book_NewHorizonsForAData-DrivenEcon.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2016_Book_NewHorizonsForAData-DrivenEcon.jpeg",
       title: "New Horizons for a Data-Driven Economy",
       author: "José María Cavanillas, Edward Curry and Wolfgang Wahlster",
       publisher: "Springer International Publishing, Cham",
@@ -3388,7 +3388,7 @@ module.exports = {
       id: 198,
       fileName: "2017_Book_AgileProcessesInSoftwareEngine",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2017_Book_AgileProcessesInSoftwareEngine.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2017_Book_AgileProcessesInSoftwareEngine.jpeg",
       title: "Agile Processes in Software Engineering and Extreme Programming",
       author: "Hubert Baumeister, Horst Lichter and Matthias Riebisch",
       publisher: "Springer International Publishing, Cham",
@@ -3405,7 +3405,7 @@ module.exports = {
       id: 199,
       fileName: "2017_Book_IntelligentHumanComputerIntera",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2017_Book_IntelligentHumanComputerIntera.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2017_Book_IntelligentHumanComputerIntera.jpeg",
       title: "Intelligent Human Computer Interaction",
       author: "Patrick Horain, Catherine Achard and Malik Mallem",
       publisher: "Springer International Publishing, Cham",
@@ -3422,7 +3422,7 @@ module.exports = {
       id: 200,
       fileName: "2017_Book_OpenSourceSystemsTowardsRobust",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2017_Book_OpenSourceSystemsTowardsRobust.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2017_Book_OpenSourceSystemsTowardsRobust.jpeg",
       title: "Open Source Systems: Towards Robust Practices",
       author:
         "Federico Balaguer, Roberto Di Cosmo, Alejandra Garrido, Fabio Kon, Gregorio Robles and Stefano Zacchiroli",
@@ -3440,7 +3440,7 @@ module.exports = {
       id: 201,
       fileName: "2017_Book_SecurityOfNetworksAndServicesI",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2017_Book_SecurityOfNetworksAndServicesI.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2017_Book_SecurityOfNetworksAndServicesI.jpeg",
       title: "Security of Networks and Services in an All-Connected World",
       author: "Daphne Tuncer, Robert Koch, Rémi Badonnel and Burkhard Stiller",
       publisher: "Springer International Publishing, Cham",
@@ -3457,7 +3457,7 @@ module.exports = {
       id: 202,
       fileName: "2017_Book_SymbioticInteraction",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2017_Book_SymbioticInteraction.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2017_Book_SymbioticInteraction.jpeg",
       title: "Symbiotic Interaction",
       author:
         "Luciano Gamberini, Anna Spagnolli, Giulio Jacucci, Benjamin Blankertz and Jonathan Freeman",
@@ -3475,7 +3475,7 @@ module.exports = {
       id: 203,
       fileName: "2018_Book_AgileProcessesInSoftwareEngine",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2018_Book_AgileProcessesInSoftwareEngine.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2018_Book_AgileProcessesInSoftwareEngine.jpeg",
       title: "Agile Processes in Software Engineering and Extreme Programming",
       author: "Juan Garbajosa, Xiaofeng Wang and Ademar Aguiar",
       publisher: "Springer International Publishing, Cham",
@@ -3492,7 +3492,7 @@ module.exports = {
       id: 204,
       fileName: "2018_Book_ElementsOfRobotics",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2018_Book_ElementsOfRobotics.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2018_Book_ElementsOfRobotics.jpeg",
       title: "Elements of Robotics",
       author: "Mordechai Ben-Ari and Francesco Mondada",
       publisher: "Springer International Publishing, Cham",
@@ -3509,7 +3509,7 @@ module.exports = {
       id: 205,
       fileName: "2018_Book_MusicalHaptics",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2018_Book_MusicalHaptics.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2018_Book_MusicalHaptics.jpeg",
       title: "Musical Haptics",
       author: "Stefano Papetti and Charalampos Saitis",
       publisher: "Springer International Publishing, Cham",
@@ -3526,7 +3526,7 @@ module.exports = {
       id: 206,
       fileName: "2018_Book_PrinciplesOfSecurityAndTrust",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2018_Book_PrinciplesOfSecurityAndTrust.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2018_Book_PrinciplesOfSecurityAndTrust.jpeg",
       title: "Principles of Security and Trust",
       author: "Lujo Bauer and Ralf Küsters",
       publisher: "Springer International Publishing, Cham",
@@ -3543,7 +3543,7 @@ module.exports = {
       id: 207,
       fileName: "2018_Book_ProgrammingLanguagesAndSystems",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2018_Book_ProgrammingLanguagesAndSystems.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2018_Book_ProgrammingLanguagesAndSystems.jpeg",
       title: "Programming Languages and Systems",
       author: "Amal Ahmed",
       publisher: "Springer International Publishing, Cham",
@@ -3560,7 +3560,7 @@ module.exports = {
       id: 208,
       fileName: "2018_Book_SupercomputingFrontiers",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2018_Book_SupercomputingFrontiers.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2018_Book_SupercomputingFrontiers.jpeg",
       title: "Supercomputing Frontiers",
       author: "Rio Yokota and Weigang Wu",
       publisher: "Springer International Publishing, Cham",
@@ -3577,7 +3577,7 @@ module.exports = {
       id: 209,
       fileName: "2018_Book_ToolsAndAlgorithmsForTheConstr",
       cover:
-        "http://47.99.166.157/book/res/img/ComputerScience/2018_Book_ToolsAndAlgorithmsForTheConstr.jpeg",
+        "https://47.99.166.157/book/res/img/ComputerScience/2018_Book_ToolsAndAlgorithmsForTheConstr.jpeg",
       title:
         "Tools and Algorithms for the Construction and Analysis of Systems",
       author: "Dirk Beyer and Marieke Huisman",
@@ -3595,7 +3595,7 @@ module.exports = {
       id: 212,
       fileName: "2011_Book_DeterminantsOfFinancialDevelop",
       cover:
-        "http://47.99.166.157/book/res/img/Economics/2011_Book_DeterminantsOfFinancialDevelop.jpeg",
+        "https://47.99.166.157/book/res/img/Economics/2011_Book_DeterminantsOfFinancialDevelop.jpeg",
       title: "Determinants of Financial Development",
       author: "Yongfu Huang",
       publisher: "Palgrave Macmillan Ltd",
@@ -3612,7 +3612,7 @@ module.exports = {
       id: 213,
       fileName: "2011_Book_NetworksInTheRussianMarketEcon",
       cover:
-        "http://47.99.166.157/book/res/img/Economics/2011_Book_NetworksInTheRussianMarketEcon.jpeg",
+        "https://47.99.166.157/book/res/img/Economics/2011_Book_NetworksInTheRussianMarketEcon.jpeg",
       title: "Networks in the Russian Market Economy",
       author: "Markku Lonkila",
       publisher: "Palgrave Macmillan",
@@ -3629,7 +3629,7 @@ module.exports = {
       id: 214,
       fileName: "2012_Book_ManifestoOfTheNewEconomy",
       cover:
-        "http://47.99.166.157/book/res/img/Economics/2012_Book_ManifestoOfTheNewEconomy.jpeg",
+        "https://47.99.166.157/book/res/img/Economics/2012_Book_ManifestoOfTheNewEconomy.jpeg",
       title: "Manifesto of the New Economy",
       author: "Alexander Dolgin",
       publisher: "Springer Berlin Heidelberg, Berlin, Heidelberg",
@@ -3646,7 +3646,7 @@ module.exports = {
       id: 215,
       fileName: "2013_Book_FulfillingThePromiseOfTechnolo",
       cover:
-        "http://47.99.166.157/book/res/img/Economics/2013_Book_FulfillingThePromiseOfTechnolo.jpeg",
+        "https://47.99.166.157/book/res/img/Economics/2013_Book_FulfillingThePromiseOfTechnolo.jpeg",
       title: "Fulfilling the Promise of Technology Transfer",
       author: "Koichi Hishida and Koichi Hishida",
       publisher: "Springer Japan, Tokyo",
@@ -3663,7 +3663,7 @@ module.exports = {
       id: 216,
       fileName: "2014_Book_SynchronizedFactories",
       cover:
-        "http://47.99.166.157/book/res/img/Economics/2014_Book_SynchronizedFactories.jpeg",
+        "https://47.99.166.157/book/res/img/Economics/2014_Book_SynchronizedFactories.jpeg",
       title: "Synchronized Factories",
       author: "Juan S. Blyde",
       publisher: "Springer International Publishing, Cham",
@@ -3680,7 +3680,7 @@ module.exports = {
       id: 217,
       fileName: "2015_Book_FormalizingTheShadowEconomyInS",
       cover:
-        "http://47.99.166.157/book/res/img/Economics/2015_Book_FormalizingTheShadowEconomyInS.jpeg",
+        "https://47.99.166.157/book/res/img/Economics/2015_Book_FormalizingTheShadowEconomyInS.jpeg",
       title: "Formalizing the Shadow Economy in Serbia",
       author: "Gorana Krstić and Friedrich Schneider",
       publisher: "Springer International Publishing, Cham",
@@ -3697,7 +3697,7 @@ module.exports = {
       id: 218,
       fileName: "2015_Book_PovertyReductionPoliciesAndPra",
       cover:
-        "http://47.99.166.157/book/res/img/Economics/2015_Book_PovertyReductionPoliciesAndPra.jpeg",
+        "https://47.99.166.157/book/res/img/Economics/2015_Book_PovertyReductionPoliciesAndPra.jpeg",
       title: "Poverty Reduction Policies and Practices in Developing Asia",
       author: "Almas Heshmati, Esfandiar Maasoumi and Guanghua Wan",
       publisher: "Springer Singapore, Singapore",
@@ -3714,7 +3714,7 @@ module.exports = {
       id: 219,
       fileName: "2015_Book_ScienceAndTechnologyGovernance",
       cover:
-        "http://47.99.166.157/book/res/img/Economics/2015_Book_ScienceAndTechnologyGovernance.jpeg",
+        "https://47.99.166.157/book/res/img/Economics/2015_Book_ScienceAndTechnologyGovernance.jpeg",
       title: "Science and Technology Governance and Ethics",
       author:
         "Miltos Ladikas, Sachin Chaturvedi, Yandong Zhao and Dirk Stemerding",
@@ -3732,7 +3732,7 @@ module.exports = {
       id: 220,
       fileName: "2016_Book_AiREASSustainocracyForAHealthy",
       cover:
-        "http://47.99.166.157/book/res/img/Economics/2016_Book_AiREASSustainocracyForAHealthy.jpeg",
+        "https://47.99.166.157/book/res/img/Economics/2016_Book_AiREASSustainocracyForAHealthy.jpeg",
       title: "AiREAS: Sustainocracy for a Healthy City",
       author: "Jean-Paul Close",
       publisher: "Springer International Publishing, Cham",
@@ -3749,7 +3749,7 @@ module.exports = {
       id: 221,
       fileName: "2016_Book_FirmInnovationAndProductivityI",
       cover:
-        "http://47.99.166.157/book/res/img/Economics/2016_Book_FirmInnovationAndProductivityI.jpeg",
+        "https://47.99.166.157/book/res/img/Economics/2016_Book_FirmInnovationAndProductivityI.jpeg",
       title:
         "Firm Innovation and Productivity in Latin America and the Caribbean",
       author:
@@ -3768,7 +3768,7 @@ module.exports = {
       id: 222,
       fileName: "2016_Book_EconomicsOfLandDegradationAndI",
       cover:
-        "http://47.99.166.157/book/res/img/Economics/2016_Book_EconomicsOfLandDegradationAndI.jpeg",
+        "https://47.99.166.157/book/res/img/Economics/2016_Book_EconomicsOfLandDegradationAndI.jpeg",
       title:
         "Economics of Land Degradation and Improvement – A Global Assessment for Sustainable Development",
       author: "Ephraim Nkonya, Alisher Mirzabaev and Joachim Braun",
@@ -3786,7 +3786,7 @@ module.exports = {
       id: 223,
       fileName: "2016_Book_FoodPriceVolatilityAndItsImpli",
       cover:
-        "http://47.99.166.157/book/res/img/Economics/2016_Book_FoodPriceVolatilityAndItsImpli.jpeg",
+        "https://47.99.166.157/book/res/img/Economics/2016_Book_FoodPriceVolatilityAndItsImpli.jpeg",
       title:
         "Food Price Volatility and Its Implications for Food Security and Policy",
       author: "Matthias Kalkuhl, Joachim Braun and Maximo Torero",
@@ -3804,7 +3804,7 @@ module.exports = {
       id: 224,
       fileName: "2016_Book_MakingMedicinesInAfrica",
       cover:
-        "http://47.99.166.157/book/res/img/Economics/2016_Book_MakingMedicinesInAfrica.jpeg",
+        "https://47.99.166.157/book/res/img/Economics/2016_Book_MakingMedicinesInAfrica.jpeg",
       title: "Making Medicines in Africa",
       author: "Maureen Mackintosh",
       publisher: "Palgrave Macmillan",
@@ -3821,7 +3821,7 @@ module.exports = {
       id: 225,
       fileName: "2016_Book_MicrofinanceEUStructuralFundsA",
       cover:
-        "http://47.99.166.157/book/res/img/Economics/2016_Book_MicrofinanceEUStructuralFundsA.jpeg",
+        "https://47.99.166.157/book/res/img/Economics/2016_Book_MicrofinanceEUStructuralFundsA.jpeg",
       title:
         "Microfinance, EU Structural Funds and Capacity Building for Managing Authorities",
       author: "Giovanni Nicola Pes",
@@ -3839,7 +3839,7 @@ module.exports = {
       id: 226,
       fileName: "2016_Book_SavingForDevelopment",
       cover:
-        "http://47.99.166.157/book/res/img/Economics/2016_Book_SavingForDevelopment.jpeg",
+        "https://47.99.166.157/book/res/img/Economics/2016_Book_SavingForDevelopment.jpeg",
       title: "Saving for Development",
       author:
         "Inter-American Development BankEduardo Cavallo and Tomás Serebrisky",
@@ -3857,7 +3857,7 @@ module.exports = {
       id: 227,
       fileName: "2016_Book_SustainableDevelopmentInTheJor",
       cover:
-        "http://47.99.166.157/book/res/img/Economics/2016_Book_SustainableDevelopmentInTheJor.jpeg",
+        "https://47.99.166.157/book/res/img/Economics/2016_Book_SustainableDevelopmentInTheJor.jpeg",
       title: "Sustainable Development in the Jordan Valley",
       author: "Jeroen Kool",
       publisher: "Springer International Publishing, Cham",
@@ -3874,7 +3874,7 @@ module.exports = {
       id: 228,
       fileName: "2017_Book_DigitalKenya",
       cover:
-        "http://47.99.166.157/book/res/img/Economics/2017_Book_DigitalKenya.jpeg",
+        "https://47.99.166.157/book/res/img/Economics/2017_Book_DigitalKenya.jpeg",
       title: "Digital Kenya",
       author: "Bitange Ndemo and Tim Weiss",
       publisher: "Palgrave Macmillan UK, London",
@@ -3891,7 +3891,7 @@ module.exports = {
       id: 229,
       fileName: "2017_Book_HasLatinAmericanInequalityChan",
       cover:
-        "http://47.99.166.157/book/res/img/Economics/2017_Book_HasLatinAmericanInequalityChan.jpeg",
+        "https://47.99.166.157/book/res/img/Economics/2017_Book_HasLatinAmericanInequalityChan.jpeg",
       title: "Has Latin American Inequality Changed Direction?",
       author: "Luis Bértola and Jeffrey Williamson",
       publisher: "Springer International Publishing, Cham",
@@ -3908,7 +3908,7 @@ module.exports = {
       id: 230,
       fileName: "2017_Book_InstitutionalReformForInnovati",
       cover:
-        "http://47.99.166.157/book/res/img/Economics/2017_Book_InstitutionalReformForInnovati.jpeg",
+        "https://47.99.166.157/book/res/img/Economics/2017_Book_InstitutionalReformForInnovati.jpeg",
       title: "Institutional Reform for Innovation and Entrepreneurship",
       author: "Niklas Elert, Magnus Henrekson and Mikael Stenkula",
       publisher: "Springer International Publishing, Cham",
@@ -3925,7 +3925,7 @@ module.exports = {
       id: 231,
       fileName: "2017_Book_SpanishEconomicGrowth18502015",
       cover:
-        "http://47.99.166.157/book/res/img/Economics/2017_Book_SpanishEconomicGrowth18502015.jpeg",
+        "https://47.99.166.157/book/res/img/Economics/2017_Book_SpanishEconomicGrowth18502015.jpeg",
       title: "Spanish Economic Growth, 1850–2015",
       author: "Leandro Prados de la Escosura",
       publisher: "Springer International Publishing, Cham",
@@ -3942,7 +3942,7 @@ module.exports = {
       id: 232,
       fileName: "2018_Book_ClimateSmartAgriculture",
       cover:
-        "http://47.99.166.157/book/res/img/Economics/2018_Book_ClimateSmartAgriculture.jpeg",
+        "https://47.99.166.157/book/res/img/Economics/2018_Book_ClimateSmartAgriculture.jpeg",
       title: "Climate Smart Agriculture",
       author:
         "Leslie Lipper, Nancy McCarthy, David Zilberman, Solomon Asfaw and Giacomo Branca",
@@ -3960,7 +3960,7 @@ module.exports = {
       id: 233,
       fileName: "2018_Book_DevelopmentPoliciesAndPolicyPr",
       cover:
-        "http://47.99.166.157/book/res/img/Economics/2018_Book_DevelopmentPoliciesAndPolicyPr.jpeg",
+        "https://47.99.166.157/book/res/img/Economics/2018_Book_DevelopmentPoliciesAndPolicyPr.jpeg",
       title: "Development Policies and Policy Processes in Africa",
       author: "Christian Henning, Ousmane Badiane and Eva Krampe",
       publisher: "Springer International Publishing, Cham",
@@ -3977,7 +3977,7 @@ module.exports = {
       id: 234,
       fileName: "2015_Book_PlantSelectionForBioretentionS",
       cover:
-        "http://47.99.166.157/book/res/img/Geography/2015_Book_PlantSelectionForBioretentionS.jpeg",
+        "https://47.99.166.157/book/res/img/Geography/2015_Book_PlantSelectionForBioretentionS.jpeg",
       title:
         "Plant Selection for Bioretention Systems and Stormwater Treatment Practices",
       author: "William F. Hunt, Bill Lord, Benjamin Loh and Angelia Sia",
@@ -3995,7 +3995,7 @@ module.exports = {
       id: 235,
       fileName: "2016_Book_BalancedUrbanDevelopmentOption",
       cover:
-        "http://47.99.166.157/book/res/img/Geography/2016_Book_BalancedUrbanDevelopmentOption.jpeg",
+        "https://47.99.166.157/book/res/img/Geography/2016_Book_BalancedUrbanDevelopmentOption.jpeg",
       title:
         "Balanced Urban Development: Options and Strategies for Liveable Cities",
       author: "Basant Maheshwari, Vijay P. Singh and Bhadranie Thoradeniya",
@@ -4013,7 +4013,7 @@ module.exports = {
       id: 236,
       fileName: "2016_Book_WorkingHousingUrbanizing",
       cover:
-        "http://47.99.166.157/book/res/img/Geography/2016_Book_WorkingHousingUrbanizing.jpeg",
+        "https://47.99.166.157/book/res/img/Geography/2016_Book_WorkingHousingUrbanizing.jpeg",
       title: "Working, Housing: Urbanizing",
       author: "Jennifer Robinson, Allen J. Scott and Peter J. Taylor",
       publisher: "Springer International Publishing, Cham",
@@ -4030,7 +4030,7 @@ module.exports = {
       id: 237,
       fileName: "2017_Book_Nature-BasedSolutionsToClimate",
       cover:
-        "http://47.99.166.157/book/res/img/Geography/2017_Book_Nature-BasedSolutionsToClimate.jpeg",
+        "https://47.99.166.157/book/res/img/Geography/2017_Book_Nature-BasedSolutionsToClimate.jpeg",
       title:
         "Nature-Based Solutions to Climate Change Adaptation in Urban Areas",
       author: "Nadja Kabisch, Horst Korn, Jutta Stadler and Aletta Bonn",
@@ -4048,7 +4048,7 @@ module.exports = {
       id: 238,
       fileName: "2017_Book_RenewingLocalPlanningToFaceCli",
       cover:
-        "http://47.99.166.157/book/res/img/Geography/2017_Book_RenewingLocalPlanningToFaceCli.jpeg",
+        "https://47.99.166.157/book/res/img/Geography/2017_Book_RenewingLocalPlanningToFaceCli.jpeg",
       title: "Renewing Local Planning to Face Climate Change in the Tropics",
       author: "Maurizio Tiepolo, Alessandro Pezzoli and Vieri Tarchiani",
       publisher: "Springer International Publishing, Cham",
@@ -4065,7 +4065,7 @@ module.exports = {
       id: 239,
       fileName: "2013_Book_AgriculturalImplicationsOfTheF",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/2013_Book_AgriculturalImplicationsOfTheF.jpeg",
+        "https://47.99.166.157/book/res/img/Environment/2013_Book_AgriculturalImplicationsOfTheF.jpeg",
       title: "Agricultural Implications of the Fukushima Nuclear Accident",
       author: "Tomoko M. Nakanishi and Keitaro Tanoi",
       publisher: "Springer Japan, Tokyo",
@@ -4082,7 +4082,7 @@ module.exports = {
       id: 240,
       fileName: "2013_Book_EnvironmentalLeadershipCapacit",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/2013_Book_EnvironmentalLeadershipCapacit.jpeg",
+        "https://47.99.166.157/book/res/img/Environment/2013_Book_EnvironmentalLeadershipCapacit.jpeg",
       title: "Environmental Leadership Capacity Building in Higher Education",
       author: "Takashi Mino and Keisuke Hanaki",
       publisher: "Springer Japan, Tokyo",
@@ -4099,7 +4099,7 @@ module.exports = {
       id: 241,
       fileName: "2013_Book_SustainableLandUseAndRuralDeve",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/2013_Book_SustainableLandUseAndRuralDeve.jpeg",
+        "https://47.99.166.157/book/res/img/Environment/2013_Book_SustainableLandUseAndRuralDeve.jpeg",
       title:
         "Sustainable Land Use and Rural Development in Southeast Asia: Innovations and Policies for Mountainous Areas",
       author:
@@ -4118,7 +4118,7 @@ module.exports = {
       id: 242,
       fileName: "2014_Book_BeyondTheLimitsToGrowth",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/2014_Book_BeyondTheLimitsToGrowth.jpeg",
+        "https://47.99.166.157/book/res/img/Environment/2014_Book_BeyondTheLimitsToGrowth.jpeg",
       title: "Beyond the Limits to Growth",
       author: "Hiroshi Komiyama",
       publisher: "Springer Japan, Tokyo",
@@ -4135,7 +4135,7 @@ module.exports = {
       id: 243,
       fileName: "2014_Book_EcologicalRiskAssessmentForChl",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/2014_Book_EcologicalRiskAssessmentForChl.jpeg",
+        "https://47.99.166.157/book/res/img/Environment/2014_Book_EcologicalRiskAssessmentForChl.jpeg",
       title:
         "Ecological Risk Assessment for Chlorpyrifos in Terrestrial and Aquatic Systems in the United States",
       author: "John P. Giesy and Keith R. Solomon",
@@ -4153,7 +4153,7 @@ module.exports = {
       id: 244,
       fileName: "2014_Book_EsterBoserupSLegacyOnSustainab",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/2014_Book_EsterBoserupSLegacyOnSustainab.jpeg",
+        "https://47.99.166.157/book/res/img/Environment/2014_Book_EsterBoserupSLegacyOnSustainab.jpeg",
       title: "Ester Boserup’s Legacy on Sustainability",
       author:
         "Marina Fischer-Kowalski, Anette Reenberg, Anke Schaffartzik and Andreas Mayer",
@@ -4171,7 +4171,7 @@ module.exports = {
       id: 245,
       fileName: "2014_Book_ManagingProtectedAreasInCentra",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/2014_Book_ManagingProtectedAreasInCentra.jpeg",
+        "https://47.99.166.157/book/res/img/Environment/2014_Book_ManagingProtectedAreasInCentra.jpeg",
       title:
         "Managing Protected Areas in Central and Eastern Europe Under Climate Change",
       author: "Sven Rannow and Marco Neubert",
@@ -4189,7 +4189,7 @@ module.exports = {
       id: 246,
       fileName: "2014_Book_Marginality",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/2014_Book_Marginality.jpeg",
+        "https://47.99.166.157/book/res/img/Environment/2014_Book_Marginality.jpeg",
       title: "Marginality",
       author: "Joachim Braun and Franz W. Gatzweiler",
       publisher: "Springer Netherlands, Dordrecht",
@@ -4206,7 +4206,7 @@ module.exports = {
       id: 247,
       fileName: "2014_Book_RadiationMonitoringAndDoseEsti",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/2014_Book_RadiationMonitoringAndDoseEsti.jpeg",
+        "https://47.99.166.157/book/res/img/Environment/2014_Book_RadiationMonitoringAndDoseEsti.jpeg",
       title:
         "Radiation Monitoring and Dose Estimation of the Fukushima Nuclear Accident",
       author: "Sentaro Takahashi",
@@ -4224,7 +4224,7 @@ module.exports = {
       id: 248,
       fileName: "2015_Book_AgriculturalAndForestryReconst",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/2015_Book_AgriculturalAndForestryReconst.jpeg",
+        "https://47.99.166.157/book/res/img/Environment/2015_Book_AgriculturalAndForestryReconst.jpeg",
       title:
         "Agricultural and Forestry Reconstruction After the Great East Japan Earthquake",
       author:
@@ -4243,7 +4243,7 @@ module.exports = {
       id: 249,
       fileName: "2015_Book_LifeCycleManagement",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/2015_Book_LifeCycleManagement.jpeg",
+        "https://47.99.166.157/book/res/img/Environment/2015_Book_LifeCycleManagement.jpeg",
       title: "Life Cycle Management",
       author: "Guido Sonnemann and Manuele Margni",
       publisher: "Springer Netherlands, Dordrecht",
@@ -4260,7 +4260,7 @@ module.exports = {
       id: 250,
       fileName: "2015_Book_NilsPetterGleditschPioneerInTh",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/2015_Book_NilsPetterGleditschPioneerInTh.jpeg",
+        "https://47.99.166.157/book/res/img/Environment/2015_Book_NilsPetterGleditschPioneerInTh.jpeg",
       title: "Nils Petter Gleditsch: Pioneer in the Analysis of War and Peace",
       author: "Nils Petter Gleditsch",
       publisher: "Springer International Publishing, Cham",
@@ -4277,7 +4277,7 @@ module.exports = {
       id: 251,
       fileName: "2015_Book_NuclearBack-endAndTransmutatio",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/2015_Book_NuclearBack-endAndTransmutatio.jpeg",
+        "https://47.99.166.157/book/res/img/Environment/2015_Book_NuclearBack-endAndTransmutatio.jpeg",
       title: "Nuclear Back-end and Transmutation Technology for Waste Disposal",
       author: "Ken Nakajima",
       publisher: "Springer Japan, Tokyo",
@@ -4294,7 +4294,7 @@ module.exports = {
       id: 252,
       fileName: "2015_Book_RewildingEuropeanLandscapes",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/2015_Book_RewildingEuropeanLandscapes.jpeg",
+        "https://47.99.166.157/book/res/img/Environment/2015_Book_RewildingEuropeanLandscapes.jpeg",
       title: "Rewilding European Landscapes",
       author: "Henrique M. Pereira and Laetitia M. Navarro",
       publisher: "Springer International Publishing, Cham",
@@ -4311,7 +4311,7 @@ module.exports = {
       id: 253,
       fileName: "2016_Book_AgriculturalImplicationsOfTheF",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/2016_Book_AgriculturalImplicationsOfTheF.jpeg",
+        "https://47.99.166.157/book/res/img/Environment/2016_Book_AgriculturalImplicationsOfTheF.jpeg",
       title: "Agricultural Implications of the Fukushima Nuclear Accident",
       author: "Tomoko M. Nakanishi and Keitaro Tanoi",
       publisher: "Springer Japan, Tokyo",
@@ -4328,7 +4328,7 @@ module.exports = {
       id: 254,
       fileName: "2016_Book_CounteractingUrbanHeatIslandEf",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/2016_Book_CounteractingUrbanHeatIslandEf.jpeg",
+        "https://47.99.166.157/book/res/img/Environment/2016_Book_CounteractingUrbanHeatIslandEf.jpeg",
       title:
         "Counteracting Urban Heat Island Effects in a Global Climate Change Scenario",
       author: "Francesco Musco",
@@ -4346,7 +4346,7 @@ module.exports = {
       id: 255,
       fileName: "2016_Book_EarthquakesTsunamisAndNuclearR",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/2016_Book_EarthquakesTsunamisAndNuclearR.jpeg",
+        "https://47.99.166.157/book/res/img/Environment/2016_Book_EarthquakesTsunamisAndNuclearR.jpeg",
       title: "Earthquakes, Tsunamis and Nuclear Risks",
       author: "Katsuhiro Kamae",
       publisher: "Springer Japan, Tokyo",
@@ -4363,7 +4363,7 @@ module.exports = {
       id: 256,
       fileName: "2016_Book_EatingDrinkingSurviving",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/2016_Book_EatingDrinkingSurviving.jpeg",
+        "https://47.99.166.157/book/res/img/Environment/2016_Book_EatingDrinkingSurviving.jpeg",
       title: "Eating, Drinking: Surviving",
       author: "Peter Jackson, Walter E.L. Spiess and Farhana Sultana",
       publisher: "Springer International Publishing, Cham",
@@ -4380,7 +4380,7 @@ module.exports = {
       id: 257,
       fileName: "2016_Book_EnvironmentalGovernanceOfTheBa",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/2016_Book_EnvironmentalGovernanceOfTheBa.jpeg",
+        "https://47.99.166.157/book/res/img/Environment/2016_Book_EnvironmentalGovernanceOfTheBa.jpeg",
       title: "Environmental Governance of the Baltic Sea",
       author:
         "Michael Gilek, Mikael Karlsson, Sebastian Linke and Katarzyna Smolarz",
@@ -4398,7 +4398,7 @@ module.exports = {
       id: 258,
       fileName: "2016_Book_EnablingAsiaToStabiliseTheClim",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/2016_Book_EnablingAsiaToStabiliseTheClim.jpeg",
+        "https://47.99.166.157/book/res/img/Environment/2016_Book_EnablingAsiaToStabiliseTheClim.jpeg",
       title: "Enabling Asia to Stabilise the Climate",
       author: "Shuzo Nishioka",
       publisher: "Springer Singapore, Singapore",
@@ -4415,7 +4415,7 @@ module.exports = {
       id: 259,
       fileName: "2016_Book_RadiologicalIssuesForFukushima",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/2016_Book_RadiologicalIssuesForFukushima.jpeg",
+        "https://47.99.166.157/book/res/img/Environment/2016_Book_RadiologicalIssuesForFukushima.jpeg",
       title: "Radiological Issues for Fukushima’s Revitalized Future",
       author: "Tomoyuki Takahashi",
       publisher: "Springer Japan, Tokyo",
@@ -4432,7 +4432,7 @@ module.exports = {
       id: 260,
       fileName: "2016_Book_Society-Water-Technology",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/2016_Book_Society-Water-Technology.jpeg",
+        "https://47.99.166.157/book/res/img/Environment/2016_Book_Society-Water-Technology.jpeg",
       title: "Society - Water - Technology",
       author:
         "Reinhard F. Hüttl, Oliver Bens, Christine Bismuth and Sebastian Hoechstetter",
@@ -4450,7 +4450,7 @@ module.exports = {
       id: 261,
       fileName: "2016_Book_TakingStockOfIndustrialEcology",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/2016_Book_TakingStockOfIndustrialEcology.jpeg",
+        "https://47.99.166.157/book/res/img/Environment/2016_Book_TakingStockOfIndustrialEcology.jpeg",
       title: "Taking Stock of Industrial Ecology",
       author: "Roland Clift and Angela Druckman",
       publisher: "Springer International Publishing, Cham",
@@ -4467,7 +4467,7 @@ module.exports = {
       id: 262,
       fileName: "2016_Book_TheGreatMindshift",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/2016_Book_TheGreatMindshift.jpeg",
+        "https://47.99.166.157/book/res/img/Environment/2016_Book_TheGreatMindshift.jpeg",
       title: "The Great Mindshift",
       author: "Maja Göpel",
       publisher: "Springer International Publishing, Cham",
@@ -4484,7 +4484,7 @@ module.exports = {
       id: 263,
       fileName: "2017_Book_AirQualityIntegratedAssessment",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/2017_Book_AirQualityIntegratedAssessment.jpeg",
+        "https://47.99.166.157/book/res/img/Environment/2017_Book_AirQualityIntegratedAssessment.jpeg",
       title: "Air Quality Integrated Assessment",
       author: "Giorgio Guariso and Marialuisa Volta",
       publisher: "Springer International Publishing, Cham",
@@ -4501,7 +4501,7 @@ module.exports = {
       id: 264,
       fileName: "2017_Book_AquaculturePerspectiveOfMulti-",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/2017_Book_AquaculturePerspectiveOfMulti-.jpeg",
+        "https://47.99.166.157/book/res/img/Environment/2017_Book_AquaculturePerspectiveOfMulti-.jpeg",
       title: "Aquaculture Perspective of Multi-Use Sites in the Open Ocean",
       author: "Bela H. Buck and Richard Langan",
       publisher: "Springer International Publishing, Cham",
@@ -4518,7 +4518,7 @@ module.exports = {
       id: 265,
       fileName: "2017_Book_EvaluatingClimateChangeActionF",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/2017_Book_EvaluatingClimateChangeActionF.jpeg",
+        "https://47.99.166.157/book/res/img/Environment/2017_Book_EvaluatingClimateChangeActionF.jpeg",
       title: "Evaluating Climate Change Action for Sustainable Development",
       author: "Juha I. Uitto, Jyotsna Puri and Rob D. van den Berg",
       publisher: "Springer International Publishing, Cham",
@@ -4535,7 +4535,7 @@ module.exports = {
       id: 266,
       fileName: "2017_Book_HabitatsAndBiotaOfTheGulfOfMex",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/2017_Book_HabitatsAndBiotaOfTheGulfOfMex.jpeg",
+        "https://47.99.166.157/book/res/img/Environment/2017_Book_HabitatsAndBiotaOfTheGulfOfMex.jpeg",
       title:
         "Habitats and Biota of the Gulf of Mexico: Before the Deepwater Horizon Oil Spill",
       author: "C. Herb Ward",
@@ -4553,7 +4553,7 @@ module.exports = {
       id: 267,
       fileName: "2017_Book_HighMountainConservationInACha",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/2017_Book_HighMountainConservationInACha.jpeg",
+        "https://47.99.166.157/book/res/img/Environment/2017_Book_HighMountainConservationInACha.jpeg",
       title: "High Mountain Conservation in a Changing World",
       author: "Jordi Catalan, Josep M Ninot and M. Mercè Aniz",
       publisher: "Springer International Publishing, Cham",
@@ -4570,7 +4570,7 @@ module.exports = {
       id: 268,
       fileName: "2017_Book_ParisClimateAgreementBeaconOfH",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/2017_Book_ParisClimateAgreementBeaconOfH.jpeg",
+        "https://47.99.166.157/book/res/img/Environment/2017_Book_ParisClimateAgreementBeaconOfH.jpeg",
       title: "Paris Climate Agreement: Beacon of Hope",
       author:
         "Ross J. Salawitch, Timothy P. Canty, Austin P. Hope, Walter R. Tribett and Brian F. Bennett",
@@ -4588,7 +4588,7 @@ module.exports = {
       id: 269,
       fileName: "2017_Book_RailwayEcology",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/2017_Book_RailwayEcology.jpeg",
+        "https://47.99.166.157/book/res/img/Environment/2017_Book_RailwayEcology.jpeg",
       title: "Railway Ecology",
       author:
         "Luís Borda-de-Água, Rafael Barrientos, Pedro Beja and Henrique Miguel Pereira",
@@ -4606,7 +4606,7 @@ module.exports = {
       id: 270,
       fileName: "2017_Book_RangelandSystems",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/2017_Book_RangelandSystems.jpeg",
+        "https://47.99.166.157/book/res/img/Environment/2017_Book_RangelandSystems.jpeg",
       title: "Rangeland Systems",
       author: "David D. Briske",
       publisher: "Springer International Publishing, Cham",
@@ -4623,7 +4623,7 @@ module.exports = {
       id: 271,
       fileName: "2017_Book_ResilienceANewParadigmOfNuclea",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/2017_Book_ResilienceANewParadigmOfNuclea.jpeg",
+        "https://47.99.166.157/book/res/img/Environment/2017_Book_ResilienceANewParadigmOfNuclea.jpeg",
       title: "Resilience: A New Paradigm of Nuclear Safety",
       author: "Joonhong Ahn, Franck Guarnieri and Kazuo Furuta",
       publisher: "Springer International Publishing, Cham",
@@ -4640,7 +4640,7 @@ module.exports = {
       id: 272,
       fileName: "2017_Book_TheInterconnectedArcticUArctic",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/2017_Book_TheInterconnectedArcticUArctic.jpeg",
+        "https://47.99.166.157/book/res/img/Environment/2017_Book_TheInterconnectedArcticUArctic.jpeg",
       title: "The Interconnected Arctic — UArctic Congress 2016",
       author: "Kirsi Latola and Hannele Savela",
       publisher: "Springer International Publishing, Cham",
@@ -4657,7 +4657,7 @@ module.exports = {
       id: 273,
       fileName: "2018_Book_HamburgerKlimaberichtWissenÜbe",
       cover:
-        "http://47.99.166.157/book/res/img/Environment/2018_Book_HamburgerKlimaberichtWissenÜbe.jpeg",
+        "https://47.99.166.157/book/res/img/Environment/2018_Book_HamburgerKlimaberichtWissenÜbe.jpeg",
       title:
         "Hamburger Klimabericht – Wissen über Klima, Klimawandel und Auswirkungen in Hamburg und Norddeutschland",
       author: "Hans von Storch, Insa Meinke and Martin Claußen",
@@ -4675,7 +4675,7 @@ module.exports = {
       id: 274,
       fileName: "2015_Book_ProtectingTheRightsOfPeopleWit",
       cover:
-        "http://47.99.166.157/book/res/img/Laws/2015_Book_ProtectingTheRightsOfPeopleWit.jpeg",
+        "https://47.99.166.157/book/res/img/Laws/2015_Book_ProtectingTheRightsOfPeopleWit.jpeg",
       title:
         "Protecting the Rights of People with Autism in the Fields of Education and Employment",
       author: "Valentina Della Fina and Rachele Cera",
@@ -4693,7 +4693,7 @@ module.exports = {
       id: 275,
       fileName: "2016_Book_ImplementationOfEUReadmissionA",
       cover:
-        "http://47.99.166.157/book/res/img/Laws/2016_Book_ImplementationOfEUReadmissionA.jpeg",
+        "https://47.99.166.157/book/res/img/Laws/2016_Book_ImplementationOfEUReadmissionA.jpeg",
       title: "Implementation of EU Readmission Agreements",
       author: "Sergio Carrera",
       publisher: "Springer International Publishing, Cham",
@@ -4710,7 +4710,7 @@ module.exports = {
       id: 276,
       fileName: "2016_Book_ReconsideringConstitutionalFor",
       cover:
-        "http://47.99.166.157/book/res/img/Laws/2016_Book_ReconsideringConstitutionalFor.jpeg",
+        "https://47.99.166.157/book/res/img/Laws/2016_Book_ReconsideringConstitutionalFor.jpeg",
       title: "Reconsidering Constitutional Formation I National Sovereignty",
       author: "Ulrike Müßig",
       publisher: "Springer International Publishing, Cham",
@@ -4727,7 +4727,7 @@ module.exports = {
       id: 277,
       fileName: "2016_Book_WhoWillBeTheNextPresident",
       cover:
-        "http://47.99.166.157/book/res/img/Laws/2016_Book_WhoWillBeTheNextPresident.jpeg",
+        "https://47.99.166.157/book/res/img/Laws/2016_Book_WhoWillBeTheNextPresident.jpeg",
       title: "Who Will Be the Next President?",
       author: "Alexander S. Belenky",
       publisher: "Springer International Publishing, Cham",
@@ -4744,7 +4744,7 @@ module.exports = {
       id: 278,
       fileName: "2017_Book_RiverBasinDevelopmentAndHumanR",
       cover:
-        "http://47.99.166.157/book/res/img/Laws/2017_Book_RiverBasinDevelopmentAndHumanR.jpeg",
+        "https://47.99.166.157/book/res/img/Laws/2017_Book_RiverBasinDevelopmentAndHumanR.jpeg",
       title:
         "River Basin Development and Human Rights in Eastern Africa — A Policy Crossroads",
       author: "Claudia J. Carr",
@@ -4762,7 +4762,7 @@ module.exports = {
       id: 279,
       fileName: "2017_Book_TheFutureOfTheLawOfTheSea",
       cover:
-        "http://47.99.166.157/book/res/img/Laws/2017_Book_TheFutureOfTheLawOfTheSea.jpeg",
+        "https://47.99.166.157/book/res/img/Laws/2017_Book_TheFutureOfTheLawOfTheSea.jpeg",
       title: "The Future of the Law of the Sea",
       author: "Gemma Andreone",
       publisher: "Springer International Publishing, Cham",
@@ -4779,7 +4779,7 @@ module.exports = {
       id: 280,
       fileName: "2018_Book_BigDataInContext",
       cover:
-        "http://47.99.166.157/book/res/img/Laws/2018_Book_BigDataInContext.jpeg",
+        "https://47.99.166.157/book/res/img/Laws/2018_Book_BigDataInContext.jpeg",
       title: "Big Data in Context",
       author: "Thomas Hoeren and Barbara Kolany-Raiser",
       publisher: "Springer International Publishing, Cham",
@@ -4796,7 +4796,7 @@ module.exports = {
       id: 281,
       fileName: "2018_Book_ComplicationsAndQuandariesInTh",
       cover:
-        "http://47.99.166.157/book/res/img/Laws/2018_Book_ComplicationsAndQuandariesInTh.jpeg",
+        "https://47.99.166.157/book/res/img/Laws/2018_Book_ComplicationsAndQuandariesInTh.jpeg",
       title: "Complications and Quandaries in the ICT Sector",
       author: "Ashish Bharadwaj, Vishwas H. Devaiah and Indranath Gupta",
       publisher: "Springer Singapore, Singapore",
@@ -4813,7 +4813,7 @@ module.exports = {
       id: 282,
       fileName: "2018_Book_ContemporaryIssuesInHumanRight",
       cover:
-        "http://47.99.166.157/book/res/img/Laws/2018_Book_ContemporaryIssuesInHumanRight.jpeg",
+        "https://47.99.166.157/book/res/img/Laws/2018_Book_ContemporaryIssuesInHumanRight.jpeg",
       title: "Contemporary Issues in Human Rights Law",
       author: "Yumiko Nakanishi",
       publisher: "Springer Singapore, Singapore",
@@ -4830,7 +4830,7 @@ module.exports = {
       id: 283,
       fileName: "2013_Book_SkillsDevelopmentForInclusiveA",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2013_Book_SkillsDevelopmentForInclusiveA.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2013_Book_SkillsDevelopmentForInclusiveA.jpeg",
       title:
         "Skills Development for Inclusive and Sustainable Growth in Developing Asia-Pacific",
       author: "Rupert Maclean, Shanti Jagannathan and Jouko Sarvi",
@@ -4848,7 +4848,7 @@ module.exports = {
       id: 284,
       fileName: "2014_Book_PreparingForLifeInADigitalAge",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2014_Book_PreparingForLifeInADigitalAge.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2014_Book_PreparingForLifeInADigitalAge.jpeg",
       title: "Preparing for Life in a Digital Age",
       author:
         "Julian Fraillon, John Ainley, Wolfram Schulz, Tim Friedman and Eveline Gebhardt",
@@ -4866,7 +4866,7 @@ module.exports = {
       id: 285,
       fileName: "2015_Book_GlobalPerspectivesOnRecognisin",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2015_Book_GlobalPerspectivesOnRecognisin.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2015_Book_GlobalPerspectivesOnRecognisin.jpeg",
       title:
         "Global Perspectives on Recognising Non-formal and Informal Learning",
       author: "Madhu Singh",
@@ -4884,7 +4884,7 @@ module.exports = {
       id: 286,
       fileName: "2015_Book_HigherEducationReformsInRomani",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2015_Book_HigherEducationReformsInRomani.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2015_Book_HigherEducationReformsInRomani.jpeg",
       title: "Higher Education Reforms in Romania",
       author: "Adrian Curaj, Ligia Deca, Eva Egron-Polak and Jamil Salmi",
       publisher: "Springer International Publishing, Cham",
@@ -4901,7 +4901,7 @@ module.exports = {
       id: 287,
       fileName: "2015_Book_MergersAndAlliancesInHigherEdu",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2015_Book_MergersAndAlliancesInHigherEdu.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2015_Book_MergersAndAlliancesInHigherEdu.jpeg",
       title: "Mergers and Alliances in Higher Education",
       author:
         "Adrian Curaj, Luke Georghiou, Jennifer Cassingena Harper and Eva Egron-Polak",
@@ -4919,7 +4919,7 @@ module.exports = {
       id: 288,
       fileName: "2015_Book_ResponsiveOpenLearningEnvironm",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2015_Book_ResponsiveOpenLearningEnvironm.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2015_Book_ResponsiveOpenLearningEnvironm.jpeg",
       title: "Responsive Open Learning Environments",
       author: "Sylvana Kroop, Alexander Mikroyannidis and Martin Wolpers",
       publisher: "Springer International Publishing, Cham",
@@ -4936,7 +4936,7 @@ module.exports = {
       id: 289,
       fileName: "2015_Book_TalentDevelopmentInEuropeanHig",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2015_Book_TalentDevelopmentInEuropeanHig.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2015_Book_TalentDevelopmentInEuropeanHig.jpeg",
       title: "Talent Development in European Higher Education",
       author: "Dr. Marca V.C. Wolfensberger",
       publisher: "Springer International Publishing, Cham",
@@ -4953,7 +4953,7 @@ module.exports = {
       id: 290,
       fileName: "2015_Book_TheEuropeanHigherEducationArea",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2015_Book_TheEuropeanHigherEducationArea.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2015_Book_TheEuropeanHigherEducationArea.jpeg",
       title: "The European Higher Education Area",
       author:
         "Adrian Curaj, Liviu Matei, Remus Pricopie, Jamil Salmi and Peter Scott",
@@ -4971,7 +4971,7 @@ module.exports = {
       id: 291,
       fileName: "2015_Book_TheProceedingsOfThe12thInterna",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2015_Book_TheProceedingsOfThe12thInterna.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2015_Book_TheProceedingsOfThe12thInterna.jpeg",
       title:
         "The Proceedings of the 12th International Congress on Mathematical Education",
       author: "Sung Je Cho",
@@ -4989,7 +4989,7 @@ module.exports = {
       id: 292,
       fileName: "2016_Book_AssessmentInMathematicsEducati",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2016_Book_AssessmentInMathematicsEducati.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2016_Book_AssessmentInMathematicsEducati.jpeg",
       title: "Assessment in Mathematics Education",
       author:
         "Christine Suurtamm, Denisse R. Thompson, Rae Young Kim, Leonora Diaz Moreno, Nathalie Sayac, Stanislaw Schukajlow, Edward Silver, Stefan Ufer and Pauline Vos",
@@ -5007,7 +5007,7 @@ module.exports = {
       id: 293,
       fileName: "2016_Book_APhilosophyOfIsraelEducation",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2016_Book_APhilosophyOfIsraelEducation.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2016_Book_APhilosophyOfIsraelEducation.jpeg",
       title: "A Philosophy of Israel Education",
       author: "Barry Chazan",
       publisher: "Springer International Publishing, Cham",
@@ -5024,7 +5024,7 @@ module.exports = {
       id: 294,
       fileName: "2016_Book_AttitudesBeliefsMotivationAndI",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2016_Book_AttitudesBeliefsMotivationAndI.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2016_Book_AttitudesBeliefsMotivationAndI.jpeg",
       title:
         "Attitudes, Beliefs, Motivation and Identity in Mathematics Education",
       author:
@@ -5043,7 +5043,7 @@ module.exports = {
       id: 295,
       fileName: "2016_Book_BecomingAWorld-ClassUniversity",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2016_Book_BecomingAWorld-ClassUniversity.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2016_Book_BecomingAWorld-ClassUniversity.jpeg",
       title: "Becoming a World-Class University",
       author: "Osama Tayeb, Adnan Zahed and Jozef Ritzen",
       publisher: "Springer International Publishing, Cham",
@@ -5060,7 +5060,7 @@ module.exports = {
       id: 296,
       fileName: "2016_Book_CurrentAndFuturePerspectivesOf",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2016_Book_CurrentAndFuturePerspectivesOf.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2016_Book_CurrentAndFuturePerspectivesOf.jpeg",
       title: "Current and Future Perspectives of Ethnomathematics as a Program",
       author:
         "Milton Rosa, Ubiratan D’Ambrosio, Daniel Clark Orey, Lawrence Shirley, Wilfredo V. Alangui, Pedro Palhares and Maria Elena Gavarrete",
@@ -5078,7 +5078,7 @@ module.exports = {
       id: 297,
       fileName: "2016_Book_DesignScienceAndItsImportanceI",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2016_Book_DesignScienceAndItsImportanceI.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2016_Book_DesignScienceAndItsImportanceI.jpeg",
       title:
         "Design Science and Its Importance in the German Mathematics Educational Discussion",
       author:
@@ -5097,7 +5097,7 @@ module.exports = {
       id: 298,
       fileName: "2016_Book_EarlyAlgebra",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2016_Book_EarlyAlgebra.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2016_Book_EarlyAlgebra.jpeg",
       title: "Early Algebra",
       author:
         "Carolyn Kieran, JeongSuk Pang, Deborah Schifter and Swee Fong Fong Ng",
@@ -5115,7 +5115,7 @@ module.exports = {
       id: 299,
       fileName: "2016_Book_EmpiricalResearchInStatisticsE",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2016_Book_EmpiricalResearchInStatisticsE.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2016_Book_EmpiricalResearchInStatisticsE.jpeg",
       title: "Empirical Research in Statistics Education",
       author: "Andreas Eichler and Lucía Zapata-Cardona",
       publisher: "Springer International Publishing, Cham",
@@ -5132,7 +5132,7 @@ module.exports = {
       id: 300,
       fileName: "2016_Book_EarlyGeometricalThinkingInTheE",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2016_Book_EarlyGeometricalThinkingInTheE.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2016_Book_EarlyGeometricalThinkingInTheE.jpeg",
       title:
         "Early Geometrical Thinking in the Environment of Patterns, Mosaics and Isometries",
       author: "Ewa Swoboda and Paola Vighi",
@@ -5150,7 +5150,7 @@ module.exports = {
       id: 301,
       fileName: "2016_Book_HistoryOfMathematicsTeachingAn",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2016_Book_HistoryOfMathematicsTeachingAn.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2016_Book_HistoryOfMathematicsTeachingAn.jpeg",
       title: "History of Mathematics Teaching and Learning",
       author: "Alexander Karp and Fulvia Furinghetti",
       publisher: "Springer International Publishing, Cham",
@@ -5167,7 +5167,7 @@ module.exports = {
       id: 302,
       fileName: "2016_Book_InterdisciplinaryMathematicsEd",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2016_Book_InterdisciplinaryMathematicsEd.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2016_Book_InterdisciplinaryMathematicsEd.jpeg",
       title: "Interdisciplinary Mathematics Education",
       author:
         "Julian Williams, Wolff-Michael Roth, David Swanson, Brian Doig, Susie Groves, Michael Omuvwie, Rita Borromeo Ferri and Nicholas Mousoulides",
@@ -5185,7 +5185,7 @@ module.exports = {
       id: 303,
       fileName: "2016_Book_InternationalComparativeStudie",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2016_Book_InternationalComparativeStudie.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2016_Book_InternationalComparativeStudie.jpeg",
       title: "International Comparative Studies in Mathematics",
       author: "Jinfa Cai, Ida A.C. Mok, Vijay Reddy and Kaye Stacey",
       publisher: "Springer International Publishing, Cham",
@@ -5202,7 +5202,7 @@ module.exports = {
       id: 304,
       fileName: "2016_Book_ProblemSolvingInMathematicsEdu",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2016_Book_ProblemSolvingInMathematicsEdu.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2016_Book_ProblemSolvingInMathematicsEdu.jpeg",
       title: "Problem Solving in Mathematics Education",
       author:
         "Peter Liljedahl, Manuel Santos-Trigo, Uldarico Malaspina and Regina Bruder",
@@ -5220,7 +5220,7 @@ module.exports = {
       id: 305,
       fileName: "2016_Book_PsychometricFrameworkForModeli",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2016_Book_PsychometricFrameworkForModeli.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2016_Book_PsychometricFrameworkForModeli.jpeg",
       title:
         "Psychometric Framework for Modeling Parental Involvement and Reading Literacy",
       author: "Annemiek Punter, Cees A. W. Glas and Martina R. M. Meelissen",
@@ -5238,7 +5238,7 @@ module.exports = {
       id: 306,
       fileName: "2016_Book_ResearchAssessmentInTheHumanit",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2016_Book_ResearchAssessmentInTheHumanit.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2016_Book_ResearchAssessmentInTheHumanit.jpeg",
       title: "Research Assessment in the Humanities",
       author: "Michael Ochsner, Sven E. Hug and Hans-Dieter Daniel",
       publisher: "Springer International Publishing, Cham",
@@ -5255,7 +5255,7 @@ module.exports = {
       id: 307,
       fileName: "2016_Book_ResearchOnTeachingAndLearningM",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2016_Book_ResearchOnTeachingAndLearningM.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2016_Book_ResearchOnTeachingAndLearningM.jpeg",
       title:
         "Research on Teaching and Learning Mathematics at the Tertiary Level",
       author:
@@ -5274,7 +5274,7 @@ module.exports = {
       id: 308,
       fileName: "2016_Book_ResearchOnTeachingAndLearningP",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2016_Book_ResearchOnTeachingAndLearningP.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2016_Book_ResearchOnTeachingAndLearningP.jpeg",
       title: "Research on Teaching and Learning Probability",
       author:
         "Carmen Batanero, Egan J. J. Chernoff, Joachim Engel, Hollylynne S. S. Lee and Ernesto Sánchez",
@@ -5292,7 +5292,7 @@ module.exports = {
       id: 309,
       fileName: "2016_Book_SemioticsInMathematicsEducatio",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2016_Book_SemioticsInMathematicsEducatio.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2016_Book_SemioticsInMathematicsEducatio.jpeg",
       title: "Semiotics in Mathematics Education",
       author: "Norma Presmeg, Luis Radford, Wolff-Michael Roth and Gert Kadunz",
       publisher: "Springer International Publishing, Cham",
@@ -5309,7 +5309,7 @@ module.exports = {
       id: 310,
       fileName: "2016_Book_SocialAndPoliticalDimensionsOf",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2016_Book_SocialAndPoliticalDimensionsOf.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2016_Book_SocialAndPoliticalDimensionsOf.jpeg",
       title: "Social and Political Dimensions of Mathematics Education",
       author:
         "Murad Jurdak, Renuka Vithal, Elizabeth de Freitas, Peter Gates and David Kollosche",
@@ -5327,7 +5327,7 @@ module.exports = {
       id: 311,
       fileName: "2016_Book_TeachingAndLearningAboutWholeN",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2016_Book_TeachingAndLearningAboutWholeN.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2016_Book_TeachingAndLearningAboutWholeN.jpeg",
       title: "Teaching and Learning About Whole Numbers in Primary School",
       author:
         "Terezinha Nunes, Beatriz Vargas Dorneles, Pi-Jen Lin and Elisabeth Rathgeb-Schnierer",
@@ -5345,7 +5345,7 @@ module.exports = {
       id: 312,
       fileName: "2016_Book_TeacherQualityInstructionalQua",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2016_Book_TeacherQualityInstructionalQua.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2016_Book_TeacherQualityInstructionalQua.jpeg",
       title: "Teacher Quality, Instructional Quality and Student Outcomes",
       author: "Trude Nilsen and Jan-Eric Gustafsson",
       publisher: "Springer International Publishing, Cham",
@@ -5362,7 +5362,7 @@ module.exports = {
       id: 313,
       fileName: "2016_Book_TeachingAndLearningMathematica",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2016_Book_TeachingAndLearningMathematica.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2016_Book_TeachingAndLearningMathematica.jpeg",
       title: "Teaching and Learning Mathematical Modelling",
       author: "Gilbert Greefrath and Katrin Vorhölter",
       publisher: "Springer International Publishing, Cham",
@@ -5379,7 +5379,7 @@ module.exports = {
       id: 314,
       fileName: "2016_Book_TeachingAndLearningOfCalculus",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2016_Book_TeachingAndLearningOfCalculus.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2016_Book_TeachingAndLearningOfCalculus.jpeg",
       title: "Teaching and Learning of Calculus",
       author:
         "David Bressoud, Imène Ghedamsi, Victor Martinez-Luaces and Günter Törner",
@@ -5397,7 +5397,7 @@ module.exports = {
       id: 315,
       fileName: "2016_Book_ThePhilosophyOfMathematicsEduc",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2016_Book_ThePhilosophyOfMathematicsEduc.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2016_Book_ThePhilosophyOfMathematicsEduc.jpeg",
       title: "The Philosophy of Mathematics Education",
       author:
         "Paul Ernest, Ole Skovsmose, Jean Paul van Bendegem, Maria Bicudo, Roger Miarka, Ladislav Kvasz and Regina Moeller",
@@ -5415,7 +5415,7 @@ module.exports = {
       id: 316,
       fileName: "2016_Book_TheDynamicsOfOpportunityInAmer",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2016_Book_TheDynamicsOfOpportunityInAmer.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2016_Book_TheDynamicsOfOpportunityInAmer.jpeg",
       title: "The Dynamics of Opportunity in America",
       author: "Irwin Kirsch and Henry Braun",
       publisher: "Springer International Publishing, Cham",
@@ -5432,7 +5432,7 @@ module.exports = {
       id: 317,
       fileName: "2016_Book_TheTroikaOfAdultLearnersLifelo",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2016_Book_TheTroikaOfAdultLearnersLifelo.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2016_Book_TheTroikaOfAdultLearnersLifelo.jpeg",
       title: "The Troika of Adult Learners, Lifelong Learning, and Mathematics",
       author: "Katherine Safford-Ramus, Pradeep Kumar Misra and Terry Maguire",
       publisher: "Springer International Publishing, Cham",
@@ -5449,7 +5449,7 @@ module.exports = {
       id: 318,
       fileName: "2016_Book_TheoriesInAndOfMathematicsEduc",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2016_Book_TheoriesInAndOfMathematicsEduc.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2016_Book_TheoriesInAndOfMathematicsEduc.jpeg",
       title: "Theories in and of Mathematics Education",
       author:
         "Angelika Bikner-Ahsbahs, Andreas Vohns, Regina Bruder, Oliver Schmitt and Willi Dörfler",
@@ -5467,7 +5467,7 @@ module.exports = {
       id: 319,
       fileName: "2016_Book_TransitionsInMathematicsEducat",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2016_Book_TransitionsInMathematicsEducat.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2016_Book_TransitionsInMathematicsEducat.jpeg",
       title: "Transitions in Mathematics Education",
       author:
         "Ghislaine Gueudet, Marianna Bosch, Andrea A. A. diSessa, Oh Nam Nam Kwon and Lieven Verschaffel",
@@ -5485,7 +5485,7 @@ module.exports = {
       id: 320,
       fileName: "2016_Book_UsesOfTechnologyInLowerSeconda",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2016_Book_UsesOfTechnologyInLowerSeconda.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2016_Book_UsesOfTechnologyInLowerSeconda.jpeg",
       title: "Uses of Technology in Lower Secondary Mathematics Education",
       author:
         "Paul Drijvers, Lynda Ball, Bärbel Barzel, M. Kathleen Heid, Yiming Cao and Michela Maschietto",
@@ -5503,7 +5503,7 @@ module.exports = {
       id: 321,
       fileName: "2017_Book_AdvancingHumanAssessment",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2017_Book_AdvancingHumanAssessment.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2017_Book_AdvancingHumanAssessment.jpeg",
       title: "Advancing Human Assessment",
       author: "Randy E. Bennett and Matthias von Davier",
       publisher: "Springer International Publishing, Cham",
@@ -5520,7 +5520,7 @@ module.exports = {
       id: 322,
       fileName: "2017_Book_BridgingEducationalLeadershipC",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2017_Book_BridgingEducationalLeadershipC.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2017_Book_BridgingEducationalLeadershipC.jpeg",
       title: "Bridging Educational Leadership, Curriculum Theory and Didaktik",
       author: "Michael Uljens and Rose M. Ylimaki",
       publisher: "Springer International Publishing, Cham",
@@ -5537,7 +5537,7 @@ module.exports = {
       id: 323,
       fileName: "2017_Book_IndigenousPathwaysTransitionsA",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2017_Book_IndigenousPathwaysTransitionsA.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2017_Book_IndigenousPathwaysTransitionsA.jpeg",
       title:
         "Indigenous Pathways, Transitions and Participation in Higher Education",
       author: "Jack Frawley, Steve Larkin and James A. Smith",
@@ -5555,7 +5555,7 @@ module.exports = {
       id: 324,
       fileName: "2017_Book_HistoryEducationAndConflictTra",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2017_Book_HistoryEducationAndConflictTra.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2017_Book_HistoryEducationAndConflictTra.jpeg",
       title: "History Education and Conflict Transformation",
       author: "Charis Psaltis, Mario Carretero and Sabina Čehajić-Clancy",
       publisher: "Springer International Publishing, Cham",
@@ -5572,7 +5572,7 @@ module.exports = {
       id: 325,
       fileName: "2017_Book_InstructionalScaffoldingInSTEM",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2017_Book_InstructionalScaffoldingInSTEM.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2017_Book_InstructionalScaffoldingInSTEM.jpeg",
       title: "Instructional Scaffolding in STEM Education",
       author: "Brian R. Belland",
       publisher: "Springer International Publishing, Cham",
@@ -5589,7 +5589,7 @@ module.exports = {
       id: 326,
       fileName: "2017_Book_ProceedingsOfThe13thInternatio",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2017_Book_ProceedingsOfThe13thInternatio.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2017_Book_ProceedingsOfThe13thInternatio.jpeg",
       title:
         "Proceedings of the 13th International Congress on Mathematical Education",
       author: "Gabriele Kaiser",
@@ -5607,7 +5607,7 @@ module.exports = {
       id: 327,
       fileName: "2017_Book_TheCrisisForYoungPeople",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2017_Book_TheCrisisForYoungPeople.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2017_Book_TheCrisisForYoungPeople.jpeg",
       title: "The Crisis for Young People",
       author: "Andy Green",
       publisher: "Springer International Publishing, Cham",
@@ -5624,7 +5624,7 @@ module.exports = {
       id: 328,
       fileName: "2017_Book_TheMathematicsEducationOfProsp",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2017_Book_TheMathematicsEducationOfProsp.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2017_Book_TheMathematicsEducationOfProsp.jpeg",
       title:
         "The Mathematics Education of Prospective Secondary Teachers Around the World",
       author:
@@ -5643,7 +5643,7 @@ module.exports = {
       id: 329,
       fileName: "2017_Book_UsesOfTechnologyInUpperSeconda",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2017_Book_UsesOfTechnologyInUpperSeconda.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2017_Book_UsesOfTechnologyInUpperSeconda.jpeg",
       title: "Uses of Technology in Upper Secondary Mathematics Education",
       author:
         "Stephen Hegedus, Colette Laborde, Corey Brady, Sara Dalton, Hans-Stefan Siller, Michal Tabach, Jana Trgalova and Luis Moreno-Armella",
@@ -5661,7 +5661,7 @@ module.exports = {
       id: 330,
       fileName: "2018_Book_PrinciplesAndPracticeOfCase-ba",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2018_Book_PrinciplesAndPracticeOfCase-ba.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2018_Book_PrinciplesAndPracticeOfCase-ba.jpeg",
       title:
         "Principles and Practice of Case-based Clinical Reasoning Education",
       author: "Olle ten Cate, Eugène J.F.M. Custers and Steven J. Durning",
@@ -5679,7 +5679,7 @@ module.exports = {
       id: 331,
       fileName: "2018_Book_TheGlobalizationOfScienceCurri",
       cover:
-        "http://47.99.166.157/book/res/img/Education/2018_Book_TheGlobalizationOfScienceCurri.jpeg",
+        "https://47.99.166.157/book/res/img/Education/2018_Book_TheGlobalizationOfScienceCurri.jpeg",
       title: "The Globalization of Science Curricula",
       author:
         "Oliver Stacey, Giulia De Lazzari, Hilary Grayson, Hazel Griffin, Emily Jones, Amanda Taylor and David Thomas",
@@ -5697,7 +5697,7 @@ module.exports = {
       id: 332,
       fileName: "2013_Book_FungalDiseaseInBritainAndTheUn",
       cover:
-        "http://47.99.166.157/book/res/img/History/2013_Book_FungalDiseaseInBritainAndTheUn.jpeg",
+        "https://47.99.166.157/book/res/img/History/2013_Book_FungalDiseaseInBritainAndTheUn.jpeg",
       title: "Fungal Disease in Britain and the United States 1850�2000",
       author: "Aya Homei and Michael Worboys",
       publisher: "Palgrave Macmillan",
@@ -5714,7 +5714,7 @@ module.exports = {
       id: 333,
       fileName: "2015_Book_AHistoryOfMalePsychologicalDis",
       cover:
-        "http://47.99.166.157/book/res/img/History/2015_Book_AHistoryOfMalePsychologicalDis.jpeg",
+        "https://47.99.166.157/book/res/img/History/2015_Book_AHistoryOfMalePsychologicalDis.jpeg",
       title: "A History of Male Psychological Disorders in Britain, 1945–1980",
       author: "Ali Haggett",
       publisher: "Palgrave Macmillan",
@@ -5731,7 +5731,7 @@ module.exports = {
       id: 334,
       fileName: "2016_Book_AHistoryOfForceFeeding",
       cover:
-        "http://47.99.166.157/book/res/img/History/2016_Book_AHistoryOfForceFeeding.jpeg",
+        "https://47.99.166.157/book/res/img/History/2016_Book_AHistoryOfForceFeeding.jpeg",
       title: "A History of Force Feeding",
       author: "Ian Miller",
       publisher: "Springer International Publishing, Cham",
@@ -5748,7 +5748,7 @@ module.exports = {
       id: 335,
       fileName: "2016_Book_DissectingTheCriminalCorpse",
       cover:
-        "http://47.99.166.157/book/res/img/History/2016_Book_DissectingTheCriminalCorpse.jpeg",
+        "https://47.99.166.157/book/res/img/History/2016_Book_DissectingTheCriminalCorpse.jpeg",
       title: "Dissecting the Criminal Corpse",
       author: "Elizabeth T. Hurren",
       publisher: "Palgrave Macmillan UK, London",
@@ -5765,7 +5765,7 @@ module.exports = {
       id: 336,
       fileName: "2017_Book_ExecutingMagicInTheModernEra",
       cover:
-        "http://47.99.166.157/book/res/img/History/2017_Book_ExecutingMagicInTheModernEra.jpeg",
+        "https://47.99.166.157/book/res/img/History/2017_Book_ExecutingMagicInTheModernEra.jpeg",
       title: "Executing Magic in the Modern Era",
       author: "Owen Davies and Francesca Matteoni",
       publisher: "Springer International Publishing, Cham",
@@ -5782,7 +5782,7 @@ module.exports = {
       id: 337,
       fileName: "2017_Book_InterdisciplinaryPerspectivesO",
       cover:
-        "http://47.99.166.157/book/res/img/History/2017_Book_InterdisciplinaryPerspectivesO.jpeg",
+        "https://47.99.166.157/book/res/img/History/2017_Book_InterdisciplinaryPerspectivesO.jpeg",
       title: "Interdisciplinary Perspectives on Mortality and its Timings",
       author: "Shane McCorristine",
       publisher: "Palgrave Macmillan UK, London",
@@ -5799,7 +5799,7 @@ module.exports = {
       id: 338,
       fileName: "2017_Book_OneHundredYearsOfChemicalWarfa",
       cover:
-        "http://47.99.166.157/book/res/img/History/2017_Book_OneHundredYearsOfChemicalWarfa.jpeg",
+        "https://47.99.166.157/book/res/img/History/2017_Book_OneHundredYearsOfChemicalWarfa.jpeg",
       title:
         "One Hundred Years of Chemical Warfare: Research, Deployment, Consequences",
       author:
@@ -5818,7 +5818,7 @@ module.exports = {
       id: 339,
       fileName: "2017_Book_InvestigatingTheBodyInTheVicto",
       cover:
-        "http://47.99.166.157/book/res/img/History/2017_Book_InvestigatingTheBodyInTheVicto.jpeg",
+        "https://47.99.166.157/book/res/img/History/2017_Book_InvestigatingTheBodyInTheVicto.jpeg",
       title: "Investigating the Body in the Victorian Asylum",
       author: "Jennifer Wallis",
       publisher: "Springer International Publishing, Cham",
@@ -5835,7 +5835,7 @@ module.exports = {
       id: 340,
       fileName: "2017_Book_RememberingAndDisrememberingTh",
       cover:
-        "http://47.99.166.157/book/res/img/History/2017_Book_RememberingAndDisrememberingTh.jpeg",
+        "https://47.99.166.157/book/res/img/History/2017_Book_RememberingAndDisrememberingTh.jpeg",
       title: "Remembering and Disremembering the Dead",
       author: "Floris Tomasini",
       publisher: "Palgrave Macmillan UK, London",
@@ -5852,7 +5852,7 @@ module.exports = {
       id: 341,
       fileName: "2017_Book_PunishingTheCriminalCorpse1700",
       cover:
-        "http://47.99.166.157/book/res/img/History/2017_Book_PunishingTheCriminalCorpse1700.jpeg",
+        "https://47.99.166.157/book/res/img/History/2017_Book_PunishingTheCriminalCorpse1700.jpeg",
       title: "Punishing the Criminal Corpse, 1700-1840",
       author: "Peter King",
       publisher: "Palgrave Macmillan UK, London",
@@ -5869,7 +5869,7 @@ module.exports = {
       id: 342,
       fileName: "2017_Book_TheGoldenAndGhoulishAgeOfTheGi",
       cover:
-        "http://47.99.166.157/book/res/img/History/2017_Book_TheGoldenAndGhoulishAgeOfTheGi.jpeg",
+        "https://47.99.166.157/book/res/img/History/2017_Book_TheGoldenAndGhoulishAgeOfTheGi.jpeg",
       title: "The Golden and Ghoulish Age of the Gibbet in Britain",
       author: "Sarah Tarlow",
       publisher: "Palgrave Macmillan UK, London",
@@ -5886,7 +5886,7 @@ module.exports = {
       id: 343,
       fileName: "2018_Book_CapitalPunishmentAndTheCrimina",
       cover:
-        "http://47.99.166.157/book/res/img/History/2018_Book_CapitalPunishmentAndTheCrimina.jpeg",
+        "https://47.99.166.157/book/res/img/History/2018_Book_CapitalPunishmentAndTheCrimina.jpeg",
       title:
         "Capital Punishment and the Criminal Corpse in Scotland, 1740–1834",
       author: "Rachel E. Bennett",
@@ -5904,7 +5904,7 @@ module.exports = {
       id: 344,
       fileName: "2017_Book_ImprovingPsychiatricCareForOld",
       cover:
-        "http://47.99.166.157/book/res/img/History/2017_Book_ImprovingPsychiatricCareForOld.jpeg",
+        "https://47.99.166.157/book/res/img/History/2017_Book_ImprovingPsychiatricCareForOld.jpeg",
       title: "Improving Psychiatric Care for Older People",
       author: "Claire Hilton",
       publisher: "Springer International Publishing, Cham",
@@ -5921,7 +5921,7 @@ module.exports = {
       id: 345,
       fileName: "2018_Book_GlobalHistoryAndNewPolycentric",
       cover:
-        "http://47.99.166.157/book/res/img/History/2018_Book_GlobalHistoryAndNewPolycentric.jpeg",
+        "https://47.99.166.157/book/res/img/History/2018_Book_GlobalHistoryAndNewPolycentric.jpeg",
       title: "Global History and New Polycentric Approaches",
       author: "Manuel Perez Garcia and Lucio De Sousa",
       publisher: "Springer Singapore, Singapore",
@@ -5938,7 +5938,7 @@ module.exports = {
       id: 346,
       fileName: "2013_Book_UrbanizationBiodiversityAndEco",
       cover:
-        "http://47.99.166.157/book/res/img/LifeSciences/2013_Book_UrbanizationBiodiversityAndEco.jpeg",
+        "https://47.99.166.157/book/res/img/LifeSciences/2013_Book_UrbanizationBiodiversityAndEco.jpeg",
       title:
         "Urbanization, Biodiversity and Ecosystem Services: Challenges and Opportunities",
       author:
@@ -5957,7 +5957,7 @@ module.exports = {
       id: 347,
       fileName: "2014_Book_SexualReproductionInAnimalsAnd",
       cover:
-        "http://47.99.166.157/book/res/img/LifeSciences/2014_Book_SexualReproductionInAnimalsAnd.jpeg",
+        "https://47.99.166.157/book/res/img/LifeSciences/2014_Book_SexualReproductionInAnimalsAnd.jpeg",
       title: "Sexual Reproduction in Animals and Plants",
       author: "Hitoshi Sawada, Naokazu Inoue and Megumi Iwano",
       publisher: "Springer Japan, Tokyo",
@@ -5974,7 +5974,7 @@ module.exports = {
       id: 348,
       fileName: "2015_Book_AdvancesInWheatGeneticsFromGen",
       cover:
-        "http://47.99.166.157/book/res/img/LifeSciences/2015_Book_AdvancesInWheatGeneticsFromGen.jpeg",
+        "https://47.99.166.157/book/res/img/LifeSciences/2015_Book_AdvancesInWheatGeneticsFromGen.jpeg",
       title: "Advances in Wheat Genetics: From Genome to Field",
       author: "Yasunari Ogihara, Shigeo Takumi and Hirokazu Handa",
       publisher: "Springer Japan, Tokyo",
@@ -5991,7 +5991,7 @@ module.exports = {
       id: 349,
       fileName: "2015_Book_ImpactsOfTheFukushimaNuclearAc",
       cover:
-        "http://47.99.166.157/book/res/img/LifeSciences/2015_Book_ImpactsOfTheFukushimaNuclearAc.jpeg",
+        "https://47.99.166.157/book/res/img/LifeSciences/2015_Book_ImpactsOfTheFukushimaNuclearAc.jpeg",
       title:
         "Impacts of the Fukushima Nuclear Accident on Fish and Fishing Grounds",
       author: "Kaoru Nakata and Hiroya Sugisaki",
@@ -6009,7 +6009,7 @@ module.exports = {
       id: 350,
       fileName: "2015_Book_Low-CostMethodsForMolecularCha",
       cover:
-        "http://47.99.166.157/book/res/img/LifeSciences/2015_Book_Low-CostMethodsForMolecularCha.jpeg",
+        "https://47.99.166.157/book/res/img/LifeSciences/2015_Book_Low-CostMethodsForMolecularCha.jpeg",
       title: "Low-Cost Methods for Molecular Characterization of Mutant Plants",
       author:
         "Bradley J. Till, Joanna Jankowicz-Cieslak, Owen A. Huynh, Mayada M. Beshir, Robert G. Laport and Bernhard J. Hofinger",
@@ -6027,7 +6027,7 @@ module.exports = {
       id: 351,
       fileName: "2015_Book_MarineAnthropogenicLitter",
       cover:
-        "http://47.99.166.157/book/res/img/LifeSciences/2015_Book_MarineAnthropogenicLitter.jpeg",
+        "https://47.99.166.157/book/res/img/LifeSciences/2015_Book_MarineAnthropogenicLitter.jpeg",
       title: "Marine Anthropogenic Litter",
       author: "Melanie Bergmann, Lars Gutow and Michael Klages",
       publisher: "Springer International Publishing, Cham",
@@ -6044,7 +6044,7 @@ module.exports = {
       id: 352,
       fileName: "2015_Book_Ranaviruses",
       cover:
-        "http://47.99.166.157/book/res/img/LifeSciences/2015_Book_Ranaviruses.jpeg",
+        "https://47.99.166.157/book/res/img/LifeSciences/2015_Book_Ranaviruses.jpeg",
       title: "Ranaviruses",
       author: "Matthew J. Gray and V. Gregory Chinchar",
       publisher: "Springer International Publishing, Cham",
@@ -6061,7 +6061,7 @@ module.exports = {
       id: 353,
       fileName: "2015_Book_TheImpactOfFoodBioactivesOnHea",
       cover:
-        "http://47.99.166.157/book/res/img/LifeSciences/2015_Book_TheImpactOfFoodBioactivesOnHea.jpeg",
+        "https://47.99.166.157/book/res/img/LifeSciences/2015_Book_TheImpactOfFoodBioactivesOnHea.jpeg",
       title: "The Impact of Food Bioactives on Health",
       author:
         "Kitty Verhoeckx, Paul Cotter, Iván López-Expósito, Charlotte Kleiveland, Tor Lea, Alan Mackie, Teresa Requena, Dominika Swiatecka and Harry Wichers",
@@ -6079,7 +6079,7 @@ module.exports = {
       id: 354,
       fileName: "2015_Book_TheSustainabilityOfAgro-FoodAn",
       cover:
-        "http://47.99.166.157/book/res/img/LifeSciences/2015_Book_TheSustainabilityOfAgro-FoodAn.jpeg",
+        "https://47.99.166.157/book/res/img/LifeSciences/2015_Book_TheSustainabilityOfAgro-FoodAn.jpeg",
       title:
         "The Sustainability of Agro-Food and Natural Resource Systems in the Mediterranean Basin",
       author: "Antonella Vastola",
@@ -6097,7 +6097,7 @@ module.exports = {
       id: 355,
       fileName: "2016_Book_BatsInTheAnthropoceneConservat",
       cover:
-        "http://47.99.166.157/book/res/img/LifeSciences/2016_Book_BatsInTheAnthropoceneConservat.jpeg",
+        "https://47.99.166.157/book/res/img/LifeSciences/2016_Book_BatsInTheAnthropoceneConservat.jpeg",
       title:
         "Bats in the Anthropocene: Conservation of Bats in a Changing World",
       author: "Christian C. Voigt and Tigga Kingston",
@@ -6115,7 +6115,7 @@ module.exports = {
       id: 356,
       fileName: "2016_Book_MethodsForMeasuringGreenhouseG",
       cover:
-        "http://47.99.166.157/book/res/img/LifeSciences/2016_Book_MethodsForMeasuringGreenhouseG.jpeg",
+        "https://47.99.166.157/book/res/img/LifeSciences/2016_Book_MethodsForMeasuringGreenhouseG.jpeg",
       title:
         "Methods for Measuring Greenhouse Gas Balances and Evaluating Mitigation Options in Smallholder Agriculture",
       author:
@@ -6134,7 +6134,7 @@ module.exports = {
       id: 357,
       fileName: "2016_Book_BiodiversityConservationAndPhy",
       cover:
-        "http://47.99.166.157/book/res/img/LifeSciences/2016_Book_BiodiversityConservationAndPhy.jpeg",
+        "https://47.99.166.157/book/res/img/LifeSciences/2016_Book_BiodiversityConservationAndPhy.jpeg",
       title: "Biodiversity Conservation and Phylogenetic Systematics",
       author: "Roseli Pellens and Philippe Grandcolas",
       publisher: "Springer International Publishing, Cham",
@@ -6151,7 +6151,7 @@ module.exports = {
       id: 358,
       fileName: "2016_Book_StableIsotopesToTraceMigratory",
       cover:
-        "http://47.99.166.157/book/res/img/LifeSciences/2016_Book_StableIsotopesToTraceMigratory.jpeg",
+        "https://47.99.166.157/book/res/img/LifeSciences/2016_Book_StableIsotopesToTraceMigratory.jpeg",
       title:
         "Stable Isotopes to Trace Migratory Birds and to Identify Harmful Diseases",
       author: "G.J. Viljoen, A.G. Luckins and I. Naletoski",
@@ -6169,7 +6169,7 @@ module.exports = {
       id: 359,
       fileName: "2016_Book_ProtocolsForPre-FieldScreening",
       cover:
-        "http://47.99.166.157/book/res/img/LifeSciences/2016_Book_ProtocolsForPre-FieldScreening.jpeg",
+        "https://47.99.166.157/book/res/img/LifeSciences/2016_Book_ProtocolsForPre-FieldScreening.jpeg",
       title:
         "Protocols for Pre-Field Screening of Mutants for Salt Tolerance in Rice, Wheat and Barley",
       author:
@@ -6188,7 +6188,7 @@ module.exports = {
       id: 360,
       fileName: "2016_Book_TechnologicalAndInstitutionalI",
       cover:
-        "http://47.99.166.157/book/res/img/LifeSciences/2016_Book_TechnologicalAndInstitutionalI.jpeg",
+        "https://47.99.166.157/book/res/img/LifeSciences/2016_Book_TechnologicalAndInstitutionalI.jpeg",
       title:
         "Technological and Institutional Innovations for Marginalized Smallholders in Agricultural Development",
       author: "Franz W. Gatzweiler and Joachim von Braun",
@@ -6206,7 +6206,7 @@ module.exports = {
       id: 361,
       fileName: "2017_Book_BiotechnologiesForPlantMutatio",
       cover:
-        "http://47.99.166.157/book/res/img/LifeSciences/2017_Book_BiotechnologiesForPlantMutatio.jpeg",
+        "https://47.99.166.157/book/res/img/LifeSciences/2017_Book_BiotechnologiesForPlantMutatio.jpeg",
       title: "Biotechnologies for Plant Mutation Breeding",
       author:
         "Joanna Jankowicz-Cieslak, Thomas H. Tai, Jochen Kumlehn and Bradley J. Till",
@@ -6224,7 +6224,7 @@ module.exports = {
       id: 362,
       fileName: "2017_Book_DiversityAndEvolutionOfButterf",
       cover:
-        "http://47.99.166.157/book/res/img/LifeSciences/2017_Book_DiversityAndEvolutionOfButterf.jpeg",
+        "https://47.99.166.157/book/res/img/LifeSciences/2017_Book_DiversityAndEvolutionOfButterf.jpeg",
       title: "Diversity and Evolution of Butterfly Wing Patterns",
       author: "Toshio Sekimura and H. Frederik Nijhout",
       publisher: "Springer Singapore, Singapore",
@@ -6241,7 +6241,7 @@ module.exports = {
       id: 363,
       fileName: "2017_Book_TheGEOHandbookOnBiodiversityOb",
       cover:
-        "http://47.99.166.157/book/res/img/LifeSciences/2017_Book_TheGEOHandbookOnBiodiversityOb.jpeg",
+        "https://47.99.166.157/book/res/img/LifeSciences/2017_Book_TheGEOHandbookOnBiodiversityOb.jpeg",
       title: "The GEO Handbook on Biodiversity Observation Networks",
       author: "Michele Walters and Robert J. Scholes",
       publisher: "Springer International Publishing, Cham",
@@ -6258,7 +6258,7 @@ module.exports = {
       id: 364,
       fileName: "2017_Book_TheGeneOntologyHandbook",
       cover:
-        "http://47.99.166.157/book/res/img/LifeSciences/2017_Book_TheGeneOntologyHandbook.jpeg",
+        "https://47.99.166.157/book/res/img/LifeSciences/2017_Book_TheGeneOntologyHandbook.jpeg",
       title: "The Gene Ontology Handbook",
       author: "Christophe Dessimoz and Nives Škunca",
       publisher: "Springer New York, New York, NY",
@@ -6275,7 +6275,7 @@ module.exports = {
       id: 365,
       fileName: "2010_Book_CyborgsInLatinAmerica",
       cover:
-        "http://47.99.166.157/book/res/img/Literature/2010_Book_CyborgsInLatinAmerica.jpeg",
+        "https://47.99.166.157/book/res/img/Literature/2010_Book_CyborgsInLatinAmerica.jpeg",
       title: "Cyborgs in Latin America",
       author: "J. Andrew Brown",
       publisher: "Palgrave Macmillan",
@@ -6292,7 +6292,7 @@ module.exports = {
       id: 366,
       fileName: "2010_Book_HistoryAndCulturalMemoryInNeo-",
       cover:
-        "http://47.99.166.157/book/res/img/Literature/2010_Book_HistoryAndCulturalMemoryInNeo-.jpeg",
+        "https://47.99.166.157/book/res/img/Literature/2010_Book_HistoryAndCulturalMemoryInNeo-.jpeg",
       title: "History and Cultural Memory in Neo-Victorian Fiction",
       author: "Victorian Afterimages",
       publisher: "Palgrave Macmillan",
@@ -6309,7 +6309,7 @@ module.exports = {
       id: 367,
       fileName: "2015_Book_ConstructionsOfCancerInEarlyMo",
       cover:
-        "http://47.99.166.157/book/res/img/Literature/2015_Book_ConstructionsOfCancerInEarlyMo.jpeg",
+        "https://47.99.166.157/book/res/img/Literature/2015_Book_ConstructionsOfCancerInEarlyMo.jpeg",
       title: "Constructions of Cancer in Early Modern England",
       author: "Alanna Skuse",
       publisher: "Palgrave Macmillan",
@@ -6326,7 +6326,7 @@ module.exports = {
       id: 368,
       fileName: "2015_Book_HumanitiesWorldReport2015",
       cover:
-        "http://47.99.166.157/book/res/img/Literature/2015_Book_HumanitiesWorldReport2015.jpeg",
+        "https://47.99.166.157/book/res/img/Literature/2015_Book_HumanitiesWorldReport2015.jpeg",
       title: "HUMANITIES WORLD REPORT 2015",
       author: "POUL HOLM",
       publisher: "Palgrave Macmillan",
@@ -6343,7 +6343,7 @@ module.exports = {
       id: 369,
       fileName: "2017_Book_LivingWithDisfigurementInEarly",
       cover:
-        "http://47.99.166.157/book/res/img/Literature/2017_Book_LivingWithDisfigurementInEarly.jpeg",
+        "https://47.99.166.157/book/res/img/Literature/2017_Book_LivingWithDisfigurementInEarly.jpeg",
       title: "Living with Disfigurement in Early Medieval Europe",
       author: "Patricia Skinner",
       publisher: "Palgrave Macmillan US, New York",
@@ -6360,7 +6360,7 @@ module.exports = {
       id: 370,
       fileName: "2017_Book_ThePoeticsAndPoliticsOfAlzheim",
       cover:
-        "http://47.99.166.157/book/res/img/Literature/2017_Book_ThePoeticsAndPoliticsOfAlzheim.jpeg",
+        "https://47.99.166.157/book/res/img/Literature/2017_Book_ThePoeticsAndPoliticsOfAlzheim.jpeg",
       title: "The Poetics and Politics of Alzheimer’s Disease Life-Writing",
       author: "Martina Zimmermann",
       publisher: "Springer International Publishing, Cham",
@@ -6377,7 +6377,7 @@ module.exports = {
       id: 371,
       fileName: "2018_Book_ProceedingsOfTheScientific-Pra",
       cover:
-        "http://47.99.166.157/book/res/img/MaterialsScience/2018_Book_ProceedingsOfTheScientific-Pra.jpeg",
+        "https://47.99.166.157/book/res/img/MaterialsScience/2018_Book_ProceedingsOfTheScientific-Pra.jpeg",
       title:
         'Proceedings of the Scientific-Practical Conference "Research and Development - 2016"',
       author:
@@ -6396,7 +6396,7 @@ module.exports = {
       id: 372,
       fileName: "2015_Book_InnovationsInQuantitativeRiskM",
       cover:
-        "http://47.99.166.157/book/res/img/Mathematics/2015_Book_InnovationsInQuantitativeRiskM.jpeg",
+        "https://47.99.166.157/book/res/img/Mathematics/2015_Book_InnovationsInQuantitativeRiskM.jpeg",
       title: "Innovations in Quantitative Risk Management",
       author: "Kathrin Glau, Matthias Scherer and Rudi Zagst",
       publisher: "Springer International Publishing, Cham",
@@ -6413,7 +6413,7 @@ module.exports = {
       id: 373,
       fileName: "2016_Book_AdvancesInDiscreteDifferential",
       cover:
-        "http://47.99.166.157/book/res/img/Mathematics/2016_Book_AdvancesInDiscreteDifferential.jpeg",
+        "https://47.99.166.157/book/res/img/Mathematics/2016_Book_AdvancesInDiscreteDifferential.jpeg",
       title: "Advances in Discrete Differential Geometry",
       author: "Alexander I. Bobenko",
       publisher: "Springer Berlin Heidelberg, Berlin, Heidelberg",
@@ -6430,7 +6430,7 @@ module.exports = {
       id: 374,
       fileName: "2016_Book_ComputingCharacterizationsOfDr",
       cover:
-        "http://47.99.166.157/book/res/img/Mathematics/2016_Book_ComputingCharacterizationsOfDr.jpeg",
+        "https://47.99.166.157/book/res/img/Mathematics/2016_Book_ComputingCharacterizationsOfDr.jpeg",
       title:
         "Computing Characterizations of Drugs for Ion Channels and Receptors Using Markov Models",
       author: "Aslak Tveito and Glenn T. Lines",
@@ -6448,7 +6448,7 @@ module.exports = {
       id: 375,
       fileName: "2016_Book_InnovationsInDerivativesMarket",
       cover:
-        "http://47.99.166.157/book/res/img/Mathematics/2016_Book_InnovationsInDerivativesMarket.jpeg",
+        "https://47.99.166.157/book/res/img/Mathematics/2016_Book_InnovationsInDerivativesMarket.jpeg",
       title: "Innovations in Derivatives Markets",
       author: "Kathrin Glau, Zorana Grbac, Matthias Scherer and Rudi Zagst",
       publisher: "Springer International Publishing, Cham",
@@ -6465,7 +6465,7 @@ module.exports = {
       id: 376,
       fileName: "2016_Book_ProgrammingForComputations-MAT",
       cover:
-        "http://47.99.166.157/book/res/img/Mathematics/2016_Book_ProgrammingForComputations-MAT.jpeg",
+        "https://47.99.166.157/book/res/img/Mathematics/2016_Book_ProgrammingForComputations-MAT.jpeg",
       title: "Programming for Computations - MATLAB/Octave",
       author: "Svein Linge and Hans Petter Langtangen",
       publisher: "Springer International Publishing, Cham",
@@ -6482,7 +6482,7 @@ module.exports = {
       id: 377,
       fileName: "2016_Book_ProgrammingForComputations-Pyt",
       cover:
-        "http://47.99.166.157/book/res/img/Mathematics/2016_Book_ProgrammingForComputations-Pyt.jpeg",
+        "https://47.99.166.157/book/res/img/Mathematics/2016_Book_ProgrammingForComputations-Pyt.jpeg",
       title: "Programming for Computations - Python",
       author: "Svein Linge and Hans Petter Langtangen",
       publisher: "Springer International Publishing, Cham",
@@ -6499,7 +6499,7 @@ module.exports = {
       id: 378,
       fileName: "2016_Book_StochasticsOfEnvironmentalAndF",
       cover:
-        "http://47.99.166.157/book/res/img/Mathematics/2016_Book_StochasticsOfEnvironmentalAndF.jpeg",
+        "https://47.99.166.157/book/res/img/Mathematics/2016_Book_StochasticsOfEnvironmentalAndF.jpeg",
       title: "Stochastics of Environmental and Financial Economics",
       author: "Fred Espen Benth and Giulia Di Nunno",
       publisher: "Springer International Publishing, Cham",
@@ -6516,7 +6516,7 @@ module.exports = {
       id: 379,
       fileName: "2017_Book_FiniteDifferenceComputingWithP",
       cover:
-        "http://47.99.166.157/book/res/img/Mathematics/2017_Book_FiniteDifferenceComputingWithP.jpeg",
+        "https://47.99.166.157/book/res/img/Mathematics/2017_Book_FiniteDifferenceComputingWithP.jpeg",
       title: "Finite Difference Computing with PDEs",
       author: "Hans Petter Langtangen and Svein Linge",
       publisher: "Springer International Publishing, Cham",
@@ -6533,7 +6533,7 @@ module.exports = {
       id: 380,
       fileName: "2015_Book_AHistoryOfSelf-HarmInBritain",
       cover:
-        "http://47.99.166.157/book/res/img/MedicineAndPublicHealth/2015_Book_AHistoryOfSelf-HarmInBritain.jpeg",
+        "https://47.99.166.157/book/res/img/MedicineAndPublicHealth/2015_Book_AHistoryOfSelf-HarmInBritain.jpeg",
       title: "A HISTORY OF SELF-HARM IN BRITAIN",
       author: "CHRIS MILLARD",
       publisher: "Palgrave Macmillan",
@@ -6550,7 +6550,7 @@ module.exports = {
       id: 381,
       fileName: "2013_Book_TheSouthTexasHealthStatusRevie",
       cover:
-        "http://47.99.166.157/book/res/img/MedicineAndPublicHealth/2013_Book_TheSouthTexasHealthStatusRevie.jpeg",
+        "https://47.99.166.157/book/res/img/MedicineAndPublicHealth/2013_Book_TheSouthTexasHealthStatusRevie.jpeg",
       title: "The South Texas Health Status Review",
       author: "Amelie G. Ramirez, Ian M. Thompson and Leonel Vela",
       publisher: "Springer International Publishing, Cham",
@@ -6567,7 +6567,7 @@ module.exports = {
       id: 382,
       fileName: "2015_Book_ALifeCoursePerspectiveOnHealth",
       cover:
-        "http://47.99.166.157/book/res/img/MedicineAndPublicHealth/2015_Book_ALifeCoursePerspectiveOnHealth.jpeg",
+        "https://47.99.166.157/book/res/img/MedicineAndPublicHealth/2015_Book_ALifeCoursePerspectiveOnHealth.jpeg",
       title: "A Life Course Perspective on Health Trajectories and Transitions",
       author:
         "Claudine Burton-Jeangros, Stéphane Cullati, Amanda Sacker and David Blane",
@@ -6585,7 +6585,7 @@ module.exports = {
       id: 383,
       fileName: "2015_Book_TuberculosisInAdultsAndChildre",
       cover:
-        "http://47.99.166.157/book/res/img/MedicineAndPublicHealth/2015_Book_TuberculosisInAdultsAndChildre.jpeg",
+        "https://47.99.166.157/book/res/img/MedicineAndPublicHealth/2015_Book_TuberculosisInAdultsAndChildre.jpeg",
       title: "Tuberculosis in Adults and Children",
       author: "Dorothee Heemskerk, Maxine Caws, Ben Marais and Jeremy Farrar",
       publisher: "Springer International Publishing, Cham",
@@ -6602,7 +6602,7 @@ module.exports = {
       id: 384,
       fileName: "2016_Book_Non-VitaminKAntagonistOralAnti",
       cover:
-        "http://47.99.166.157/book/res/img/MedicineAndPublicHealth/2016_Book_Non-VitaminKAntagonistOralAnti.jpeg",
+        "https://47.99.166.157/book/res/img/MedicineAndPublicHealth/2016_Book_Non-VitaminKAntagonistOralAnti.jpeg",
       title: "Non-Vitamin K Antagonist Oral Anticoagulants",
       author: "Eduard Shantsila and Gregory YH Lip",
       publisher: "Springer International Publishing, Cham",
@@ -6619,7 +6619,7 @@ module.exports = {
       id: 385,
       fileName: "2016_Book_EtiologyAndMorphogenesisOfCong",
       cover:
-        "http://47.99.166.157/book/res/img/MedicineAndPublicHealth/2016_Book_EtiologyAndMorphogenesisOfCong.jpeg",
+        "https://47.99.166.157/book/res/img/MedicineAndPublicHealth/2016_Book_EtiologyAndMorphogenesisOfCong.jpeg",
       title: "Etiology and Morphogenesis of Congenital Heart Disease",
       author:
         "Toshio Nakanishi, Roger R. Markwald, H.Scott Baldwin, Bradley B. Keller, Deepak Srivastava and Hiroyuki Yamagishi",
@@ -6637,7 +6637,7 @@ module.exports = {
       id: 386,
       fileName: "2016_Book_PerspectivesOnNuclearMedicineF",
       cover:
-        "http://47.99.166.157/book/res/img/MedicineAndPublicHealth/2016_Book_PerspectivesOnNuclearMedicineF.jpeg",
+        "https://47.99.166.157/book/res/img/MedicineAndPublicHealth/2016_Book_PerspectivesOnNuclearMedicineF.jpeg",
       title:
         "Perspectives on Nuclear Medicine for Molecular Diagnosis and Integrated Therapy",
       author: "Yuji Kuge, Tohru Shiga and Nagara Tamaki",
@@ -6655,7 +6655,7 @@ module.exports = {
       id: 387,
       fileName: "2016_Book_PublicHealthEthicsCasesSpannin",
       cover:
-        "http://47.99.166.157/book/res/img/MedicineAndPublicHealth/2016_Book_PublicHealthEthicsCasesSpannin.jpeg",
+        "https://47.99.166.157/book/res/img/MedicineAndPublicHealth/2016_Book_PublicHealthEthicsCasesSpannin.jpeg",
       title: "Public Health Ethics: Cases Spanning the Globe",
       author:
         "Drue H. Barrett, Leonard W. Ortmann, Angus Dawson, Carla Saenz, Andreas Reis and Gail Bolan",
@@ -6673,7 +6673,7 @@ module.exports = {
       id: 388,
       fileName: "2016_Book_SaferHealthcare",
       cover:
-        "http://47.99.166.157/book/res/img/MedicineAndPublicHealth/2016_Book_SaferHealthcare.jpeg",
+        "https://47.99.166.157/book/res/img/MedicineAndPublicHealth/2016_Book_SaferHealthcare.jpeg",
       title: "Safer Healthcare",
       author: "Charles Vincent and René Amalberti",
       publisher: "Springer International Publishing, Cham",
@@ -6690,7 +6690,7 @@ module.exports = {
       id: 389,
       fileName: "2016_Book_SecondaryAnalysisOfElectronicH",
       cover:
-        "http://47.99.166.157/book/res/img/MedicineAndPublicHealth/2016_Book_SecondaryAnalysisOfElectronicH.jpeg",
+        "https://47.99.166.157/book/res/img/MedicineAndPublicHealth/2016_Book_SecondaryAnalysisOfElectronicH.jpeg",
       title: "Secondary Analysis of Electronic Health Records",
       author: "MIT Critical Data",
       publisher: "Springer International Publishing, Cham",
@@ -6707,7 +6707,7 @@ module.exports = {
       id: 390,
       fileName: "2017_Book_InformationInfrastructuresWith",
       cover:
-        "http://47.99.166.157/book/res/img/MedicineAndPublicHealth/2017_Book_InformationInfrastructuresWith.jpeg",
+        "https://47.99.166.157/book/res/img/MedicineAndPublicHealth/2017_Book_InformationInfrastructuresWith.jpeg",
       title: "Information Infrastructures within European Health Care",
       author:
         "Margunn Aanestad, Miria Grisot, Ole Hanseth and Polyxeni Vassilakopoulou",
@@ -6725,7 +6725,7 @@ module.exports = {
       id: 391,
       fileName: "2017_Book_TheHandbookOfSalutogenesis",
       cover:
-        "http://47.99.166.157/book/res/img/MedicineAndPublicHealth/2017_Book_TheHandbookOfSalutogenesis.jpeg",
+        "https://47.99.166.157/book/res/img/MedicineAndPublicHealth/2017_Book_TheHandbookOfSalutogenesis.jpeg",
       title: "The Handbook of Salutogenesis",
       author:
         "Maurice B. Mittelmark, Shifra Sagy, Monica Eriksson, Georg F. Bauer, Jürgen M. Pelikan, Bengt Lindström and Geir Arild Espnes",
@@ -6743,7 +6743,7 @@ module.exports = {
       id: 392,
       fileName: "2018_Book_Pflege-Report2018",
       cover:
-        "http://47.99.166.157/book/res/img/MedicineAndPublicHealth/2018_Book_Pflege-Report2018.jpeg",
+        "https://47.99.166.157/book/res/img/MedicineAndPublicHealth/2018_Book_Pflege-Report2018.jpeg",
       title: "Pflege-Report 2018",
       author:
         "Klaus Jacobs, Adelheid Kuhlmey, Stefan Greß, Jürgen Klauber and Antje Schwinger",
@@ -6761,7 +6761,7 @@ module.exports = {
       id: 393,
       fileName: "2015_Book_ProceedingsOfTheInternationalC",
       cover:
-        "http://47.99.166.157/book/res/img/Physics/2015_Book_ProceedingsOfTheInternationalC.jpeg",
+        "https://47.99.166.157/book/res/img/Physics/2015_Book_ProceedingsOfTheInternationalC.jpeg",
       title:
         "Proceedings of the International Conference on Social Modeling and Simulation, plus Econophysics Colloquium 2014",
       author: "Hideki Takayasu, Nobuyasu Ito, Itsuki Noda and Misako Takayasu",
@@ -6779,7 +6779,7 @@ module.exports = {
       id: 394,
       fileName: "2016_Book_MeltingHadronsBoilingQuarks-Fr",
       cover:
-        "http://47.99.166.157/book/res/img/Physics/2016_Book_MeltingHadronsBoilingQuarks-Fr.jpeg",
+        "https://47.99.166.157/book/res/img/Physics/2016_Book_MeltingHadronsBoilingQuarks-Fr.jpeg",
       title:
         "Melting Hadrons, Boiling Quarks - From Hagedorn Temperature to Ultra-Relativistic Heavy-Ion Collisions at CERN",
       author: "Johann Rafelski",
@@ -6797,7 +6797,7 @@ module.exports = {
       id: 395,
       fileName: "2016_Book_OpticsInOurTime",
       cover:
-        "http://47.99.166.157/book/res/img/Physics/2016_Book_OpticsInOurTime.jpeg",
+        "https://47.99.166.157/book/res/img/Physics/2016_Book_OpticsInOurTime.jpeg",
       title: "Optics in Our Time",
       author: "Mohammad D. Al-Amri, Mohamed El-Gomati and M. Suhail Zubairy",
       publisher: "Springer International Publishing, Cham",
@@ -6814,7 +6814,7 @@ module.exports = {
       id: 396,
       fileName: "2017_Book_ColliderPhysicsWithinTheStanda",
       cover:
-        "http://47.99.166.157/book/res/img/Physics/2017_Book_ColliderPhysicsWithinTheStanda.jpeg",
+        "https://47.99.166.157/book/res/img/Physics/2017_Book_ColliderPhysicsWithinTheStanda.jpeg",
       title: "Collider Physics within the Standard Model",
       author: "Guido AltarelliJames Wells",
       publisher: "Springer International Publishing, Cham",
@@ -6831,7 +6831,7 @@ module.exports = {
       id: 397,
       fileName: "2017_Book_InterferometryAndSynthesisInRa",
       cover:
-        "http://47.99.166.157/book/res/img/Physics/2017_Book_InterferometryAndSynthesisInRa.jpeg",
+        "https://47.99.166.157/book/res/img/Physics/2017_Book_InterferometryAndSynthesisInRa.jpeg",
       title: "Interferometry and Synthesis in Radio Astronomy",
       author: "A. Richard Thompson, James M. Moran and George W. Swenson",
       publisher: "Springer International Publishing, Cham",
@@ -6848,7 +6848,7 @@ module.exports = {
       id: 398,
       fileName: "2018_Book_TheEconomyAsAComplexSpatialSys",
       cover:
-        "http://47.99.166.157/book/res/img/Physics/2018_Book_TheEconomyAsAComplexSpatialSys.jpeg",
+        "https://47.99.166.157/book/res/img/Physics/2018_Book_TheEconomyAsAComplexSpatialSys.jpeg",
       title: "The Economy as a Complex Spatial System",
       author:
         "Pasquale Commendatore, Ingrid Kubin, Spiros Bougheas, Alan Kirman, Michael Kopel and Gian Italo Bischi",
@@ -6866,7 +6866,7 @@ module.exports = {
       id: 399,
       fileName: "2014_Book_NuelBelnapOnIndeterminismAndFr",
       cover:
-        "http://47.99.166.157/book/res/img/Philosophy/2014_Book_NuelBelnapOnIndeterminismAndFr.jpeg",
+        "https://47.99.166.157/book/res/img/Philosophy/2014_Book_NuelBelnapOnIndeterminismAndFr.jpeg",
       title: "Nuel Belnap on Indeterminism and Free Action",
       author: "Thomas Müller",
       publisher: "Springer International Publishing, Cham",
@@ -6883,7 +6883,7 @@ module.exports = {
       id: 400,
       fileName: "2015_Book_APhilosophicalExaminationOfSoc",
       cover:
-        "http://47.99.166.157/book/res/img/Philosophy/2015_Book_APhilosophicalExaminationOfSoc.jpeg",
+        "https://47.99.166.157/book/res/img/Philosophy/2015_Book_APhilosophicalExaminationOfSoc.jpeg",
       title: "A Philosophical Examination of Social Justice and Child Poverty",
       author: "Gottfried Schweiger",
       publisher: "Palgrave Macmillan",
@@ -6900,7 +6900,7 @@ module.exports = {
       id: 401,
       fileName: "2015_Book_InvestigationsIntoThePhenomeno",
       cover:
-        "http://47.99.166.157/book/res/img/Philosophy/2015_Book_InvestigationsIntoThePhenomeno.jpeg",
+        "https://47.99.166.157/book/res/img/Philosophy/2015_Book_InvestigationsIntoThePhenomeno.jpeg",
       title:
         "Investigations Into the Phenomenology and the Ontology of the Work of Art",
       author: "Peer F. Bundgaard and Frederik Stjernfelt",
@@ -6918,7 +6918,7 @@ module.exports = {
       id: 402,
       fileName: "2015_Book_SensingAbsenceHowToSeeWhatIsnT",
       cover:
-        "http://47.99.166.157/book/res/img/Philosophy/2015_Book_SensingAbsenceHowToSeeWhatIsnT.jpeg",
+        "https://47.99.166.157/book/res/img/Philosophy/2015_Book_SensingAbsenceHowToSeeWhatIsnT.jpeg",
       title:
         "Sensing Absence: How to See What Isn�t There in the Study of Science and Security",
       author: "Brian Rappert",
@@ -6936,7 +6936,7 @@ module.exports = {
       id: 403,
       fileName: "2015_Book_TheOnlifeManifesto",
       cover:
-        "http://47.99.166.157/book/res/img/Philosophy/2015_Book_TheOnlifeManifesto.jpeg",
+        "https://47.99.166.157/book/res/img/Philosophy/2015_Book_TheOnlifeManifesto.jpeg",
       title: "The Onlife Manifesto",
       author: "Luciano Floridi",
       publisher: "Springer International Publishing, Cham",
@@ -6953,7 +6953,7 @@ module.exports = {
       id: 404,
       fileName: "2016_Book_AdvancesInProof-TheoreticSeman",
       cover:
-        "http://47.99.166.157/book/res/img/Philosophy/2016_Book_AdvancesInProof-TheoreticSeman.jpeg",
+        "https://47.99.166.157/book/res/img/Philosophy/2016_Book_AdvancesInProof-TheoreticSeman.jpeg",
       title: "Advances in Proof-Theoretic Semantics",
       author: "Thomas Piecha and Peter Schroeder-Heister",
       publisher: "Springer International Publishing, Cham",
@@ -6970,7 +6970,7 @@ module.exports = {
       id: 405,
       fileName: "2017_Book_Anti-VivisectionAndTheProfessi",
       cover:
-        "http://47.99.166.157/book/res/img/Philosophy/2017_Book_Anti-VivisectionAndTheProfessi.jpeg",
+        "https://47.99.166.157/book/res/img/Philosophy/2017_Book_Anti-VivisectionAndTheProfessi.jpeg",
       title: "Anti-Vivisection and the Profession of Medicine in Britain",
       author: "A.W.H. Bates",
       publisher: "Palgrave Macmillan UK, London",
@@ -6987,7 +6987,7 @@ module.exports = {
       id: 406,
       fileName: "2017_Book_DignityInThe21stCentury",
       cover:
-        "http://47.99.166.157/book/res/img/Philosophy/2017_Book_DignityInThe21stCentury.jpeg",
+        "https://47.99.166.157/book/res/img/Philosophy/2017_Book_DignityInThe21stCentury.jpeg",
       title: "Dignity in the 21st Century",
       author: "Doris Schroeder and Abol‐Hassan Bani-Sadr",
       publisher: "Springer International Publishing, Cham",
@@ -7004,7 +7004,7 @@ module.exports = {
       id: 407,
       fileName: "2017_Book_TalesOfResearchMisconduct",
       cover:
-        "http://47.99.166.157/book/res/img/Philosophy/2017_Book_TalesOfResearchMisconduct.jpeg",
+        "https://47.99.166.157/book/res/img/Philosophy/2017_Book_TalesOfResearchMisconduct.jpeg",
       title: "Tales of Research Misconduct",
       author: "Hub Zwart",
       publisher: "Springer International Publishing, Cham",
@@ -7021,7 +7021,7 @@ module.exports = {
       id: 408,
       fileName: "2018_Book_EthicsDumping",
       cover:
-        "http://47.99.166.157/book/res/img/Philosophy/2018_Book_EthicsDumping.jpeg",
+        "https://47.99.166.157/book/res/img/Philosophy/2018_Book_EthicsDumping.jpeg",
       title: "Ethics Dumping",
       author:
         "Doris Schroeder, Julie Cook, François Hirsch, Solveig Fenet and Vasantha Muthuswamy",
@@ -7039,7 +7039,7 @@ module.exports = {
       id: 409,
       fileName: "2015_Book_PromotingSocialDialogueInEurop",
       cover:
-        "http://47.99.166.157/book/res/img/Psychology/2015_Book_PromotingSocialDialogueInEurop.jpeg",
+        "https://47.99.166.157/book/res/img/Psychology/2015_Book_PromotingSocialDialogueInEurop.jpeg",
       title: "Promoting Social Dialogue in European Organizations",
       author:
         "Martin Euwema, Lourdes Munduate, Patricia Elgoibar, Erica Pender and Ana Belén García",
@@ -7057,7 +7057,7 @@ module.exports = {
       id: 410,
       fileName: "2015_Book_RethinkingInterdisciplinarityA",
       cover:
-        "http://47.99.166.157/book/res/img/Psychology/2015_Book_RethinkingInterdisciplinarityA.jpeg",
+        "https://47.99.166.157/book/res/img/Psychology/2015_Book_RethinkingInterdisciplinarityA.jpeg",
       title:
         "Rethinking Interdisciplinarity across the Social Sciences and Neurosciences",
       author: "Felicity Callard",
@@ -7075,7 +7075,7 @@ module.exports = {
       id: 411,
       fileName: "2014_Book_UnderstandingSocietyAndNatural",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2014_Book_UnderstandingSocietyAndNatural.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2014_Book_UnderstandingSocietyAndNatural.jpeg",
       title: "Understanding Society and Natural Resources",
       author:
         "Michael J. Manfredo, Jerry J. Vaske, Andreas Rechkemmer and Esther A. Duke",
@@ -7093,7 +7093,7 @@ module.exports = {
       id: 412,
       fileName: "2015_Book_ImpactOfInformationSocietyRese",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2015_Book_ImpactOfInformationSocietyRese.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2015_Book_ImpactOfInformationSocietyRese.jpeg",
       title: "Impact of Information Society Research in the Global South",
       author: "Arul Chib, Julian May and Roxana Barrantes",
       publisher: "Springer Singapore, Singapore",
@@ -7110,7 +7110,7 @@ module.exports = {
       id: 413,
       fileName: "2015_Book_IntegratingImmigrantsInEurope",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2015_Book_IntegratingImmigrantsInEurope.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2015_Book_IntegratingImmigrantsInEurope.jpeg",
       title: "Integrating Immigrants in Europe",
       author: "Peter Scholten, Han Entzinger, Rinus Penninx and Stijn Verbeek",
       publisher: "Springer International Publishing, Cham",
@@ -7127,7 +7127,7 @@ module.exports = {
       id: 414,
       fileName: "2015_Book_MigratingAndSettlingInAMobileW",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2015_Book_MigratingAndSettlingInAMobileW.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2015_Book_MigratingAndSettlingInAMobileW.jpeg",
       title: "Migrating and Settling in a Mobile World",
       author: "Zana Vathi",
       publisher: "Springer International Publishing, Cham",
@@ -7144,7 +7144,7 @@ module.exports = {
       id: 415,
       fileName: "2015_Book_NewFrontiersInSocialInnovation",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2015_Book_NewFrontiersInSocialInnovation.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2015_Book_NewFrontiersInSocialInnovation.jpeg",
       title: "New Frontiers in Social Innovation Research",
       author: "Alex Nicholls, Julie Simon and Madeleine Gabriel",
       publisher: "Palgrave Macmillan",
@@ -7161,7 +7161,7 @@ module.exports = {
       id: 416,
       fileName: "2015_Book_MigrationInTheSouthernBalkans",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2015_Book_MigrationInTheSouthernBalkans.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2015_Book_MigrationInTheSouthernBalkans.jpeg",
       title: "Migration in the Southern Balkans",
       author: "Hans Vermeulen, Martin Baldwin-Edwards and Riki van Boeschoten",
       publisher: "Springer International Publishing, Cham",
@@ -7178,7 +7178,7 @@ module.exports = {
       id: 417,
       fileName: "2015_Book_SocialStatisticsAndEthnicDiver",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2015_Book_SocialStatisticsAndEthnicDiver.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2015_Book_SocialStatisticsAndEthnicDiver.jpeg",
       title: "Social Statistics and Ethnic Diversity",
       author: "Patrick Simon, Victor Piché and Amélie A. Gagnon",
       publisher: "Springer International Publishing, Cham",
@@ -7195,7 +7195,7 @@ module.exports = {
       id: 418,
       fileName: "2015_Book_SocioeconomicAndEnvironmentalI",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2015_Book_SocioeconomicAndEnvironmentalI.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2015_Book_SocioeconomicAndEnvironmentalI.jpeg",
       title:
         "Socioeconomic and Environmental Implications of Agricultural Residue Burning",
       author: "Parmod Kumar, Surender Kumar and Laxmi Joshi",
@@ -7213,7 +7213,7 @@ module.exports = {
       id: 419,
       fileName: "2016_Book_AtlasOfChallengesAndOpportunit",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2016_Book_AtlasOfChallengesAndOpportunit.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2016_Book_AtlasOfChallengesAndOpportunit.jpeg",
       title: "Atlas of Challenges and Opportunities in European Neighbourhoods",
       author: "Pierre Beckouche, Pierre Besnard and Hugues Pecout",
       publisher: "Springer International Publishing, Cham",
@@ -7230,7 +7230,7 @@ module.exports = {
       id: 420,
       fileName: "2016_Book_CohabitationAndMarriageInTheAm",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2016_Book_CohabitationAndMarriageInTheAm.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2016_Book_CohabitationAndMarriageInTheAm.jpeg",
       title:
         "Cohabitation and Marriage in the Americas: Geo-historical Legacies and New Trends",
       author: "Albert Esteve and Ron J. Lesthaeghe",
@@ -7248,7 +7248,7 @@ module.exports = {
       id: 421,
       fileName: "2016_Book_CommunicatingNetworkingInterac",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2016_Book_CommunicatingNetworkingInterac.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2016_Book_CommunicatingNetworkingInterac.jpeg",
       title: "Communicating, Networking: Interacting",
       author: "Margaret E. Robertson",
       publisher: "Springer International Publishing, Cham",
@@ -7265,7 +7265,7 @@ module.exports = {
       id: 422,
       fileName: "2016_Book_ContestedChildhoodsGrowingUpIn",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2016_Book_ContestedChildhoodsGrowingUpIn.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2016_Book_ContestedChildhoodsGrowingUpIn.jpeg",
       title: "Contested Childhoods: Growing up in Migrancy",
       author: "Marie Louise Seeberg and Elżbieta M. Goździak",
       publisher: "Springer International Publishing, Cham",
@@ -7282,7 +7282,7 @@ module.exports = {
       id: 423,
       fileName: "2016_Book_HowGenerationsRemember",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2016_Book_HowGenerationsRemember.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2016_Book_HowGenerationsRemember.jpeg",
       title: "How Generations Remember",
       author: "Monika Palmberger",
       publisher: "Palgrave Macmillan UK, London",
@@ -7299,7 +7299,7 @@ module.exports = {
       id: 424,
       fileName: "2016_Book_IntegrationProcessesAndPolicie",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2016_Book_IntegrationProcessesAndPolicie.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2016_Book_IntegrationProcessesAndPolicie.jpeg",
       title: "Integration Processes and Policies in Europe",
       author: "Blanca Garcés-Mascareñas and Rinus Penninx",
       publisher: "Springer International Publishing, Cham",
@@ -7316,7 +7316,7 @@ module.exports = {
       id: 425,
       fileName: "2016_Book_Inter-groupRelationsAndMigrant",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2016_Book_Inter-groupRelationsAndMigrant.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2016_Book_Inter-groupRelationsAndMigrant.jpeg",
       title: "Inter-group Relations and Migrant Integration in European Cities",
       author: "Ferruccio Pastore and Irene Ponzo",
       publisher: "Springer International Publishing, Cham",
@@ -7333,7 +7333,7 @@ module.exports = {
       id: 426,
       fileName: "2016_Book_SocialInnovationsInTheUrbanCon",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2016_Book_SocialInnovationsInTheUrbanCon.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2016_Book_SocialInnovationsInTheUrbanCon.jpeg",
       title: "Social Innovations in the Urban Context",
       author:
         "Taco Brandsen, Sandro Cattacin, Adalbert Evers and Annette Zimmer",
@@ -7351,7 +7351,7 @@ module.exports = {
       id: 427,
       fileName: "2016_Book_SurveyingHumanVulnerabilitiesA",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2016_Book_SurveyingHumanVulnerabilitiesA.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2016_Book_SurveyingHumanVulnerabilitiesA.jpeg",
       title: "Surveying Human Vulnerabilities across the Life Course",
       author:
         "Michel Oris, Caroline Roberts, Dominique Joye and Michèle Ernst Stähli",
@@ -7369,7 +7369,7 @@ module.exports = {
       id: 428,
       fileName: "2016_Book_ThePlightOfOlderWorkers",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2016_Book_ThePlightOfOlderWorkers.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2016_Book_ThePlightOfOlderWorkers.jpeg",
       title: "The Plight of Older Workers",
       author: "Isabel Baumann",
       publisher: "Springer International Publishing, Cham",
@@ -7386,7 +7386,7 @@ module.exports = {
       id: 429,
       fileName: "2016_Book_UkrainianMigrationToTheEuropea",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2016_Book_UkrainianMigrationToTheEuropea.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2016_Book_UkrainianMigrationToTheEuropea.jpeg",
       title: "Ukrainian Migration to the European Union",
       author: "Olena Fedyuk and Marta Kindler",
       publisher: "Springer International Publishing, Cham",
@@ -7403,7 +7403,7 @@ module.exports = {
       id: 430,
       fileName: "2017_Book_ChildlessnessInEuropeContextsC",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2017_Book_ChildlessnessInEuropeContextsC.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2017_Book_ChildlessnessInEuropeContextsC.jpeg",
       title: "Childlessness in Europe: Contexts, Causes, and Consequences",
       author: "Michaela Kreyenfeld and Dirk Konietzka",
       publisher: "Springer International Publishing, Cham",
@@ -7420,7 +7420,7 @@ module.exports = {
       id: 431,
       fileName: "2017_Book_EducationForChildrenWithDisabi",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2017_Book_EducationForChildrenWithDisabi.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2017_Book_EducationForChildrenWithDisabi.jpeg",
       title:
         "Education for Children with Disabilities in Addis Ababa, Ethiopia",
       author: "Margarita Schiemer",
@@ -7438,7 +7438,7 @@ module.exports = {
       id: 432,
       fileName: "2017_Book_FeelingGender",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2017_Book_FeelingGender.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2017_Book_FeelingGender.jpeg",
       title: "Feeling Gender",
       author: "Harriet Bjerrum Nielsen",
       publisher: "Palgrave Macmillan UK, London",
@@ -7455,7 +7455,7 @@ module.exports = {
       id: 433,
       fileName: "2017_Book_KnowledgeAndAction",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2017_Book_KnowledgeAndAction.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2017_Book_KnowledgeAndAction.jpeg",
       title: "Knowledge and Action",
       author: "Peter Meusburger, Benno Werlen and Laura Suarsana",
       publisher: "Springer International Publishing, Cham",
@@ -7472,7 +7472,7 @@ module.exports = {
       id: 434,
       fileName: "2017_Book_GrassrootsPoliticsAndOilCultur",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2017_Book_GrassrootsPoliticsAndOilCultur.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2017_Book_GrassrootsPoliticsAndOilCultur.jpeg",
       title: "Grassroots Politics and Oil Culture in Venezuela",
       author: "Iselin Åsedotter Strønen",
       publisher: "Springer International Publishing, Cham",
@@ -7489,7 +7489,7 @@ module.exports = {
       id: 435,
       fileName: "2017_Book_KnowledgeAndNetworks",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2017_Book_KnowledgeAndNetworks.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2017_Book_KnowledgeAndNetworks.jpeg",
       title: "Knowledge and Networks",
       author: "Johannes Glückler, Emmanuel Lazega and Ingmar Hammer",
       publisher: "Springer International Publishing, Cham",
@@ -7506,7 +7506,7 @@ module.exports = {
       id: 436,
       fileName: "2017_Book_MobilitiesOfKnowledge",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2017_Book_MobilitiesOfKnowledge.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2017_Book_MobilitiesOfKnowledge.jpeg",
       title: "Mobilities of Knowledge",
       author: "Heike Jöns, Peter Meusburger and Michael Heffernan",
       publisher: "Springer International Publishing, Cham",
@@ -7523,7 +7523,7 @@ module.exports = {
       id: 437,
       fileName: "2017_Book_NewMethodsForMeasuringAndAnaly",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2017_Book_NewMethodsForMeasuringAndAnaly.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2017_Book_NewMethodsForMeasuringAndAnaly.jpeg",
       title: "New Methods for Measuring and Analyzing Segregation",
       author: "Mark Fossett",
       publisher: "Springer International Publishing, Cham",
@@ -7540,7 +7540,7 @@ module.exports = {
       id: 438,
       fileName: "2017_Book_PromotingActiveCitizenship",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2017_Book_PromotingActiveCitizenship.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2017_Book_PromotingActiveCitizenship.jpeg",
       title: "Promoting Active Citizenship",
       author: "Karl Henrik Sivesind and Jo Saglie",
       publisher: "Springer International Publishing, Cham",
@@ -7557,7 +7557,7 @@ module.exports = {
       id: 439,
       fileName: "2017_Book_PentecostalismAndWitchcraft",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2017_Book_PentecostalismAndWitchcraft.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2017_Book_PentecostalismAndWitchcraft.jpeg",
       title: "Pentecostalism and Witchcraft",
       author: "Knut Rio, Michelle MacCarthy and Ruy Blanes",
       publisher: "Springer International Publishing, Cham",
@@ -7574,7 +7574,7 @@ module.exports = {
       id: 440,
       fileName: "2017_Book_SituatingChildrenOfMigrantsAcr",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2017_Book_SituatingChildrenOfMigrantsAcr.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2017_Book_SituatingChildrenOfMigrantsAcr.jpeg",
       title: "Situating Children of Migrants across Borders and Origins",
       author: "Claudio Bolzman, Laura Bernardi and Jean-Marie Le Goff",
       publisher: "Springer Netherlands, Dordrecht",
@@ -7591,7 +7591,7 @@ module.exports = {
       id: 441,
       fileName: "2018_Book_CareInHealthcare",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2018_Book_CareInHealthcare.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2018_Book_CareInHealthcare.jpeg",
       title: "Care in Healthcare",
       author: "Franziska Krause and Joachim Boldt",
       publisher: "Springer International Publishing, Cham",
@@ -7608,7 +7608,7 @@ module.exports = {
       id: 442,
       fileName: "2017_Book_South-NorthMigrationOfEUCitize",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2017_Book_South-NorthMigrationOfEUCitize.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2017_Book_South-NorthMigrationOfEUCitize.jpeg",
       title: "South-North Migration of EU Citizens in Times of Crisis",
       author: "Jean-Michel Lafleur and Mikolaj Stanek",
       publisher: "Springer International Publishing, Cham",
@@ -7625,7 +7625,7 @@ module.exports = {
       id: 443,
       fileName: "2018_Book_EnergyPoverty",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2018_Book_EnergyPoverty.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2018_Book_EnergyPoverty.jpeg",
       title: "Energy Poverty",
       author: "Stefan Bouzarovski",
       publisher: "Springer International Publishing, Cham",
@@ -7642,7 +7642,7 @@ module.exports = {
       id: 444,
       fileName: "2018_Book_PragmaticPhilanthropy",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2018_Book_PragmaticPhilanthropy.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2018_Book_PragmaticPhilanthropy.jpeg",
       title: "Pragmatic Philanthropy",
       author: "Ruth A. Shapiro, Manisha Mirchandani and Heesu Jang",
       publisher: "Springer Singapore, Singapore",
@@ -7659,7 +7659,7 @@ module.exports = {
       id: 445,
       fileName: "2018_Book_Model-BasedDemography",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2018_Book_Model-BasedDemography.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2018_Book_Model-BasedDemography.jpeg",
       title: "Model-Based Demography",
       author: "Thomas K. Burch",
       publisher: "Springer International Publishing, Cham",
@@ -7676,7 +7676,7 @@ module.exports = {
       id: 446,
       fileName: "2018_Book_RetirementHomeAgeingMigrantWor",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2018_Book_RetirementHomeAgeingMigrantWor.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2018_Book_RetirementHomeAgeingMigrantWor.jpeg",
       title:
         "Retirement Home? Ageing Migrant Workers in France and the Question of Return",
       author: "Alistair Hunter",
@@ -7694,7 +7694,7 @@ module.exports = {
       id: 447,
       fileName: "2018_Book_TheSocialLifeOfEconomicInequal",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2018_Book_TheSocialLifeOfEconomicInequal.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2018_Book_TheSocialLifeOfEconomicInequal.jpeg",
       title:
         "The Social Life of Economic Inequalities in Contemporary Latin America",
       author: "Margit Ystanes and Iselin Åsedotter Strønen",
@@ -7712,7 +7712,7 @@ module.exports = {
       id: 448,
       fileName: "2018_Book_VisualizingMortalityDynamicsIn",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2018_Book_VisualizingMortalityDynamicsIn.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2018_Book_VisualizingMortalityDynamicsIn.jpeg",
       title: "Visualizing Mortality Dynamics in the Lexis Diagram",
       author:
         "Roland Rau, Christina Bohk-Ewald, Magdalena M. Muszyńska and James W. Vaupel",
@@ -7730,7 +7730,7 @@ module.exports = {
       id: 449,
       fileName: "2013_Book_ShipAndOffshoreStructureDesign",
       cover:
-        "http://47.99.166.157/book/res/img/Statistics/2013_Book_ShipAndOffshoreStructureDesign.jpeg",
+        "https://47.99.166.157/book/res/img/Statistics/2013_Book_ShipAndOffshoreStructureDesign.jpeg",
       title: "Ship and Offshore Structure Design in Climate Change Perspective",
       author:
         "Elzbieta Maria Bitner-Gregersen, Lars Ingolf Eide, Torfinn Hørte and Rolf Skjong",
@@ -7748,7 +7748,7 @@ module.exports = {
       id: 450,
       fileName: "2018_Book_WeatherClimateServicesForTheEn",
       cover:
-        "http://47.99.166.157/book/res/img/SocialSciences/2018_Book_WeatherClimateServicesForTheEn.jpeg",
+        "https://47.99.166.157/book/res/img/SocialSciences/2018_Book_WeatherClimateServicesForTheEn.jpeg",
       title: "Weather & Climate Services for the Energy Industry",
       author: "Alberto Troccoli",
       publisher: "Springer International Publishing, Cham",
@@ -7765,7 +7765,7 @@ module.exports = {
       id: 451,
       fileName: "2010_Book_AccountabilityInPublicPolicyPa",
       cover:
-        "http://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/2010_Book_AccountabilityInPublicPolicyPa.jpeg",
+        "https://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/2010_Book_AccountabilityInPublicPolicyPa.jpeg",
       title: "Accountability in Public Policy Partnerships",
       author: "Julia Steets",
       publisher: "Palgrave Macmillan",
@@ -7782,7 +7782,7 @@ module.exports = {
       id: 452,
       fileName: "2010_Book_SocialTheoryOfFear",
       cover:
-        "http://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/2010_Book_SocialTheoryOfFear.jpeg",
+        "https://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/2010_Book_SocialTheoryOfFear.jpeg",
       title: "Social Theory of Fear",
       author: "Geoffrey R. Skoll",
       publisher: "Palgrave Macmillan",
@@ -7799,7 +7799,7 @@ module.exports = {
       id: 453,
       fileName: "2013_Book_Transgovernance",
       cover:
-        "http://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/2013_Book_Transgovernance.jpeg",
+        "https://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/2013_Book_Transgovernance.jpeg",
       title: "Transgovernance",
       author: "Louis Meuleman",
       publisher: "Springer Berlin Heidelberg, Berlin, Heidelberg",
@@ -7816,7 +7816,7 @@ module.exports = {
       id: 454,
       fileName: "2016_Book_EnvironmentalGovernanceInLatin",
       cover:
-        "http://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/2016_Book_EnvironmentalGovernanceInLatin.jpeg",
+        "https://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/2016_Book_EnvironmentalGovernanceInLatin.jpeg",
       title: "Environmental Governance in Latin America",
       author: "F�bio de Castro, Barbara Hogenboom and Michiel Baud",
       publisher: "Palgrave macmillan",
@@ -7833,7 +7833,7 @@ module.exports = {
       id: 455,
       fileName: "2014_Book_MulticulturalismAndConflictRec",
       cover:
-        "http://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/2014_Book_MulticulturalismAndConflictRec.jpeg",
+        "https://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/2014_Book_MulticulturalismAndConflictRec.jpeg",
       title: "Multiculturalism and Conflict Reconciliation in the Asia-Pacific",
       author: "Kosuke Shimizu and William S. Bradley",
       publisher: "Palgrave Macmillan",
@@ -7850,7 +7850,7 @@ module.exports = {
       id: 456,
       fileName: "2017_Book_MobileProfessionalVoluntarismA",
       cover:
-        "http://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/2017_Book_MobileProfessionalVoluntarismA.jpeg",
+        "https://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/2017_Book_MobileProfessionalVoluntarismA.jpeg",
       title: "Mobile Professional Voluntarism and International Development",
       author: "Helen Louise Ackers and James Ackers-Johnson",
       publisher: "Palgrave Macmillan US, New York",
@@ -7867,7 +7867,7 @@ module.exports = {
       id: 457,
       fileName: "2017_Book_HealthcareFrugalInnovationAndP",
       cover:
-        "http://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/2017_Book_HealthcareFrugalInnovationAndP.jpeg",
+        "https://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/2017_Book_HealthcareFrugalInnovationAndP.jpeg",
       title: "Healthcare, Frugal Innovation, and Professional Voluntarism",
       author:
         "Helen Louise Ackers, James Ackers-Johnson, John Chatwin and Natasha Tyler",
@@ -7885,7 +7885,7 @@ module.exports = {
       id: 458,
       fileName: "2017_Book_BordieuanFieldTheoryAsAnInstru",
       cover:
-        "http://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/2017_Book_BordieuanFieldTheoryAsAnInstru.jpeg",
+        "https://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/2017_Book_BordieuanFieldTheoryAsAnInstru.jpeg",
       title:
         "Bordieuan Field Theory as an Instrument for Military Operational Analysis",
       author: "Håkan Gunneriusson",
@@ -7903,7 +7903,7 @@ module.exports = {
       id: 459,
       fileName: "2017_Book_EuropeanCitizenshipAfterBrexit",
       cover:
-        "http://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/2017_Book_EuropeanCitizenshipAfterBrexit.jpeg",
+        "https://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/2017_Book_EuropeanCitizenshipAfterBrexit.jpeg",
       title: "European Citizenship after Brexit",
       author: "Patricia Mindus",
       publisher: "Springer International Publishing, Cham",
@@ -7920,7 +7920,7 @@ module.exports = {
       id: 460,
       fileName: "2017_Book_RisingPowersAndPeacebuilding",
       cover:
-        "http://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/2017_Book_RisingPowersAndPeacebuilding.jpeg",
+        "https://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/2017_Book_RisingPowersAndPeacebuilding.jpeg",
       title: "Rising Powers and Peacebuilding",
       author: "Charles T Call and Cedric de Coning",
       publisher: "Springer International Publishing, Cham",
@@ -7937,7 +7937,7 @@ module.exports = {
       id: 461,
       fileName: "2017_Book_RJRummelAnAssessmentOfHisManyC",
       cover:
-        "http://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/2017_Book_RJRummelAnAssessmentOfHisManyC.jpeg",
+        "https://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/2017_Book_RJRummelAnAssessmentOfHisManyC.jpeg",
       title: "R.J. Rummel: An Assessment of His Many Contributions",
       author: "Nils Petter Gleditsch",
       publisher: "Springer International Publishing, Cham",
@@ -7954,7 +7954,7 @@ module.exports = {
       id: 462,
       fileName: "2017_Book_PracticalEconomics",
       cover:
-        "http://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/2017_Book_PracticalEconomics.jpeg",
+        "https://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/2017_Book_PracticalEconomics.jpeg",
       title: "Practical Economics",
       author: "Nika Gilauri",
       publisher: "Springer International Publishing, Cham",
@@ -7971,7 +7971,7 @@ module.exports = {
       id: 463,
       fileName: "2018_Book_ResearchEthicsAndRiskInTheAuth",
       cover:
-        "http://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/2018_Book_ResearchEthicsAndRiskInTheAuth.jpeg",
+        "https://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/2018_Book_ResearchEthicsAndRiskInTheAuth.jpeg",
       title: "Research, Ethics and Risk in the Authoritarian Field",
       author:
         "Marlies Glasius, Meta de Lange, Jos Bartman, Emanuela Dalmasso, Aofei Lv, Adele Del Sordi, Marcus Michaelsen and Kris Ruijgrok",
@@ -7989,7 +7989,7 @@ module.exports = {
       id: 464,
       fileName: "2017_Book_TheEthicsOfEducationalHealthca",
       cover:
-        "http://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/2017_Book_TheEthicsOfEducationalHealthca.jpeg",
+        "https://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/2017_Book_TheEthicsOfEducationalHealthca.jpeg",
       title:
         "The Ethics of Educational Healthcare Placements in Low and Middle Income Countries",
       author: "Anya Ahmed, James Ackers-Johnson and Helen Louise Ackers",
@@ -8007,7 +8007,7 @@ module.exports = {
       id: 465,
       fileName: "2018_Book_DisabilityHealthAndHumanDevelo",
       cover:
-        "http://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/2018_Book_DisabilityHealthAndHumanDevelo.jpeg",
+        "https://47.99.166.157/book/res/img/PoliticalScienceAndInternationalRelations/2018_Book_DisabilityHealthAndHumanDevelo.jpeg",
       title: "Disability, Health and Human Development",
       author: "Sophie Mitra",
       publisher: "Palgrave Macmillan US, New York",
