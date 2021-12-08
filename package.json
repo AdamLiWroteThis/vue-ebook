@@ -11,7 +11,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "core-js": "^3.6.4",
-    "epubjs": "0.3.71",
+    "epubjs": "^0.3.90",
     "localforage": "^1.9.0",
     "node-sass": "^4.14.1",
     "sass-loader": "^8.0.2",

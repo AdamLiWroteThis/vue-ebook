@@ -48,7 +48,10 @@ export default {
         this.setFileName(books.join("/")).then(() => {
           // const url = process.env.VUE_APP_RES_URL + '/epub/' + this.fileName + '.epub'
           const url =
-            process.env.VUE_APP_RES_URL + "/epub/" + this.fileName + ".epub";
+            process.env.VUE_APP_RES_URL +
+            "/epub/" +
+            this.fileName +
+            "/OEBPS/content.opf";
           console.log(url);
           this.initEpub(url);
         });
@@ -113,7 +116,6 @@ export default {
       this.rendition = this.book.renderTo("read", {
         width: window.innerWidth,
         height: window.innerHeight,
-        manager: "continuous",
         method: "default"
       });
 
