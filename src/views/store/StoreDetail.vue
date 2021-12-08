@@ -277,7 +277,7 @@ export default {
 
             // this.opf = `${process.env.VUE_APP_EPUB_OPF_URL}/${this.fileName}/${rootFile}`
             // mock静态文件
-            this.opf = `${process.env.VUE_APP_BASE_URL}/epub/ComputerScience/${this.fileName}/${rootFile}`
+            this.opf = `${process.env.VUE_APP_EPUB_OPF_URL}/ComputerScience/${this.fileName}/${rootFile}`
             console.log(this.opf)
 
             this.parseBook(this.opf)
