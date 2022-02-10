@@ -13,7 +13,7 @@
     "core-js": "^3.6.4",
     "epubjs": "^0.3.90",
     "localforage": "^1.9.0",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "sass-loader": "^8.0.2",
     "vue": "^2.6.11",
     "vue-create-api": "^0.2.3",
